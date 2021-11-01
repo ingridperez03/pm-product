@@ -1,8 +1,8 @@
 class Indicador:
 
-    def __init__(self):
-        self.dades = None       # Pandas dataframe
-        self.anys = []          # 2000 - 2020 
-        self.nivell = None      # Nivell catalunya, província, comarca, municipi
-        self.unitats = None     # milions, milers, unitats
+    def __init__(self, dades, anys, nivell, unitats):
+        self.dades = dades       # Pandas dataframe
+        self.anys = anys          # 2000 - 2020 
+        self.nivell = nivell      # Nivell catalunya, província, comarca, municipi
+        self.unitats = unitats     # milions, milers, unitats
     

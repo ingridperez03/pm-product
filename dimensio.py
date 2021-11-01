@@ -5,6 +5,9 @@ class Dimensio:
         self.dades = {}         # Diccionari: {Nom Indicador, Dades}
         self.numIndicadors = 0  # Quantitat indicadors
 
+    '''
+        Afegir un nou indicador a la dimensió
+    '''
     def afegirIndicador(self, nom, dada):
         self.dades[nom] = dada
         self.numIndicadors += 1
