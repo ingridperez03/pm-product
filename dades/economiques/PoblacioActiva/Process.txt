@@ -1,0 +1,7 @@
+The original data was the total population per ages of every municipi in spain.
+So we did the following:
+
+	1. Take only the catalan municipis
+	2. Take only the values of ages in between (16,64)
+	3. Group by municipi and sum all so we have the total
+	   active population the year of the study
