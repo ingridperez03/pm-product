@@ -3,7 +3,7 @@ from dimensio import Dimensio
 from indicador import Indicador
 
 '''
-    Netejar dades referents al creixement població
+    Netejar dades referents al creixement població (CP)
 '''
 def initCP():
     data = pd.DataFrame()
@@ -26,7 +26,7 @@ def initCP():
         dataAny['64 o més'] = dataAny['Homes. 65 anys o més'] + dataAny['Dones. 65 anys o més']
 
         dataAny.drop(['Homes. De 0 a 14 anys','Dones. De 0 a 14 anys', 'Homes. De 15 a 64 anys', 
-                    'Dones. De 15 a 64 anys', 'Homes. 65 anys o més', 'Dones. 65 anys o més'], axis = 1)
+                      'Dones. De 15 a 64 anys', 'Homes. 65 anys o més', 'Dones. 65 anys o més'], axis = 1)
 
         data.append(dataAny)
     
