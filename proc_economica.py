@@ -1,28 +1,23 @@
 import pandas as pd
 from dimensio import Dimensio
 from indicador import Indicador
-
+import os
 '''
-    Netejar dades referents al creixement població
+    Netejar dades referents  al atur per any
 '''
-def initCP():
-    data = pd.DataFrame()
-    for any in range(2000, 2021):
-        nomArxiu = "CP_" + str(any)
-        dataAny = pd.read_csv(nomArxiu)
-        # Preprocessing necessari
-        dataAny["Any"] = any
-        data.append(dataAny)
+data_path = os.path.join('dades','economiques')
+def initAtur():
+    data = pd.read_csv(os.path.join(data_path,'Atur','aturats_catalunya_12-20.csv'))
     
-    data.info()
-    indicador = Indicador(data, range(2000, 2021), "municipi", "unitats")
+    indicador = Indicador(data, range(2012, 2020), "municipi", "unitats")
     return indicador
         
-def initDemografica():
+def initEconomica():
     dimensio = Dimensio()
 
-    # Creixement Població
-    creixement = initCP()
-    dimensio.afegirIndicador("Creixement Població", creixement)
+    # Mitjana aturats per any i municipi
+    aturats = initAtur()
+    dimensio.afegirIndicador("Aturats per any", aturats)
 
     return dimensio
+
