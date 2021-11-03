@@ -6,7 +6,7 @@ from proc_demografica import initDemografica
 # from proc_economica import initEconomica
 # from proc_residencial import initResidencial
 
-def initApp(App):
+def initApp():
     App = Aplicacio()
     dimensioDemografica = initDemografica()
     App.afegirDimensio("Demografica", dimensioDemografica)
