@@ -39,6 +39,6 @@ def initDemografica():
 
     # Creixement Població
     creixement = initCP()
-    dimensio.afegirIndicador("Creixement Població", creixement)
+    dimensio.afegirIndicador("Creixement Poblacio", creixement)
 
     return dimensio
