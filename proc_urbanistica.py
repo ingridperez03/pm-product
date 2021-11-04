@@ -44,6 +44,25 @@ def initSo():
     return indicador
 
 
+'''
+    Netejar dades referents a les zones_verdes (ZV)
+'''
+def initZV():
+    data = pd.DataFrame()
+    path = os.path.join(data_path,'zones_verdes')
+
+    for any in range(2012, 2021):
+        nomArxiu = "dades_mapa_" + str(any) + ".csv"
+        dataAny = pd.read_csv(os.path.join(path,nomArxiu))
+        dataAny = dataAny[['Any', 'NomMun', 'Codi_ine_6_txt', '15_SV_SUC']]
+        dataAny = dataAny.rename(columns={'NomMun':'Municipi', 'Codi_ine_6_txt':'Codi', '15_SV_SUC':'Zones verdes'})
+        data = data.append(dataAny, ignore_index = True)
+
+    indicador = Indicador(data, range(2012, 2021), "municipi", "Ha")
+
+    return indicador
+
+
 
 def initUrbanistica():
     dimensio = Dimensio()
@@ -53,5 +72,8 @@ def initUrbanistica():
 
     solar = initSo()
     dimensio.afegirIndicador("Solar", solar)
+
+    zones_verdes = initZV()
+    dimensio.afegirIndicador("Zones verdes", zones_verdes)
 
     return dimensio
