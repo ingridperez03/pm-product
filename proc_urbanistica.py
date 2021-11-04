@@ -121,6 +121,28 @@ def initCom():
 
 
 
+'''
+    Netejar dades referents als riscos
+'''
+def initR():
+    data = pd.DataFrame()
+    path = os.path.join(data_path,'riscos')
+
+    nomArxiu = "riscos.csv"
+    dataAny = pd.read_csv(os.path.join(path,nomArxiu))
+    dataAny = dataAny[['municipiNom', 'ine6', 'comarca', 'provincia', 'nivell']]
+    dataAny = dataAny.rename(columns={'municipiNom':'Municipi', 'ine6':'Codi', 'comarca':'Comarca', 'provincia':'Provincia', 'nivell':'Nivell'})
+    data = data.append(dataAny, ignore_index = True)
+
+    group = data.groupby(['Municipi', 'Codi', 'Comarca', 'Provincia','Nivell'])
+    data = group.size().reset_index(name='Nombre de riscos')
+
+    indicador = Indicador(data, 2021, "municipi", "")
+
+    return indicador
+
+
+
 def initUrbanistica():
     dimensio = Dimensio()
 
@@ -141,5 +163,8 @@ def initUrbanistica():
 
     comerç = initCom()
     dimensio.afegirIndicador("Comerç", comerç)
+
+    riscos = initR()
+    dimensio.afegirIndicador("Riscos", riscos)
 
     return dimensio
