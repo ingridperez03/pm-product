@@ -101,6 +101,25 @@ def initCon():
     return indicador
 
 
+'''
+    Netejar dades referents al comerç
+'''
+def initCom():
+    data = pd.DataFrame()
+    path = os.path.join(data_path,'comerç')
+
+    for any in range(2017, 2020):
+        nomArxiu = "comerç_" + str(any) + ".csv"
+        dataAny = pd.read_csv(os.path.join(path,nomArxiu))
+        dataAny = dataAny[['Any', 'Municipi', 'Codi_ine_6_txt', 'Establiments', 'Densitat comercial (m2 / 1.000 hab.)']]
+        dataAny = dataAny.rename(columns={'NomMun':'Municipi', 'Codi_ine_6_txt':'Codi', 'Densitat comercial (m2 / 1.000 hab.)':'Densitat comercial'})
+        data = data.append(dataAny, ignore_index = True)
+
+    indicador = Indicador(data, range(2017, 2020), "municipi", "m2 / 1.000 habitants")
+
+    return indicador
+
+
 
 def initUrbanistica():
     dimensio = Dimensio()
@@ -119,5 +138,8 @@ def initUrbanistica():
 
     connectivitat = initCon()
     dimensio.afegirIndicador("Connectivitat", connectivitat)
+
+    comerç = initCom()
+    dimensio.afegirIndicador("Comerç", comerç)
 
     return dimensio
