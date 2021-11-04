@@ -82,6 +82,25 @@ def initE():
     return indicador
 
 
+'''
+    Netejar dades referents a la connectivitat (Con)
+'''
+def initCon():
+    data = pd.DataFrame()
+    path = os.path.join(data_path,'connectivitat')
+
+    for any in range(2012, 2021):
+        nomArxiu = "dades_mapa_" + str(any) + ".csv"
+        dataAny = pd.read_csv(os.path.join(path,nomArxiu))
+        dataAny = dataAny[['Any', 'NomMun', 'Codi_ine_6_txt', '15_SA_SUC', '15_SF_SUC', '15_SP_SUC', '15_SX1_SUC', '15_SX2_SUC']]
+        dataAny = dataAny.rename(columns={'NomMun':'Municipi', 'Codi_ine_6_txt':'Codi', '15_SA_SUC':'Aeroportuari', '15_SF_SUC':'Ferroviari', '15_SP_SUC':'Portuari', '15_SX1_SUC':'Camins Principals', '15_SX2_SUC':'Camins Secundaris'})
+        data = data.append(dataAny, ignore_index = True)
+
+    indicador = Indicador(data, range(2012, 2021), "municipi", "Ha")
+
+    return indicador
+
+
 
 def initUrbanistica():
     dimensio = Dimensio()
@@ -97,5 +116,8 @@ def initUrbanistica():
 
     equipament = initE()
     dimensio.afegirIndicador("Equipament", equipament)
+
+    connectivitat = initCon()
+    dimensio.afegirIndicador("Connectivitat", connectivitat)
 
     return dimensio
