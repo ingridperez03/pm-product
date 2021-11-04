@@ -63,6 +63,25 @@ def initZV():
     return indicador
 
 
+'''
+    Netejar dades referents als equipaments (E)
+'''
+def initE():
+    data = pd.DataFrame()
+    path = os.path.join(data_path,'equipaments')
+
+    for any in range(2012, 2021):
+        nomArxiu = "dades_mapa_" + str(any) + ".csv"
+        dataAny = pd.read_csv(os.path.join(path,nomArxiu))
+        dataAny = dataAny[['Any', 'NomMun', 'Codi_ine_6_txt', '20_Equip_habt']]
+        dataAny = dataAny.rename(columns={'NomMun':'Municipi', 'Codi_ine_6_txt':'Codi', '20_Equip_habt':'Equipament per habitant'})
+        data = data.append(dataAny, ignore_index = True)
+    
+    indicador = Indicador(data, range(2012, 2021), "municipi", "m2/habitant")
+
+    return indicador
+
+
 
 def initUrbanistica():
     dimensio = Dimensio()
@@ -75,5 +94,8 @@ def initUrbanistica():
 
     zones_verdes = initZV()
     dimensio.afegirIndicador("Zones verdes", zones_verdes)
+
+    equipament = initE()
+    dimensio.afegirIndicador("Equipament", equipament)
 
     return dimensio
