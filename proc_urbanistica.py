@@ -74,10 +74,10 @@ def initE():
         nomArxiu = "dades_mapa_" + str(any) + ".csv"
         dataAny = pd.read_csv(os.path.join(path,nomArxiu))
         dataAny = dataAny[['Any', 'NomMun', 'Codi_ine_6_txt', '20_Equip_habt']]
-        dataAny = dataAny.rename(columns={'NomMun':'Municipi', 'Codi_ine_6_txt':'Codi', '20_Equip_habt':'Equipament per habitant'})
+        dataAny = dataAny.rename(columns={'NomMun':'Municipi', 'Codi_ine_6_txt':'Codi', '20_Equip_habt':'Equipament'})
         data = data.append(dataAny, ignore_index = True)
-    
-    indicador = Indicador(data, range(2012, 2021), "municipi", "m2/habitant")
+ 
+    indicador = Indicador(data, range(2012, 2021), "municipi", "m2 / habitant")
 
     return indicador
 
