@@ -36,6 +36,12 @@ def initAnt(nivell):
     one_column_df
 
     data = df_aux_year.merge(one_column_df).drop(['ind'], axis = 1)
+    
+    '''
+    #por si el codigo tiene que tener 6 digitos
+    if nivell == 'Municipis':
+        data['Codi'] = data['Codi'].astype(str).str.zfill(6)   
+    '''
 
     indicador = Indicador(data, range(2002,2011), nivell, 'unitats')
 
