@@ -20,6 +20,11 @@ def initPobAct():
     indicador = Indicador(data, list(2011), "municipi", "unitats")
     return indicador
 
+def initRFDB():
+    data = pd.read_csv(os.path.join(data_path,'RendaFamiliar','RFDB_evolució_2010_2018.csv')
+
+        indicador = Indicador(data, list(range(2010,2018), "municipi amb més de mil habitants","unitats"
+    return indicador
 def initEconomica():
     dimensio = Dimensio()
 
@@ -30,6 +35,10 @@ def initEconomica():
     # Afegir població activa, del estudi del 2011
     pob_activa = initPobAct()
     dimensio.afegirIndicador("Població activa l'any 2011", pob_activa)
+
+    # Afegir Renda Bruta per Habitant
+    renta_habitant = initRFDB()
+    dimensio.afegirIndicador('Renda per Habitant', renta_habitant)
 
     return dimensio
 
