@@ -78,6 +78,29 @@ def initDem():
 
     indicador = Indicador(data, range(2012,2018), 'comarca', 'unitats')
 
+def initHab():
+    path = os.path.join(data_path, 'habitants')
+    
+    data = pd.DataFrame()
+    for any_ in ['1996', '2001', '2011']:
+        nom_arxiu = 'Resi_Comarques_' + any_ + '.csv'
+        df = pd.read_csv(os.path.join(path,nom_arxiu))
+        df['Any'] = any_
+        if any_ == '2011':
+            df_filtered = df.drop(['Unnamed: 8'], axis = 1)
+            df_filtered['6'] =  df_filtered['>6']
+            df_filtered = df_filtered[['Comarca', '1', '2', '3', '4', '5', '6', '>6', 'Total', 'Any']]
+            df_filtered_cod = df_filtered.reset_index().rename({'index': 'Codi'}, axis = 1)
+            df_filtered_cod['Codi'] = df_filtered_cod['Codi'] + 1
+            data = data.append(df_filtered_cod)
+        else:
+            df_filtered = df.drop(['Unnamed: 9'], axis = 1)
+            df_filtered_cod = df_filtered.reset_index().rename({'index': 'Codi'}, axis = 1)
+            df_filtered_cod['Codi'] = df_filtered_cod['Codi'] + 1
+            data = data.append(df_filtered_cod)
+    
+    indicador = Indicador(data, ['1996', '2001', '2011'], 'comarca', 'unitats')
+
 def initResidencial():
 
     dimensio = Dimensio()
@@ -90,8 +113,14 @@ def initResidencial():
     dimensio.afegirIndicador('Antiguitat_Municipis', antiguitat_Mun)
 
 #Demanda 
-    demanda_Com = initDem()
-    dimensio.afegirIndicador('Demananda_Comarques', demanda_Com)
+    demanda = initDem()
+    dimensio.afegirIndicador('Demananda', demanda)
+
+#Habitants per habitatge
+
+    habitants = initHab()
+    dimensio.afegirIndicador('Habitants_Per_Habitatge', habitants)
+
 
 
 
