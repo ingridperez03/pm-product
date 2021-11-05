@@ -138,7 +138,7 @@ def initR():
     data = data.append(dataAny, ignore_index = True)
 
     group = data.groupby(['Municipi', 'Codi', 'Nivell'])
-    data = group.size().reset_index(name='Nombre de riscos')
+    data = group.size().reset_index(name='Riscos')
 
     indicador = Indicador(data, 2021, "municipi", "unitats")
 
