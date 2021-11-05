@@ -124,6 +124,24 @@ def initPrin():
 
     indicador = Indicador(data, '2011', 'comarca', 'unitats')
 
+def initTin(nivell):
+    path = os.path.join(data_path, 'tinenSa')
+    
+    nom_arxiu = 'Resi_' + nivell + '_2011.csv'
+    df = pd.read_csv(os.path.join(path,nom_arxiu), index_col=False)
+    df['Codi'] = df['Codi'].astype(str)
+
+    #eliminem aquestes dues columnes pq no tenen gaire info.
+    if nivell == 'municipi':
+        df = df.drop(['Cedit gratis o a baix preu', 'Altres formes'], axis = 1)
+    
+    data = df.copy()
+    
+    indicador = Indicador(data, '2011', nivell, 'unitats')
+    
+
+
+
 
 def initResidencial():
 
@@ -150,6 +168,14 @@ def initResidencial():
 
     principals = initPrin()
     dimensio.afegirIndicador('Habitatges_Principals', principals)
+
+#Tinença
+
+    tinenSa_com = initTin('comarca')
+    dimensio.afegirIndicador('Tinença_Comarques', tinenSa_com)
+
+    tinenSa_mun = initTin('municipi')
+    dimensio.afegirIndicador('Tinença_Municipis', tinenSa_mun)
     
 
 
