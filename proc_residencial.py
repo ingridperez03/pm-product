@@ -78,6 +78,11 @@ def initDem():
 
     indicador = Indicador(data, range(2012,2018), 'comarca', 'unitats')
 
+
+'''
+    Netejar dades referents als habitants que viuen en un habitatge (habitants)
+'''
+
 def initHab():
     path = os.path.join(data_path, 'habitants')
     
@@ -86,6 +91,8 @@ def initHab():
         nom_arxiu = 'Resi_Comarques_' + any_ + '.csv'
         df = pd.read_csv(os.path.join(path,nom_arxiu))
         df['Any'] = any_
+
+        #Any 2011 li falta una columna de 6 persones. Dupliquem la de >6. 
         if any_ == '2011':
             df_filtered = df.drop(['Unnamed: 8'], axis = 1)
             df_filtered['6'] =  df_filtered['>6']
@@ -101,26 +108,48 @@ def initHab():
     
     indicador = Indicador(data, ['1996', '2001', '2011'], 'comarca', 'unitats')
 
+'''
+    Netejar dades referents als tipus d'habitatges (principals)
+'''
+def initPrin():
+    path = os.path.join(data_path, 'habitants')
+
+    nom_arxiu = 'Resi_Comarques_2011.csv'
+    df = pd.read_csv(os.path.join(path,nom_arxiu))
+    df['total_no_principals'] = df['total']
+    df['any'] = '2011'
+    df_ind = df.reset_index().rename({'index':'Codi'}, axis = 1)
+    df_ind['Codi'] = df_ind['Codi'] + 1
+    data = df_ind.drop(['total'], axis = 1)
+
+    indicador = Indicador(data, '2011', 'comarca', 'unitats')
+
+
 def initResidencial():
 
     dimensio = Dimensio()
 
 #Antiguitat
-    antiguitat_Com = initAnt('comarca') 
-    dimensio.afegirIndicador('Antiguitat_Comarques', antiguitat_Com)
 
-    antiguitat_Mun = initAnt('municipi') 
-    dimensio.afegirIndicador('Antiguitat_Municipis', antiguitat_Mun)
+    antiguitat_com = initAnt('comarca') 
+    dimensio.afegirIndicador('Antiguitat_Comarques', antiguitat_com)
+
+    antiguitat_mun = initAnt('municipi') 
+    dimensio.afegirIndicador('Antiguitat_Municipis', antiguitat_mun)
 
 #Demanda 
     demanda = initDem()
-    dimensio.afegirIndicador('Demananda', demanda)
+    dimensio.afegirIndicador('Demanda', demanda)
 
 #Habitants per habitatge
 
     habitants = initHab()
     dimensio.afegirIndicador('Habitants_Per_Habitatge', habitants)
 
+#Habitantges principals
 
+    principals = initPrin()
+    dimensio.afegirIndicador('Habitatges_Principals', principals)
+    
 
 
