@@ -111,7 +111,7 @@ def initCom():
     for any in range(2017, 2020):
         nomArxiu = "comerç_" + str(any) + ".csv"
         dataAny = pd.read_csv(os.path.join(path,nomArxiu))
-        dataAny = dataAny[['Any', 'Municipi', 'Codi_ine_6_txt', 'Establiments', 'Densitat comercial (m2 / 1.000 hab.)']]
+        dataAny = dataAny[['Any', 'Municipi', 'Codi_ine_6_txt', 'Densitat comercial (m2 / 1.000 hab.)']]
         dataAny = dataAny.rename(columns={'NomMun':'Municipi', 'Codi_ine_6_txt':'Codi', 'Densitat comercial (m2 / 1.000 hab.)':'Densitat comercial'})
         data = data.append(dataAny, ignore_index = True)
 
