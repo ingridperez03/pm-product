@@ -96,6 +96,9 @@ def initCon():
         dataAny = dataAny.rename(columns={'NomMun':'Municipi', 'Codi_ine_6_txt':'Codi', '15_SF_SUC':'Ferroviari', '15_SX1_SUC':'Camins Principals', '15_SX2_SUC':'Camins Secundaris'})
         data = data.append(dataAny, ignore_index = True)
 
+    data["Score"] = data[["Ferroviari", "Camins Principals", "Camins Secundaris"]].sum(axis=1)
+    data.drop(["Ferroviari", "Camins Principals", "Camins Secundaris"], axis=1, inplace=True)
+
     indicador = Indicador(data, range(2012, 2021), "municipi", "Ha")
 
     return indicador
