@@ -44,6 +44,8 @@ def initAnt(nivell):
 
     indicador = Indicador(data, range(2002,2011), nivell, 'unitats')
 
+    return indicador
+
 
 '''
     Netejar dades referents a la demanda de habitatges socials per anys (demanda)
@@ -78,6 +80,7 @@ def initDem():
 
     indicador = Indicador(data, range(2012,2018), 'comarca', 'unitats')
 
+    return indicador
 
 '''
     Netejar dades referents als habitants que viuen en un habitatge (habitants)
@@ -108,6 +111,8 @@ def initHab():
     
     indicador = Indicador(data, ['1996', '2001', '2011'], 'comarca', 'unitats')
 
+    return indicador
+
 '''
     Netejar dades referents als tipus d'habitatges (principals)
 '''
@@ -124,6 +129,13 @@ def initPrin():
 
     indicador = Indicador(data, '2011', 'comarca', 'unitats')
 
+    return indicador
+
+
+'''
+    Netejar dades referents a la tinença (tinença)
+'''
+
 def initTin(nivell):
     path = os.path.join(data_path, 'tinenSa')
     
@@ -132,15 +144,42 @@ def initTin(nivell):
     df['Codi'] = df['Codi'].astype(str)
 
     #eliminem aquestes dues columnes pq no tenen gaire info.
-    if nivell == 'municipi':
-        df = df.drop(['Cedit gratis o a baix preu', 'Altres formes'], axis = 1)
+    df = df.drop(['Cedit gratis o a baix preu', 'Altres formes'], axis = 1)
     
     data = df.copy()
     
     indicador = Indicador(data, '2011', nivell, 'unitats')
-    
+
+    return indicador
 
 
+'''
+    Netejar dades referent als tipus de residencia (tipus)
+'''
+
+def initTip():
+    path = os.path.join(data_path, 'tipus') 
+
+    nom_arxiu = 'Resi_2014_2020.csv'
+    df = pd.read_csv(os.path.join(path,nom_arxiu))
+
+    df_years = df[['Any']]
+    df_years_ = pd.concat([df_years] * 9, ignore_index=True).reset_index() 
+
+    df_values = df.drop(['Any'], axis = 1)
+
+    all_values = []
+    for column in df_values:
+        this_column_values = df_values[column].tolist()
+        all_values += this_column_values
+
+    one_column_df = pd.DataFrame(all_values).reset_index().rename({0:'Values'}, axis = 1)
+
+    data = df_years_.merge(one_column_df).drop(['index'], axis = 1)
+
+    indicador = Indicador(data, range(2014,2020), 'altre', 'milers')
+
+    return indicador
 
 
 def initResidencial():
@@ -149,33 +188,37 @@ def initResidencial():
 
 #Antiguitat
 
-    antiguitat_com = initAnt('comarca') 
-    dimensio.afegirIndicador('Antiguitat_Comarques', antiguitat_com)
-
     antiguitat_mun = initAnt('municipi') 
-    dimensio.afegirIndicador('Antiguitat_Municipis', antiguitat_mun)
+    dimensio.afegirIndicador('Antiguitat Edificis', antiguitat_mun)
 
 #Demanda 
     demanda = initDem()
-    dimensio.afegirIndicador('Demanda', demanda)
+    dimensio.afegirIndicador('Demanda Social', demanda)
 
 #Habitants per habitatge
 
     habitants = initHab()
-    dimensio.afegirIndicador('Habitants_Per_Habitatge', habitants)
+    dimensio.afegirIndicador('Habitants per Habitatge', habitants)
 
 #Habitantges principals
 
     principals = initPrin()
-    dimensio.afegirIndicador('Habitatges_Principals', principals)
+    dimensio.afegirIndicador('Habitatges Principals', principals)
 
 #Tinença
 
-    tinenSa_com = initTin('comarca')
-    dimensio.afegirIndicador('Tinença_Comarques', tinenSa_com)
-
     tinenSa_mun = initTin('municipi')
-    dimensio.afegirIndicador('Tinença_Municipis', tinenSa_mun)
+    dimensio.afegirIndicador('Tinença', tinenSa_mun)
+
+# Tipus (milers)
+
+    tipus = initTip()
+    dimensio.afegirIndicador('Tipus', tipus)
+
+#Producció immobiliaria
+
+
+    
     
 
 
