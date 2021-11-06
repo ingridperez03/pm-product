@@ -9,10 +9,10 @@ data_path = os.path.join('dades','residencials')
     Netejar dades referents a l'any de creació dels edificis (antiguitat)
 '''
 
-def initAnt(nivell):
+def initAnt():
     path = os.path.join(data_path, 'antiguitat')
 
-    nom_arxiu = 'Resi_' + nivell + '_2002_2011.csv'
+    nom_arxiu = 'Resi_municipi_2002_2011.csv'
     df = pd.read_csv(os.path.join(path,nom_arxiu), index_col=False, error_bad_lines=False)
     years = pd.DataFrame(['2002', '2003', '2004', '2005', '2006', '2007','2008', '2009', '2010', '2011'])
     
@@ -42,7 +42,7 @@ def initAnt(nivell):
         data['Codi'] = data['Codi'].astype(str).str.zfill(6)   
     '''
 
-    indicador = Indicador(data, range(2002,2011), nivell, 'unitats')
+    indicador = Indicador(data, range(2002,2011), 'municipi', 'unitats')
 
     return indicador
 
@@ -56,6 +56,7 @@ def initDem():
 
     nom_arxiu = 'Resi_comarca_2018_2012.csv'
     df = pd.read_csv(os.path.join(path,nom_arxiu), index_col=False, error_bad_lines=False)
+    #df = pd.read_csv('dades\\residencials\\demanda\\Resi_comarca_2018_2012.csv', index_col=False, error_bad_lines=False)
     years = pd.DataFrame(['2012', '2013', '2014', '2015', '2016', '2017','2018'])
 
     #Separem els valors númerics eliminant les comarques
@@ -136,10 +137,10 @@ def initPrin():
     Netejar dades referents a la tinença (tinença)
 '''
 
-def initTin(nivell):
+def initTin():
     path = os.path.join(data_path, 'tinenSa')
     
-    nom_arxiu = 'Resi_' + nivell + '_2011.csv'
+    nom_arxiu = 'Resi_municipi_2011.csv'
     df = pd.read_csv(os.path.join(path,nom_arxiu), index_col=False)
     df['Codi'] = df['Codi'].astype(str)
 
@@ -148,7 +149,7 @@ def initTin(nivell):
     
     data = df.copy()
     
-    indicador = Indicador(data, '2011', nivell, 'unitats')
+    indicador = Indicador(data, '2011', 'municipi', 'unitats')
 
     return indicador
 
@@ -181,6 +182,45 @@ def initTip():
 
     return indicador
 
+'''
+    Netejar dades referent a la produccií inmobiliaria (producció)
+'''
+
+def initPro():
+    path = os.path.join(data_path, 'antiguitat')
+
+    nom_arxiu = 'Resi_municipi_2002_2011.csv'
+    df = pd.read_csv(os.path.join(path,nom_arxiu), index_col=False, error_bad_lines=False)
+    
+    #calculamos los % de producció inmobiliaria per municipi
+    y = ['2002', '2003', '2004', '2005', '2006', '2007','2008','2009', '2010', '2011']
+    df_aux = pd.DataFrame()
+    for pos in range(0,9):
+        df_aux[y[pos+1]] =  round((((df[y[pos+1]] / df[y[pos]]) - 1) * 100),2)
+    df_aux_T = df_aux.T
+
+    all_values = []
+    for column in df_aux_T:
+        this_column_values = df_aux_T[column].tolist()
+        all_values += this_column_values
+
+    one_column_df = pd.DataFrame(all_values).reset_index().rename({0:'Values'}, axis = 1)
+
+    years = pd.DataFrame(['2003', '2004', '2005', '2006', '2007','2008','2009', '2010', '2011'])
+    df_city = df[['Codi', 'Literal']]
+    df_city_ = pd.concat([df_city] * 9)
+    df_city_sort = df_city_.sort_values(['Literal']).reset_index().reset_index().drop(['index'], axis = 1).rename({'level_0':'index','Literal':'Municipi'}, axis = 1)
+    df_years = pd.concat([years] * len(df_city.T.columns)).reset_index().reset_index().drop(['index'], axis = 1).rename({'level_0':'index', 0:'Any'}, axis =1)
+    
+    df_city_years = df_city_sort.merge(df_years)
+
+    data = df_city_years.merge(one_column_df).drop(['index'], axis = 1)
+
+    indicador = Indicador(data, range(2003,2011), 'municipi', 'percentatge')
+
+    return indicador
+
+
 
 def initResidencial():
 
@@ -188,7 +228,7 @@ def initResidencial():
 
 #Antiguitat
 
-    antiguitat_mun = initAnt('municipi') 
+    antiguitat_mun = initAnt() 
     dimensio.afegirIndicador('Antiguitat Edificis', antiguitat_mun)
 
 #Demanda 
@@ -207,16 +247,18 @@ def initResidencial():
 
 #Tinença
 
-    tinenSa_mun = initTin('municipi')
+    tinenSa_mun = initTin()
     dimensio.afegirIndicador('Tinença', tinenSa_mun)
 
 # Tipus (milers)
 
     tipus = initTip()
-    dimensio.afegirIndicador('Tipus', tipus)
+    dimensio.afegirIndicador('Tipus Habitatges', tipus)
 
 #Producció immobiliaria
 
+    produccio = initPro()
+    dimensio.afegirIndicador('Produccio Inmobiliaria', produccio)
 
     
     

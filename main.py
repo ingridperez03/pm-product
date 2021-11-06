@@ -3,7 +3,7 @@ from indicador import Indicador
 from dimensio import Dimensio
 from proc_residencial import initResidencial
 
-def initApp(App):
+def initApp():
     App = Aplicacio()
     dimensioResidencial = initResidencial()
     App.afegirDimensio("Residencial", dimensioResidencial)
