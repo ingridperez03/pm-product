@@ -55,7 +55,7 @@ def initDem():
     path = os.path.join(data_path, 'demanda')
 
     nom_arxiu = 'Resi_comarca_2018_2012.csv'
-    df = pd.read_csv(os.path.join(path,nom_arxiu), index_col=False, error_bad_lines=False)
+    df = pd.read_csv(os.path.join(path,nom_arxiu), index_col=False, error_bad_lines=False, encoding='utf-8')
     #df = pd.read_csv('dades\\residencials\\demanda\\Resi_comarca_2018_2012.csv', index_col=False, error_bad_lines=False)
     years = pd.DataFrame(['2012', '2013', '2014', '2015', '2016', '2017','2018'])
 
@@ -228,8 +228,9 @@ def initResidencial():
 
 #Antiguitat
 
-    antiguitat_mun = initAnt() 
-    dimensio.afegirIndicador('Antiguitat Edificis', antiguitat_mun)
+    antiguitat = initAnt() 
+    dimensio.afegirIndicador('Antiguitat Edificis', antiguitat)
+
 
 #Demanda 
     demanda = initDem()
@@ -250,7 +251,7 @@ def initResidencial():
     tinenSa_mun = initTin()
     dimensio.afegirIndicador('Tinença', tinenSa_mun)
 
-# Tipus (milers)
+#Tipus (milers)
 
     tipus = initTip()
     dimensio.afegirIndicador('Tipus Habitatges', tipus)
