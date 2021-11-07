@@ -23,5 +23,8 @@ def initApp():
     dimensioResidencial = initResidencial()
     App.afegirDimensio("Residencial", dimensioResidencial)
 
+    # Exportar dades
+    App.exportar()
+
 if __name__ == "__main__":
     initApp()

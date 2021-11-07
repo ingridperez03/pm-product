@@ -80,7 +80,7 @@ def initEconomica():
 
     # Afegir poblacio activa, del estudi del 2011
     pob_activa = initPobAct()
-    dimensio.afegirIndicador("Poblacio activa l'any 2011", pob_activa)
+    dimensio.afegirIndicador("Poblacio activa", pob_activa)
 
     # Afegir Renda Bruta per Habitant
     renta_habitant = initRFDB()

@@ -1,3 +1,5 @@
+import os
+
 class Dimensio:
 
     def __init__(self):
@@ -11,3 +13,8 @@ class Dimensio:
     def afegirIndicador(self, nom, dada):
         self.dades[nom] = dada
         self.numIndicadors += 1
+
+    def exportarIndicador(self, nom):
+        indicador = self.dades[nom]
+        print(nom)
+        indicador.dades.to_csv(os.path.join('dades', 'resultat', nom + ".csv"))

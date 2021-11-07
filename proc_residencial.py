@@ -161,3 +161,4 @@ def initResidencial():
     tinença = initRT()
     dimensio.afegirIndicador('Regim de Tinença', tinença)
     
+    return dimensio

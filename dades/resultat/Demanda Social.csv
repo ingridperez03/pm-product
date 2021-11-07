@@ -1,0 +1,3409 @@
+,Literal,Codi,Any,Demanda
+0,Abrera,080018,2020,23
+1,Agramunt,250030,2020,2
+2,Agullana,170010,2020,3
+3,Aiguafreda,080142,2020,1
+4,Aitona,250387,2020,1
+5,Albatàrrec,250077,2020,2
+6,Alcanar,430043,2020,1
+7,Alcarràs,250117,2020,10
+8,Alcoletge,250122,2020,4
+9,Alcover,430056,2020,1
+10,Alella,080039,2020,23
+11,Alfarràs,250138,2020,1
+12,Alforja,430094,2020,1
+13,Almacelles,250194,2020,6
+14,Alpicat,250236,2020,4
+15,Altafulla,430120,2020,5
+16,"Ametlla del Vallès, l'",080057,2020,45
+17,"Ampolla, l'",439060,2020,2
+18,Amposta,430141,2020,34
+19,Anglès,170084,2020,4
+20,"Arboç, l'",430167,2020,5
+21,Arbúcies,170097,2020,1
+22,Arenys de Mar,080060,2020,13
+23,Arenys de Munt,080076,2020,3
+24,Argentona,080095,2020,8
+25,"Armentera, l'",170118,2020,1
+26,Artés,080109,2020,24
+27,Ascó,430192,2020,1
+28,Avinyó,080121,2020,8
+29,Avinyonet de Puigventós,170123,2020,1
+30,Badalona,080155,2020,459
+31,Badia del Vallès,089045,2020,28
+32,Bagà,080168,2020,1
+33,Baix Pallars,250390,2020,3
+34,Balaguer,250404,2020,42
+35,Balenyà,080174,2020,1
+36,Balsareny,080180,2020,4
+37,Banyeres del Penedès,430206,2020,4
+38,Banyoles,170157,2020,28
+39,Barberà del Vallès,082520,2020,75
+40,Barcelona,080193,2020,4710
+41,Batea,430228,2020,2
+42,Begues,080207,2020,30
+43,Begur,170139,2020,4
+44,Bellmunt d'Urgell,250498,2020,1
+45,Bellpuig,250501,2020,8
+46,Bellver de Cerdanya,250518,2020,4
+47,Berga,080229,2020,32
+48,Besalú,170195,2020,2
+49,Bescanó,170209,2020,3
+50,Bigues i Riells,080235,2020,20
+51,"Bisbal del Penedès, la",430287,2020,1
+52,"Bisbal d'Empordà, la",170221,2020,25
+53,Blancafort,430290,2020,1
+54,Blanes,170237,2020,68
+55,Bolvir,170242,2020,2
+56,Bordils,170255,2020,2
+57,"Borges Blanques, les",250582,2020,9
+58,"Borges del Camp, les",430311,2020,1
+59,Botarell,430332,2020,1
+60,"Bruc, el",080253,2020,1
+61,Cabrera de Mar,080291,2020,14
+62,Cabrils,080305,2020,1
+63,Cadaqués,170329,2020,3
+64,Calaf,080312,2020,7
+65,Calafell,430379,2020,16
+66,Caldes de Malavella,170335,2020,4
+67,Caldes de Montbui,080333,2020,15
+68,Caldes d'Estrac,080327,2020,1
+69,Calella,080351,2020,13
+70,Calldetenes,080370,2020,3
+71,Callús,080386,2020,11
+72,Cambrils,430385,2020,108
+73,Campdevànol,170366,2020,3
+74,Canet de Mar,080403,2020,10
+75,"Canonja, la",439076,2020,4
+76,Canovelles,080410,2020,33
+77,Cànoves i Samalús,080425,2020,1
+78,Capellades,080446,2020,3
+79,Cardedeu,080462,2020,11
+80,Cardona,080478,2020,40
+81,Carme,080484,2020,1
+82,Cassà de la Selva,170448,2020,5
+83,Casserres,080497,2020,1
+84,Castellar del Vallès,080517,2020,36
+85,Castellbell i el Vilar,080538,2020,1
+86,Castellbisbal,080543,2020,57
+87,Castellcir,080556,2020,1
+88,Castelldefels,080569,2020,158
+89,Castellet i la Gornal,080581,2020,2
+90,Castellfollit de la Roca,170464,2020,9
+91,Castelló d'Empúries,170470,2020,9
+92,Castell-Platja d'Aro,170486,2020,13
+93,Celrà,170499,2020,1
+94,Centelles,080673,2020,16
+95,Cerdanyola del Vallès,082665,2020,170
+96,Cervelló,080689,2020,4
+97,Cervera,250729,2020,8
+98,Cervià de Ter,170502,2020,1
+99,Constantí,430477,2020,18
+100,Corbera de Llobregat,080728,2020,16
+101,Corbera d'Ebre,430483,2020,2
+102,Cornellà de Llobregat,080734,2020,656
+103,Creixell,430509,2020,2
+104,Cubelles,080749,2020,12
+105,Cunit,430516,2020,8
+106,Deltebre,439018,2020,6
+107,Dosrius,080752,2020,1
+108,"Escala, l'",170622,2020,6
+109,Esparreguera,080765,2020,13
+110,"Espluga de Francolí, l'",430542,2020,3
+111,Esplugues de Llobregat,080771,2020,178
+112,"Esquirol, l'",082541,2020,2
+113,Esterri d'Àneu,250864,2020,1
+114,Falset,430555,2020,3
+115,Figueres,170669,2020,145
+116,Flaçà,170675,2020,2
+117,"Floresta, la",250925,2020,1
+118,Folgueroles,080832,2020,4
+119,Fontanals de Cerdanya,170694,2020,1
+120,Fontcoberta,170715,2020,1
+121,Font-rubí,080850,2020,1
+122,Forallac,179026,2020,1
+123,Fornells de la Selva,170736,2020,1
+124,"Franqueses del Vallès, les",080863,2020,44
+125,"Galera, la",430635,2020,1
+126,Gandesa,430640,2020,1
+127,"Garriga, la",080885,2020,23
+128,Gavà,080898,2020,303
+129,Gelida,080919,2020,6
+130,Girona,170792,2020,149
+131,Gironella,080924,2020,4
+132,Golmés,250997,2020,1
+133,"Granada, la",080945,2020,5
+134,Granollers,080961,2020,240
+135,"Guingueta d'Àneu, la",259031,2020,1
+136,Guissona,251109,2020,24
+137,Horta de Sant Joan,430712,2020,2
+138,"Hospitalet de Llobregat, l'",081017,2020,805
+139,"Hostalets de Pierola, els",081629,2020,1
+140,Hostalric,170834,2020,2
+141,Igualada,081022,2020,96
+142,Isona i Conca Dellà,251155,2020,1
+143,"Jonquera, la",170865,2020,1
+144,Jorba,081038,2020,1
+145,Les,251214,2020,2
+146,Linyola,251229,2020,1
+147,"Llagosta, la",081056,2020,6
+148,Llagostera,170890,2020,34
+149,Llançà,170926,2020,8
+150,Lleida,251207,2020,356
+151,Lliçà d'Amunt,081075,2020,7
+152,Llinars del Vallès,081069,2020,5
+153,Llívia,170947,2020,5
+154,Llorenç del Penedès,430748,2020,3
+155,Lloret de Mar,170950,2020,15
+156,Maçanet de la Selva,171030,2020,4
+157,Maials,251333,2020,1
+158,Malgrat de Mar,081108,2020,23
+159,Manlleu,081120,2020,26
+160,Manresa,081136,2020,237
+161,Martorell,081141,2020,45
+162,Martorelles,081154,2020,2
+163,"Masies de Roda, les",081167,2020,1
+164,"Masies de Voltregà, les",081173,2020,1
+165,"Masnou, el",081189,2020,81
+166,Masquefa,081192,2020,3
+167,Matadepera,081206,2020,24
+168,Mataró,081213,2020,393
+169,Mediona,081228,2020,3
+170,Miralcamp,251351,2020,1
+171,Moià,081385,2020,3
+172,"Molar, el",430859,2020,1
+173,Molins de Rei,081234,2020,125
+174,Mollerussa,251370,2020,52
+175,Mollet del Vallès,081249,2020,173
+176,Monistrol de Montserrat,081271,2020,3
+177,Montblanc,430862,2020,16
+178,Montbrió del Camp,430884,2020,1
+179,Montcada i Reixac,081252,2020,95
+180,Montellà i Martinet,251399,2020,1
+181,Montferri,430897,2020,1
+182,Montgat,081265,2020,170
+183,Montmeló,081350,2020,34
+184,Montornès del Vallès,081363,2020,15
+185,Mont-roig del Camp,430923,2020,5
+186,Móra d'Ebre,430939,2020,17
+187,Móra la Nova,430944,2020,3
+188,"Morell, el",430957,2020,1
+189,Navarcles,081402,2020,4
+190,Navàs,081419,2020,7
+191,Òdena,081430,2020,4
+192,Olesa de Montserrat,081477,2020,178
+193,Olivella,081483,2020,4
+194,Olot,171143,2020,157
+195,Palafolls,081555,2020,4
+196,Palafrugell,171175,2020,83
+197,Palamós,171181,2020,17
+198,Palau-saverdera,171208,2020,2
+199,Palau-solità i Plegamans,081568,2020,11
+200,"Pallaresos, els",431009,2020,1
+201,Pallejà,081574,2020,14
+202,"Palma de Cervelló, la",089058,2020,1
+203,"Papiol, el",081580,2020,1
+204,Parets del Vallès,081593,2020,24
+205,Perafort,431037,2020,2
+206,Peralada,171328,2020,1
+207,Piera,081614,2020,10
+208,Pineda de Mar,081635,2020,10
+209,"Pla de Santa Maria, el",431080,2020,3
+210,"Pla del Penedès, el",081640,2020,2
+211,"Planes d'Hostoles, les",171334,2020,1
+212,Planoles,171349,2020,5
+213,"Pobla de Claramunt, la",081653,2020,1
+214,"Pobla de Segur, la",251713,2020,19
+215,Polinyà,081672,2020,31
+216,"Pont de Suert, el",251734,2020,8
+217,"Pont de Vilomara i Rocafort, el",081825,2020,9
+218,Ponts,251728,2020,1
+219,Porqueres,171371,2020,1
+220,"Prat de Llobregat, el",081691,2020,342
+221,"Prats de Rei, els",081705,2020,1
+222,Premià de Dalt,082303,2020,25
+223,Premià de Mar,081727,2020,16
+224,"Preses, les",171390,2020,11
+225,Puigcerdà,171411,2020,6
+226,Puig-reig,081751,2020,2
+227,Quart,171426,2020,6
+228,Reus,431233,2020,165
+229,Rialp,251832,2020,2
+230,Riba-roja d'Ebre,431251,2020,1
+231,Riells i Viabrea,171463,2020,1
+232,Ripoll,171479,2020,33
+233,Ripollet,081803,2020,87
+234,Riudarenes,171485,2020,2
+235,Riudellots de la Selva,171501,2020,1
+236,Riudoms,431299,2020,2
+237,"Roca del Vallès, la",081810,2020,5
+238,Roda de Berà,431310,2020,3
+239,Roda de Ter,081831,2020,6
+240,Roses,171523,2020,18
+241,Rubí,081846,2020,46
+242,Sabadell,081878,2020,870
+243,Sallent,081918,2020,10
+244,Salomó,431359,2020,1
+245,Salou,439057,2020,46
+246,Salt,171557,2020,176
+247,Sant Adrià de Besòs,081944,2020,150
+248,Sant Andreu de la Barca,081960,2020,62
+249,Sant Andreu de Llavaneres,081976,2020,5
+250,Sant Antoni de Vilamajor,081982,2020,2
+251,Sant Boi de Llobregat,082009,2020,219
+252,Sant Carles de la Ràpita,431362,2020,52
+253,Sant Celoni,082021,2020,7
+254,Sant Climent de Llobregat,082042,2020,4
+255,Sant Cugat del Vallès,082055,2020,229
+256,Sant Cugat Sesgarrigues,082068,2020,2
+257,Sant Esteve de Palautordera,082074,2020,1
+258,Sant Esteve Sesrovires,082080,2020,6
+259,Sant Feliu de Codines,082107,2020,4
+260,Sant Feliu de Guíxols,171609,2020,20
+261,Sant Feliu de Llobregat,082114,2020,225
+262,Sant Fost de Campsentelles,082093,2020,2
+263,Sant Fruitós de Bages,082135,2020,24
+264,Sant Gregori,171637,2020,8
+265,Sant Hilari Sacalm,171642,2020,3
+266,Sant Hipòlit de Voltregà,082153,2020,3
+267,Sant Iscle de Vallalta,081939,2020,1
+268,Sant Jaume de Llierca,171655,2020,1
+269,Sant Jaume d'Enveja,439023,2020,2
+270,Sant Joan de les Abadesses,171674,2020,4
+271,Sant Joan de Vilatorrada,082188,2020,12
+272,Sant Joan Despí,082172,2020,104
+273,Sant Joan les Fonts,171851,2020,9
+274,Sant Julià de Ramis,171693,2020,2
+275,Sant Julià de Vilatorta,082205,2020,5
+276,Sant Julià del Llor i Bonmatí,179032,2020,1
+277,Sant Just Desvern,082212,2020,61
+278,Sant Llorenç Savall,082233,2020,4
+279,Sant Martí de Centelles,082248,2020,1
+280,Sant Martí Sarroca,082270,2020,2
+281,Sant Mateu de Bages,082299,2020,1
+282,Sant Miquel de Fluvià,171753,2020,1
+283,Sant Pere de Ribes,082310,2020,139
+284,Sant Pere de Riudebitlles,082325,2020,4
+285,Sant Pere de Torelló,082331,2020,1
+286,Sant Pol de Mar,082359,2020,3
+287,Sant Quintí de Mediona,082362,2020,7
+288,Sant Quirze de Besora,082378,2020,2
+289,Sant Quirze del Vallès,082384,2020,59
+290,Sant Sadurní d'Anoia,082401,2020,31
+291,Sant Vicenç de Castellet,082628,2020,19
+292,Sant Vicenç de Montalt,082649,2020,7
+293,Sant Vicenç de Torelló,082652,2020,6
+294,Sant Vicenç dels Horts,082634,2020,74
+295,Santa Bàrbara,431384,2020,1
+296,Santa Coloma de Cervelló,082444,2020,4
+297,Santa Coloma de Farners,171805,2020,15
+298,Santa Coloma de Gramenet,082457,2020,180
+299,Santa Coloma de Queralt,431397,2020,2
+300,Santa Cristina d'Aro,171812,2020,4
+301,Santa Eugènia de Berga,082460,2020,2
+302,Santa Eulàlia de Ronçana,082482,2020,5
+303,Santa Fe del Penedès,082495,2020,1
+304,Santa Margarida de Montbui,082508,2020,15
+305,Santa Margarida i els Monjos,082515,2020,55
+306,Santa Maria de Palautordera,082592,2020,2
+307,Santa Perpètua de Mogoda,082606,2020,73
+308,Santa Susanna,082613,2020,2
+309,Santpedor,081923,2020,13
+310,Sarral,431423,2020,3
+311,Sarrià de Ter,171864,2020,4
+312,"Saus, Camallera i Llampaies",171870,2020,1
+313,"Sénia, la",430445,2020,2
+314,Senterada,252022,2020,1
+315,Sentmenat,082671,2020,17
+316,Seròs,252043,2020,2
+317,"Seu d'Urgell, la",252038,2020,24
+318,Sidamon,252056,2020,1
+319,Sils,171931,2020,1
+320,Sitges,082704,2020,26
+321,Solsona,252075,2020,61
+322,Soriguera,252081,2020,3
+323,Sort,252094,2020,21
+324,Sunyer,252120,2020,1
+325,Súria,082747,2020,21
+326,Talarn,252154,2020,2
+327,Taradell,082785,2020,6
+328,Tarragona,431482,2020,187
+329,Tàrrega,252173,2020,29
+330,Tavèrnoles,082750,2020,1
+331,Teià,082819,2020,17
+332,Terrassa,082798,2020,1051
+333,Tiana,082824,2020,39
+334,Tivissa,431508,2020,1
+335,Tona,082830,2020,4
+336,Torà,252234,2020,1
+337,Tordera,082845,2020,31
+338,Torelló,082858,2020,38
+339,"Torre de Cabdella, la",252271,2020,2
+340,"Torre de Claramunt, la",082861,2020,3
+341,"Torre de l'Espanyol, la",431520,2020,1
+342,Torredembarra,431536,2020,10
+343,Torrefarrera,252287,2020,1
+344,Torregrossa,252304,2020,2
+345,Torrelles de Foix,082883,2020,2
+346,Torrelles de Llobregat,082896,2020,10
+347,Torroella de Montgrí,171997,2020,5
+348,Tortellà,172001,2020,1
+349,Tortosa,431554,2020,12
+350,Tossa de Mar,172023,2020,2
+351,Tremp,252347,2020,24
+352,Ullà,172044,2020,1
+353,Ulldecona,431567,2020,2
+354,"Vall de Bianya, la",172082,2020,2
+355,Vall de Cardós,259010,2020,1
+356,"Vall d'en Bas, la",172076,2020,1
+357,Vallbona d'Anoia,082922,2020,1
+358,Vallfogona de Balaguer,252402,2020,1
+359,Vallirana,082956,2020,8
+360,Valls,431613,2020,43
+361,Vandellòs i l'Hospitalet de l'Infant,431628,2020,6
+362,"Vendrell, el",431634,2020,37
+363,Verges,172116,2020,2
+364,Vic,082981,2020,147
+365,Vidrà,172121,2020,2
+366,Vidreres,172137,2020,3
+367,Vielha e Mijaran,252430,2020,30
+368,Vilablareix,172155,2020,5
+369,Vilada,082994,2020,1
+370,Viladecans,083015,2020,564
+371,Viladecavalls,083008,2020,2
+372,Vilafant,172214,2020,2
+373,Vilafranca del Penedès,083054,2020,137
+374,Vilanova de Bellpuig,252483,2020,1
+375,Vilanova del Camí,083020,2020,12
+376,Vilanova del Vallès,089024,2020,4
+377,Vilanova i la Geltrú,083073,2020,156
+378,Vila-seca,431711,2020,37
+379,Vilassar de Dalt,082140,2020,3
+380,Vilassar de Mar,082191,2020,38
+381,Vimbodí i Poblet,431763,2020,1
+382,Vinyols i els Arcs,431785,2020,1
+383,Abrera,080018,2019,34
+384,Agramunt,250030,2019,3
+385,Aiguamúrcia,430017,2019,1
+386,Aitona,250387,2019,2
+387,Alcanar,430043,2019,2
+388,Alcarràs,250117,2019,6
+389,Alcoletge,250122,2019,13
+390,Alcover,430056,2019,4
+391,"Aldea, l'",439044,2019,3
+392,Alella,080039,2019,27
+393,Alguaire,250169,2019,2
+394,Almacelles,250194,2019,5
+395,Almenar,250215,2019,2
+396,Alp,170062,2019,1
+397,Alpicat,250236,2019,1
+398,Altafulla,430120,2019,9
+399,"Ametlla del Vallès, l'",080057,2019,1
+400,"Ampolla, l'",439060,2019,2
+401,Amposta,430141,2019,61
+402,Anglès,170084,2019,7
+403,"Arboç, l'",430167,2019,11
+404,Arbúcies,170097,2019,4
+405,Arenys de Mar,080060,2019,21
+406,Arenys de Munt,080076,2019,3
+407,Argençola,080082,2019,1
+408,Argentona,080095,2019,16
+409,"Armentera, l'",170118,2019,7
+410,Artés,080109,2019,12
+411,Artesa de Lleida,250334,2019,2
+412,Avinyó,080121,2019,10
+413,Avinyonet del Penedès,080137,2019,1
+414,Badalona,080155,2019,708
+415,Badia del Vallès,089045,2019,30
+416,Balaguer,250404,2019,53
+417,Balenyà,080174,2019,1
+418,Balsareny,080180,2019,2
+419,Banyeres del Penedès,430206,2019,8
+420,Banyoles,170157,2019,54
+421,Barbens,250411,2019,1
+422,Barberà del Vallès,082520,2019,88
+423,Barcelona,080193,2019,9422
+424,Bàscara,170160,2019,1
+425,Batea,430228,2019,1
+426,Begues,080207,2019,41
+427,Begur,170139,2019,2
+428,Bell-lloc d'Urgell,250485,2019,1
+429,Bellpuig,250501,2019,13
+430,Bellvei,430249,2019,1
+431,Bellver de Cerdanya,250518,2019,4
+432,Benavent de Segrià,250539,2019,1
+433,Benifallet,430252,2019,1
+434,Benissanet,430265,2019,2
+435,Berga,080229,2019,12
+436,Bescanó,170209,2019,2
+437,Bigues i Riells,080235,2019,1
+438,"Bisbal de Falset, la",430271,2019,1
+439,"Bisbal d'Empordà, la",170221,2019,23
+440,Blanes,170237,2019,114
+441,Bolvir,170242,2019,3
+442,"Borges Blanques, les",250582,2019,16
+443,Botarell,430332,2019,1
+444,Breda,170274,2019,2
+445,"Bruc, el",080253,2019,2
+446,Cabacés,430350,2019,1
+447,"Cabanyes, les",080272,2019,1
+448,Cabrera de Mar,080291,2019,4
+449,Cadaqués,170329,2019,4
+450,Calaf,080312,2019,10
+451,Calafell,430379,2019,41
+452,Caldes de Malavella,170335,2019,4
+453,Caldes de Montbui,080333,2019,31
+454,Calella,080351,2019,20
+455,Calldetenes,080370,2019,2
+456,Callús,080386,2019,1
+457,Cambrils,430385,2019,169
+458,Campdevànol,170366,2019,3
+459,Canet de Mar,080403,2019,11
+460,"Canonja, la",439076,2019,4
+461,Canovelles,080410,2019,18
+462,Canyelles,080431,2019,2
+463,Capçanes,430402,2019,1
+464,Capellades,080446,2019,4
+465,Cardedeu,080462,2019,25
+466,Cardona,080478,2019,13
+467,Caseres,430419,2019,1
+468,Cassà de la Selva,170448,2019,6
+469,Castell de Mur,259046,2019,1
+470,Castellar del Vallès,080517,2019,36
+471,Castellbell i el Vilar,080538,2019,1
+472,Castellbisbal,080543,2019,27
+473,Castelldefels,080569,2019,189
+474,Castellet i la Gornal,080581,2019,1
+475,Castellfollit de la Roca,170464,2019,5
+476,Castellnou de Seana,250680,2019,1
+477,Castelló d'Empúries,170470,2019,6
+478,Castell-Platja d'Aro,170486,2019,9
+479,Castellterçol,080641,2019,1
+480,Castellví de Rosanes,080667,2019,1
+481,"Cellera de Ter, la",171899,2019,1
+482,Celrà,170499,2019,3
+483,Centelles,080673,2019,4
+484,Cerdanyola del Vallès,082665,2019,164
+485,Cervelló,080689,2019,5
+486,Cervera,250729,2019,5
+487,Constantí,430477,2019,15
+488,Corbera de Llobregat,080728,2019,25
+489,Corbera d'Ebre,430483,2019,1
+490,Cornellà de Llobregat,080734,2019,938
+491,Creixell,430509,2019,2
+492,Cubelles,080749,2019,15
+493,Cunit,430516,2019,25
+494,Das,170617,2019,1
+495,Deltebre,439018,2019,4
+496,Dosrius,080752,2019,1
+497,Duesaigües,430537,2019,1
+498,"Escala, l'",170622,2019,3
+499,Esparreguera,080765,2019,15
+500,"Espluga Calba, l'",250812,2019,1
+501,"Espluga de Francolí, l'",430542,2019,2
+502,Esplugues de Llobregat,080771,2019,164
+503,"Esquirol, l'",082541,2019,4
+504,Esterri d'Àneu,250864,2019,2
+505,Falset,430555,2019,1
+506,Figueres,170669,2019,142
+507,Flaçà,170675,2019,1
+508,Flix,430607,2019,2
+509,Fontcoberta,170715,2019,2
+510,Font-rubí,080850,2019,1
+511,Forallac,179026,2019,1
+512,Fornells de la Selva,170736,2019,4
+513,Fortià,170741,2019,1
+514,"Franqueses del Vallès, les",080863,2019,59
+515,Gandesa,430640,2019,3
+516,"Garriga, la",080885,2019,30
+517,Gavà,080898,2019,405
+518,Gelida,080919,2019,8
+519,Ginestar,430672,2019,2
+520,Girona,170792,2019,294
+521,Gironella,080924,2019,1
+522,"Granada, la",080945,2019,4
+523,Granollers,080961,2019,230
+524,Guardiola de Berguedà,080996,2019,3
+525,Guissona,251109,2019,46
+526,Gurb,081000,2019,1
+527,Horta de Sant Joan,430712,2019,9
+528,"Hospitalet de Llobregat, l'",081017,2019,1092
+529,Hostalric,170834,2019,4
+530,Igualada,081022,2019,82
+531,"Jonquera, la",170865,2019,1
+532,Juneda,251193,2019,1
+533,Les,251214,2019,1
+534,Lladorre,251235,2019,1
+535,"Llagosta, la",081056,2019,8
+536,Llagostera,170890,2019,7
+537,Llançà,170926,2019,4
+538,Llavorsí,251266,2019,2
+539,Lleida,251207,2019,479
+540,Lliçà d'Amunt,081075,2019,8
+541,Lliçà de Vall,081081,2019,4
+542,Llinars del Vallès,081069,2019,5
+543,Llívia,170947,2019,1
+544,Llorenç del Penedès,430748,2019,3
+545,Lloret de Mar,170950,2019,11
+546,Maçanet de la Selva,171030,2019,2
+547,Madremanya,170979,2019,1
+548,Malgrat de Mar,081108,2019,25
+549,Manlleu,081120,2019,24
+550,Manresa,081136,2019,257
+551,Marçà,430764,2019,1
+552,Martorell,081141,2019,1399
+553,Martorelles,081154,2019,2
+554,Masdenverge,430786,2019,2
+555,"Masnou, el",081189,2019,101
+556,Masquefa,081192,2019,2
+557,"Masroig, el",430825,2019,1
+558,Massanes,171019,2019,1
+559,Matadepera,081206,2019,4
+560,Mataró,081213,2019,491
+561,Mediona,081228,2019,1
+562,Mieres,171058,2019,5
+563,Moià,081385,2019,4
+564,Molins de Rei,081234,2019,78
+565,Mollerussa,251370,2019,75
+566,Mollet del Vallès,081249,2019,207
+567,Monistrol de Calders,081287,2019,1
+568,Monistrol de Montserrat,081271,2019,6
+569,Montagut i Oix,171096,2019,1
+570,Montblanc,430862,2019,36
+571,Montbrió del Camp,430884,2019,5
+572,Montcada i Reixac,081252,2019,83
+573,Montgat,081265,2019,135
+574,Montmeló,081350,2019,39
+575,Montornès del Vallès,081363,2019,26
+576,Mont-ras,171100,2019,1
+577,Mont-roig del Camp,430923,2019,11
+578,Móra d'Ebre,430939,2019,22
+579,Móra la Nova,430944,2019,4
+580,"Morell, el",430957,2019,5
+581,Naut Aran,250254,2019,1
+582,Navàs,081419,2019,6
+583,Nulles,430982,2019,1
+584,Odèn,251484,2019,1
+585,Olèrdola,081458,2019,3
+586,Olesa de Montserrat,081477,2019,39
+587,Olivella,081483,2019,1
+588,Olot,171143,2019,317
+589,Olvan,081445,2019,1
+590,Palafolls,081555,2019,5
+591,Palafrugell,171175,2019,124
+592,Palamós,171181,2019,4
+593,"Palau d'Anglesola, el",251581,2019,1
+594,Palau-saverdera,171208,2019,1
+595,Palau-solità i Plegamans,081568,2019,8
+596,"Pallaresos, els",431009,2019,1
+597,Pallejà,081574,2019,5
+598,Pals,171241,2019,2
+599,Pardines,171254,2019,8
+600,Parets del Vallès,081593,2019,30
+601,Penelles,251641,2019,1
+602,Perafita,081607,2019,1
+603,Piera,081614,2019,9
+604,Pineda de Mar,081635,2019,17
+605,"Pla de Santa Maria, el",431080,2019,2
+606,"Pla del Penedès, el",081640,2019,4
+607,Planoles,171349,2019,2
+608,"Pobla de Mafumet, la",431093,2019,9
+609,"Pobla de Montornès, la",431114,2019,1
+610,"Pobla de Segur, la",251713,2019,11
+611,Polinyà,081672,2019,53
+612,"Pont de Suert, el",251734,2019,11
+613,"Pont de Vilomara i Rocafort, el",081825,2019,8
+614,Porqueres,171371,2019,1
+615,Portbou,171387,2019,1
+616,"Prat de Llobregat, el",081691,2019,311
+617,Pratdip,431188,2019,1
+618,"Prats de Rei, els",081705,2019,1
+619,Premià de Dalt,082303,2019,44
+620,Premià de Mar,081727,2019,28
+621,"Preses, les",171390,2019,9
+622,Puigcerdà,171411,2019,13
+623,Quart,171426,2019,3
+624,Rasquera,431212,2019,1
+625,Reus,431233,2019,358
+626,Rialp,251832,2019,2
+627,Ribes de Freser,171450,2019,10
+628,Ripoll,171479,2019,39
+629,Ripollet,081803,2019,84
+630,Riudecanyes,431270,2019,3
+631,"Roca del Vallès, la",081810,2019,6
+632,Roda de Berà,431310,2019,22
+633,Roda de Ter,081831,2019,9
+634,Roses,171523,2019,32
+635,Rosselló,251898,2019,2
+636,Rubí,081846,2019,56
+637,Sabadell,081878,2019,1291
+638,Sallent,081918,2019,15
+639,Salou,439057,2019,51
+640,Salt,171557,2019,236
+641,Sant Adrià de Besòs,081944,2019,251
+642,Sant Andreu de la Barca,081960,2019,114
+643,Sant Andreu de Llavaneres,081976,2019,2
+644,Sant Boi de Llobregat,082009,2019,667
+645,Sant Carles de la Ràpita,431362,2019,12
+646,Sant Cebrià de Vallalta,082037,2019,1
+647,Sant Celoni,082021,2019,10
+648,Sant Cugat del Vallès,082055,2019,860
+649,Sant Esteve Sesrovires,082080,2019,7
+650,Sant Feliu de Codines,082107,2019,2
+651,Sant Feliu de Guíxols,171609,2019,15
+652,Sant Feliu de Llobregat,082114,2019,550
+653,Sant Fost de Campsentelles,082093,2019,9
+654,Sant Fruitós de Bages,082135,2019,32
+655,Sant Gregori,171637,2019,66
+656,Sant Hilari Sacalm,171642,2019,7
+657,Sant Hipòlit de Voltregà,082153,2019,7
+658,Sant Jaume de Llierca,171655,2019,1
+659,Sant Jaume d'Enveja,439023,2019,1
+660,Sant Joan de les Abadesses,171674,2019,12
+661,Sant Joan de Vilatorrada,082188,2019,4
+662,Sant Joan Despí,082172,2019,802
+663,Sant Joan les Fonts,171851,2019,6
+664,Sant Julià de Vilatorta,082205,2019,1
+665,Sant Just Desvern,082212,2019,82
+666,Sant Llorenç d'Hortons,082227,2019,1
+667,Sant Llorenç Savall,082233,2019,4
+668,Sant Martí de Tous,082264,2019,1
+669,Sant Martí Sarroca,082270,2019,6
+670,Sant Mateu de Bages,082299,2019,1
+671,Sant Pere de Ribes,082310,2019,63
+672,Sant Pere de Riudebitlles,082325,2019,1
+673,Sant Pere de Torelló,082331,2019,4
+674,Sant Pol de Mar,082359,2019,6
+675,Sant Quintí de Mediona,082362,2019,3
+676,Sant Quirze de Besora,082378,2019,2
+677,Sant Quirze del Vallès,082384,2019,86
+678,Sant Sadurní d'Anoia,082401,2019,37
+679,Sant Vicenç de Castellet,082628,2019,9
+680,Sant Vicenç de Montalt,082649,2019,7
+681,Sant Vicenç de Torelló,082652,2019,4
+682,Sant Vicenç dels Horts,082634,2019,53
+683,Santa Bàrbara,431384,2019,4
+684,Santa Coloma de Cervelló,082444,2019,4
+685,Santa Coloma de Farners,171805,2019,21
+686,Santa Coloma de Gramenet,082457,2019,217
+687,Santa Coloma de Queralt,431397,2019,5
+688,Santa Cristina d'Aro,171812,2019,3
+689,Santa Eugènia de Berga,082460,2019,2
+690,Santa Eulàlia de Riuprimer,082476,2019,3
+691,Santa Eulàlia de Ronçana,082482,2019,2
+692,Santa Margarida de Montbui,082508,2019,9
+693,Santa Margarida i els Monjos,082515,2019,38
+694,Santa Maria de Palautordera,082592,2019,5
+695,Santa Oliva,431401,2019,2
+696,Santa Perpètua de Mogoda,082606,2019,85
+697,Santpedor,081923,2019,7
+698,Sarral,431423,2019,2
+699,Sarrià de Ter,171864,2019,2
+700,"Secuita, la",431444,2019,1
+701,"Selva del Camp, la",431457,2019,2
+702,"Sénia, la",430445,2019,1
+703,Sentmenat,082671,2019,34
+704,"Seu d'Urgell, la",252038,2019,24
+705,Sidamon,252056,2019,1
+706,Sils,171931,2019,4
+707,Sitges,082704,2019,191
+708,Solsona,252075,2019,43
+709,Soriguera,252081,2019,2
+710,Sort,252094,2019,20
+711,Súria,082747,2019,12
+712,Taradell,082785,2019,2
+713,Tarragona,431482,2019,286
+714,Tàrrega,252173,2019,47
+715,Teià,082819,2019,26
+716,Terrassa,082798,2019,1386
+717,Tiana,082824,2019,28
+718,Tírvia,252213,2019,1
+719,Tivissa,431508,2019,1
+720,Tona,082830,2019,2
+721,Torà,252234,2019,1
+722,Tordera,082845,2019,54
+723,Torelló,082858,2019,37
+724,"Torre de Cabdella, la",252271,2019,6
+725,"Torre de l'Espanyol, la",431520,2019,7
+726,Torredembarra,431536,2019,13
+727,Torrefarrera,252287,2019,4
+728,Torrefeta i Florejacs,259078,2019,1
+729,Torregrossa,252304,2019,3
+730,Torrelles de Foix,082883,2019,1
+731,Torrelles de Llobregat,082896,2019,13
+732,Torres de Segre,252326,2019,1
+733,Torroella de Montgrí,171997,2019,2
+734,Tortosa,431554,2019,15
+735,Tossa de Mar,172023,2019,2
+736,Tremp,252347,2019,33
+737,Ulldecona,431567,2019,1
+738,Vacarisses,082917,2019,1
+739,Vall de Cardós,259010,2019,1
+740,Vallfogona de Riucorb,431592,2019,1
+741,Vallirana,082956,2019,4
+742,Vallromanes,082969,2019,2
+743,Valls,431613,2019,83
+744,"Valls de Valira, les",252398,2019,1
+745,Vandellòs i l'Hospitalet de l'Infant,431628,2019,10
+746,"Vendrell, el",431634,2019,102
+747,Verdú,252424,2019,1
+748,Verges,172116,2019,1
+749,Vic,082981,2019,230
+750,Vidreres,172137,2019,4
+751,Vielha e Mijaran,252430,2019,8
+752,Vilablareix,172155,2019,3
+753,Viladamat,172174,2019,1
+754,Viladecans,083015,2019,200
+755,Viladecavalls,083008,2019,3
+756,Vilafant,172214,2019,3
+757,Vilafranca del Penedès,083054,2019,160
+758,Vilagrassa,252445,2019,1
+759,Vilallonga del Camp,431665,2019,1
+760,Vilamalla,172266,2019,2
+761,Vilanova de la Barca,252542,2019,1
+762,Vilanova del Camí,083020,2019,22
+763,Vilanova i la Geltrú,083073,2019,168
+764,Vila-seca,431711,2019,56
+765,Vilassar de Dalt,082140,2019,6
+766,Vilassar de Mar,082191,2019,63
+767,Vilobí d'Onyar,172333,2019,1
+768,Vinebre,431779,2019,1
+769,Abrera,080018,2018,41
+770,Agramunt,250030,2018,4
+771,Aiguamúrcia,430017,2018,2
+772,Albatàrrec,250077,2018,1
+773,Albinyana,430022,2018,1
+774,Alcanar,430043,2018,3
+775,Alcarràs,250117,2018,19
+776,Alcoletge,250122,2018,6
+777,Alcover,430056,2018,3
+778,"Aldea, l'",439044,2018,2
+779,Alella,080039,2018,26
+780,Alfarràs,250138,2018,1
+781,Alforja,430094,2018,1
+782,Alguaire,250169,2018,2
+783,Alió,430108,2018,1
+784,Almacelles,250194,2018,3
+785,Almenar,250215,2018,1
+786,Almoster,430115,2018,1
+787,Altafulla,430120,2018,15
+788,"Ametlla del Vallès, l'",080057,2018,2
+789,"Ampolla, l'",439060,2018,2
+790,Amposta,430141,2018,63
+791,Anglès,170084,2018,4
+792,"Arboç, l'",430167,2018,8
+793,Arbúcies,170097,2018,3
+794,Arenys de Mar,080060,2018,17
+795,Arenys de Munt,080076,2018,4
+796,Argentona,080095,2018,13
+797,"Armentera, l'",170118,2018,10
+798,Artés,080109,2018,14
+799,Avinyó,080121,2018,6
+800,Avinyonet del Penedès,080137,2018,2
+801,Badalona,080155,2018,733
+802,Badia del Vallès,089045,2018,34
+803,Baix Pallars,250390,2018,4
+804,Balaguer,250404,2018,54
+805,Balenyà,080174,2018,1
+806,Balsareny,080180,2018,3
+807,Banyeres del Penedès,430206,2018,4
+808,Banyoles,170157,2018,30
+809,Barbens,250411,2018,1
+810,Barberà del Vallès,082520,2018,138
+811,Barcelona,080193,2018,7406
+812,Batea,430228,2018,2
+813,Begues,080207,2018,15
+814,Begur,170139,2018,1
+815,Bellpuig,250501,2018,8
+816,Bellvei,430249,2018,1
+817,Bellvís,250523,2018,1
+818,Berga,080229,2018,10
+819,Besalú,170195,2018,2
+820,Bescanó,170209,2018,2
+821,Bigues i Riells,080235,2018,4
+822,"Bisbal del Penedès, la",430287,2018,1
+823,"Bisbal d'Empordà, la",170221,2018,17
+824,Blanes,170237,2018,80
+825,Bolvir,170242,2018,2
+826,"Borges Blanques, les",250582,2018,6
+827,Bot,430326,2018,1
+828,Cabra del Camp,430363,2018,1
+829,Cabrera d'Anoia,080288,2018,1
+830,Cabrera de Mar,080291,2018,14
+831,Cabrils,080305,2018,1
+832,Cadaqués,170329,2018,9
+833,Calaf,080312,2018,10
+834,Calafell,430379,2018,32
+835,Caldes de Malavella,170335,2018,2
+836,Caldes de Montbui,080333,2018,23
+837,Calella,080351,2018,16
+838,Calldetenes,080370,2018,3
+839,Callús,080386,2018,9
+840,Cambrils,430385,2018,115
+841,Campdevànol,170366,2018,5
+842,Campllong,170388,2018,1
+843,Canet de Mar,080403,2018,7
+844,"Canonja, la",439076,2018,11
+845,Canovelles,080410,2018,47
+846,Capellades,080446,2018,4
+847,Cardedeu,080462,2018,15
+848,Cardona,080478,2018,1
+849,Cassà de la Selva,170448,2018,10
+850,Castellar del Vallès,080517,2018,68
+851,Castellbell i el Vilar,080538,2018,2
+852,Castellbisbal,080543,2018,54
+853,Castellcir,080556,2018,1
+854,Castelldefels,080569,2018,178
+855,Castellet i la Gornal,080581,2018,2
+856,Castellfollit de la Roca,170464,2018,4
+857,Castellgalí,080615,2018,2
+858,Castelló d'Empúries,170470,2018,7
+859,Castell-Platja d'Aro,170486,2018,9
+860,Castellterçol,080641,2018,6
+861,Castellví de la Marca,080654,2018,1
+862,"Cellera de Ter, la",171899,2018,1
+863,Celrà,170499,2018,4
+864,Centelles,080673,2018,17
+865,Cerdanyola del Vallès,082665,2018,188
+866,Cervelló,080689,2018,6
+867,Cervera,250729,2018,10
+868,Constantí,430477,2018,20
+869,Corbera de Llobregat,080728,2018,10
+870,Corbera d'Ebre,430483,2018,1
+871,Cornellà de Llobregat,080734,2018,643
+872,Cubelles,080749,2018,19
+873,Cunit,430516,2018,31
+874,Deltebre,439018,2018,2
+875,Esparreguera,080765,2018,10
+876,"Espluga Calba, l'",250812,2018,1
+877,"Espluga de Francolí, l'",430542,2018,5
+878,Esplugues de Llobregat,080771,2018,274
+879,Esterri d'Àneu,250864,2018,1
+880,Falset,430555,2018,4
+881,Figueres,170669,2018,99
+882,Flix,430607,2018,1
+883,Font-rubí,080850,2018,1
+884,Forallac,179026,2018,3
+885,Fornells de la Selva,170736,2018,3
+886,"Franqueses del Vallès, les",080863,2018,103
+887,"Fuliola, la",250962,2018,1
+888,Gandesa,430640,2018,9
+889,"Garriga, la",080885,2018,6
+890,Garriguella,170773,2018,1
+891,Gavà,080898,2018,229
+892,Gelida,080919,2018,8
+893,Ginestar,430672,2018,1
+894,Girona,170792,2018,215
+895,Golmés,250997,2018,1
+896,"Granada, la",080945,2018,5
+897,Granollers,080961,2018,226
+898,"Guiamets, els",430705,2018,1
+899,Guissona,251109,2018,20
+900,Horta de Sant Joan,430712,2018,1
+901,"Hospitalet de Llobregat, l'",081017,2018,1328
+902,"Hostalets de Pierola, els",081629,2018,1
+903,Igualada,081022,2018,109
+904,Isona i Conca Dellà,251155,2018,2
+905,Jafre,170852,2018,2
+906,Juneda,251193,2018,1
+907,Linyola,251229,2018,4
+908,"Llagosta, la",081056,2018,6
+909,Llagostera,170890,2018,10
+910,Llançà,170926,2018,8
+911,Lleida,251207,2018,667
+912,Lliçà d'Amunt,081075,2018,5
+913,Lliçà de Vall,081081,2018,1
+914,Llinars del Vallès,081069,2018,3
+915,Llívia,170947,2018,2
+916,Llorenç del Penedès,430748,2018,2
+917,Lloret de Mar,170950,2018,17
+918,Maçanet de la Selva,171030,2018,5
+919,Malgrat de Mar,081108,2018,25
+920,Manlleu,081120,2018,13
+921,Manresa,081136,2018,270
+922,Martorell,081141,2018,117
+923,Masdenverge,430786,2018,1
+924,"Masnou, el",081189,2018,181
+925,Masquefa,081192,2018,3
+926,Massalcoreig,251312,2018,1
+927,Matadepera,081206,2018,4
+928,Mataró,081213,2018,444
+929,Mieres,171058,2018,5
+930,Moià,081385,2018,3
+931,Molins de Rei,081234,2018,117
+932,Mollerussa,251370,2018,87
+933,Mollet del Vallès,081249,2018,212
+934,Monistrol de Montserrat,081271,2018,11
+935,Montblanc,430862,2018,20
+936,Montbrió del Camp,430884,2018,1
+937,Montcada i Reixac,081252,2018,95
+938,Montellà i Martinet,251399,2018,4
+939,Montesquiu,081311,2018,1
+940,Montgat,081265,2018,92
+941,"Montmell, el",430901,2018,1
+942,Montmeló,081350,2018,22
+943,Montornès del Vallès,081363,2018,21
+944,Mont-ras,171100,2018,2
+945,Mont-roig del Camp,430923,2018,10
+946,Móra d'Ebre,430939,2018,13
+947,Móra la Nova,430944,2018,6
+948,"Morell, el",430957,2018,3
+949,Navarcles,081402,2018,2
+950,Navàs,081419,2018,8
+951,Olèrdola,081458,2018,2
+952,Olesa de Montserrat,081477,2018,16
+953,Oliana,251497,2018,1
+954,Olivella,081483,2018,2
+955,Olost,081496,2018,2
+956,Olot,171143,2018,203
+957,Pacs del Penedès,081542,2018,1
+958,Palafolls,081555,2018,8
+959,Palafrugell,171175,2018,121
+960,Palamós,171181,2018,6
+961,Palau-solità i Plegamans,081568,2018,5
+962,"Pallaresos, els",431009,2018,2
+963,Pallejà,081574,2018,6
+964,"Papiol, el",081580,2018,2
+965,Parets del Vallès,081593,2018,27
+966,Perafort,431037,2018,1
+967,Piera,081614,2018,6
+968,Pineda de Mar,081635,2018,11
+969,"Pla de Santa Maria, el",431080,2018,3
+970,"Pla del Penedès, el",081640,2018,5
+971,Planoles,171349,2018,3
+972,"Pobla de Mafumet, la",431093,2018,3
+973,"Pobla de Segur, la",251713,2018,28
+974,Polinyà,081672,2018,42
+975,"Pont de Suert, el",251734,2018,12
+976,"Pont de Vilomara i Rocafort, el",081825,2018,10
+977,"Port de la Selva, el",171404,2018,1
+978,Portbou,171387,2018,1
+979,Prades,431166,2018,1
+980,"Prat de Llobregat, el",081691,2018,351
+981,Pratdip,431188,2018,1
+982,"Prats de Rei, els",081705,2018,1
+983,Prats i Sansor,251752,2018,1
+984,Premià de Dalt,082303,2018,29
+985,Premià de Mar,081727,2018,19
+986,"Preses, les",171390,2018,12
+987,Puigcerdà,171411,2018,15
+988,Puigpelat,431191,2018,1
+989,Quart,171426,2018,5
+990,Rasquera,431212,2018,1
+991,Reus,431233,2018,277
+992,Rialp,251832,2018,10
+993,Riells i Viabrea,171463,2018,1
+994,"Riera de Gaià, la",431264,2018,1
+995,Ripoll,171479,2018,34
+996,Ripollet,081803,2018,75
+997,Riudecols,431286,2018,1
+998,Riudellots de la Selva,171501,2018,1
+999,Riudoms,431299,2018,5
+1000,"Roca del Vallès, la",081810,2018,2
+1001,Roda de Berà,431310,2018,5
+1002,Roda de Ter,081831,2018,11
+1003,Roses,171523,2018,26
+1004,Rubí,081846,2018,43
+1005,Sabadell,081878,2018,925
+1006,Sallent,081918,2018,9
+1007,Salou,439057,2018,77
+1008,Salt,171557,2018,180
+1009,Sant Adrià de Besòs,081944,2018,194
+1010,Sant Andreu de la Barca,081960,2018,102
+1011,Sant Andreu de Llavaneres,081976,2018,2
+1012,Sant Antoni de Vilamajor,081982,2018,2
+1013,Sant Boi de Llobregat,082009,2018,279
+1014,Sant Carles de la Ràpita,431362,2018,35
+1015,Sant Celoni,082021,2018,11
+1016,Sant Climent de Llobregat,082042,2018,1
+1017,Sant Cugat del Vallès,082055,2018,1411
+1018,Sant Esteve Sesrovires,082080,2018,1
+1019,Sant Feliu de Codines,082107,2018,1
+1020,Sant Feliu de Guíxols,171609,2018,34
+1021,Sant Feliu de Llobregat,082114,2018,261
+1022,Sant Fost de Campsentelles,082093,2018,8
+1023,Sant Fruitós de Bages,082135,2018,10
+1024,Sant Gregori,171637,2018,24
+1025,Sant Hilari Sacalm,171642,2018,10
+1026,Sant Hipòlit de Voltregà,082153,2018,1
+1027,Sant Jaume de Llierca,171655,2018,1
+1028,Sant Joan de les Abadesses,171674,2018,14
+1029,Sant Joan de Vilatorrada,082188,2018,7
+1030,Sant Joan Despí,082172,2018,197
+1031,Sant Joan les Fonts,171851,2018,5
+1032,Sant Julià de Vilatorta,082205,2018,9
+1033,Sant Just Desvern,082212,2018,216
+1034,Sant Llorenç Savall,082233,2018,4
+1035,Sant Martí Sarroca,082270,2018,6
+1036,Sant Pere de Ribes,082310,2018,77
+1037,Sant Pere de Riudebitlles,082325,2018,2
+1038,Sant Pere de Torelló,082331,2018,4
+1039,Sant Pere de Vilamajor,082346,2018,1
+1040,Sant Pere Sallavinera,081897,2018,1
+1041,Sant Pol de Mar,082359,2018,27
+1042,Sant Quintí de Mediona,082362,2018,9
+1043,Sant Quirze de Besora,082378,2018,1
+1044,Sant Quirze del Vallès,082384,2018,74
+1045,Sant Sadurní d'Anoia,082401,2018,30
+1046,Sant Vicenç de Castellet,082628,2018,10
+1047,Sant Vicenç de Montalt,082649,2018,5
+1048,Sant Vicenç de Torelló,082652,2018,4
+1049,Sant Vicenç dels Horts,082634,2018,58
+1050,Santa Bàrbara,431384,2018,1
+1051,Santa Coloma de Cervelló,082444,2018,6
+1052,Santa Coloma de Farners,171805,2018,33
+1053,Santa Coloma de Gramenet,082457,2018,297
+1054,Santa Coloma de Queralt,431397,2018,8
+1055,Santa Cristina d'Aro,171812,2018,4
+1056,Santa Eugènia de Berga,082460,2018,1
+1057,Santa Eulàlia de Riuprimer,082476,2018,4
+1058,Santa Eulàlia de Ronçana,082482,2018,2
+1059,Santa Margarida de Montbui,082508,2018,10
+1060,Santa Margarida i els Monjos,082515,2018,41
+1061,Santa Maria de Palautordera,082592,2018,1
+1062,Santa Perpètua de Mogoda,082606,2018,97
+1063,Santa Susanna,082613,2018,1
+1064,Santpedor,081923,2018,9
+1065,Sarral,431423,2018,2
+1066,Sarrià de Ter,171864,2018,6
+1067,"Selva del Camp, la",431457,2018,7
+1068,Sentmenat,082671,2018,18
+1069,"Seu d'Urgell, la",252038,2018,24
+1070,Sidamon,252056,2018,2
+1071,Sils,171931,2018,3
+1072,Sitges,082704,2018,212
+1073,Solsona,252075,2018,55
+1074,Soriguera,252081,2018,1
+1075,Sort,252094,2018,27
+1076,Subirats,082732,2018,2
+1077,Sudanell,252115,2018,1
+1078,Súria,082747,2018,12
+1079,Talamanca,082779,2018,1
+1080,Talarn,252154,2018,1
+1081,Taradell,082785,2018,6
+1082,Tarragona,431482,2018,389
+1083,Tàrrega,252173,2018,94
+1084,Teià,082819,2018,9
+1085,Terrassa,082798,2018,1493
+1086,Tiana,082824,2018,151
+1087,Tivissa,431508,2018,1
+1088,Tona,082830,2018,3
+1089,Torà,252234,2018,1
+1090,Tordera,082845,2018,40
+1091,Torelló,082858,2018,45
+1092,"Torre de Cabdella, la",252271,2018,2
+1093,Torredembarra,431536,2018,18
+1094,Torrefarrera,252287,2018,2
+1095,Torrelavit,082877,2018,2
+1096,Torrelles de Foix,082883,2018,4
+1097,Torrelles de Llobregat,082896,2018,12
+1098,Torres de Segre,252326,2018,2
+1099,Torroella de Montgrí,171997,2018,5
+1100,Tortosa,431554,2018,29
+1101,Tossa de Mar,172023,2018,2
+1102,Tremp,252347,2018,46
+1103,Ullastrell,082900,2018,1
+1104,Vacarisses,082917,2018,1
+1105,Vall de Cardós,259010,2018,1
+1106,Vallbona d'Anoia,082922,2018,1
+1107,Vallirana,082956,2018,6
+1108,Valls,431613,2018,68
+1109,"Valls d'Aguilar, les",259062,2018,1
+1110,"Valls de Valira, les",252398,2018,1
+1111,Vandellòs i l'Hospitalet de l'Infant,431628,2018,8
+1112,"Vendrell, el",431634,2018,102
+1113,Verdú,252424,2018,1
+1114,Verges,172116,2018,1
+1115,Vic,082981,2018,205
+1116,Vidrà,172121,2018,1
+1117,Vidreres,172137,2018,2
+1118,Vielha e Mijaran,252430,2018,27
+1119,Vilablareix,172155,2018,2
+1120,Viladasens,172168,2018,1
+1121,Viladecans,083015,2018,376
+1122,Viladecavalls,083008,2018,1
+1123,Vilafant,172214,2018,2
+1124,Vilafranca del Penedès,083054,2018,186
+1125,Vilanova de Bellpuig,252483,2018,1
+1126,Vilanova del Camí,083020,2018,16
+1127,Vilanova del Vallès,089024,2018,1
+1128,Vilanova i la Geltrú,083073,2018,174
+1129,Vila-rodona,431704,2018,2
+1130,Vila-seca,431711,2018,58
+1131,Vilassar de Dalt,082140,2018,7
+1132,Vilassar de Mar,082191,2018,61
+1133,Vilobí d'Onyar,172333,2018,1
+1134,Vinyols i els Arcs,431785,2018,2
+1135,Abrera,080018,2017,50
+1136,Agramunt,250030,2017,9
+1137,Agullana,170010,2017,2
+1138,Albatàrrec,250077,2017,1
+1139,Albesa,250083,2017,1
+1140,Albinyana,430022,2017,1
+1141,"Albiol, l'",430038,2017,1
+1142,Alcanar,430043,2017,2
+1143,Alcarràs,250117,2017,14
+1144,Alcoletge,250122,2017,17
+1145,Alcover,430056,2017,4
+1146,"Aldea, l'",439044,2017,2
+1147,"Aleixar, l'",430075,2017,1
+1148,Alella,080039,2017,32
+1149,Alfarràs,250138,2017,2
+1150,Alguaire,250169,2017,3
+1151,Almacelles,250194,2017,3
+1152,Alpicat,250236,2017,5
+1153,Alt Àneu,250241,2017,1
+1154,Altafulla,430120,2017,18
+1155,"Ametlla del Vallès, l'",080057,2017,2
+1156,"Ampolla, l'",439060,2017,7
+1157,Amposta,430141,2017,28
+1158,Anglès,170084,2017,10
+1159,Arbeca,250292,2017,1
+1160,"Arboç, l'",430167,2017,8
+1161,Arenys de Mar,080060,2017,22
+1162,Arenys de Munt,080076,2017,2
+1163,Argentona,080095,2017,6
+1164,"Armentera, l'",170118,2017,9
+1165,Artés,080109,2017,15
+1166,Avinyó,080121,2017,5
+1167,Badalona,080155,2017,762
+1168,Badia del Vallès,089045,2017,44
+1169,Balaguer,250404,2017,70
+1170,Balenyà,080174,2017,2
+1171,Balsareny,080180,2017,1
+1172,Banyeres del Penedès,430206,2017,2
+1173,Banyoles,170157,2017,53
+1174,Barberà del Vallès,082520,2017,132
+1175,Barcelona,080193,2017,10481
+1176,Begues,080207,2017,7
+1177,Begur,170139,2017,1
+1178,Bell-lloc d'Urgell,250485,2017,2
+1179,Bellpuig,250501,2017,11
+1180,Bellvei,430249,2017,1
+1181,Berga,080229,2017,20
+1182,Besalú,170195,2017,2
+1183,Bescanó,170209,2017,1
+1184,Bigues i Riells,080235,2017,8
+1185,"Bisbal del Penedès, la",430287,2017,2
+1186,"Bisbal d'Empordà, la",170221,2017,18
+1187,Blanes,170237,2017,78
+1188,Bolvir,170242,2017,1
+1189,"Borges Blanques, les",250582,2017,7
+1190,"Borges del Camp, les",430311,2017,1
+1191,Bot,430326,2017,2
+1192,Botarell,430332,2017,3
+1193,Cabrera de Mar,080291,2017,21
+1194,Cabrils,080305,2017,3
+1195,Calaf,080312,2017,16
+1196,Calafell,430379,2017,25
+1197,Caldes de Malavella,170335,2017,1
+1198,Caldes de Montbui,080333,2017,17
+1199,Caldes d'Estrac,080327,2017,1
+1200,Calella,080351,2017,18
+1201,Calldetenes,080370,2017,2
+1202,Callús,080386,2017,15
+1203,Camarles,439039,2017,1
+1204,Cambrils,430385,2017,135
+1205,Campdevànol,170366,2017,4
+1206,Canet de Mar,080403,2017,22
+1207,"Canonja, la",439076,2017,7
+1208,Canovelles,080410,2017,61
+1209,Cànoves i Samalús,080425,2017,1
+1210,Canyelles,080431,2017,1
+1211,Capellades,080446,2017,5
+1212,Cardedeu,080462,2017,17
+1213,Cardona,080478,2017,3
+1214,Carme,080484,2017,2
+1215,Cassà de la Selva,170448,2017,20
+1216,Castellar del Vallès,080517,2017,52
+1217,Castellbisbal,080543,2017,45
+1218,Castelldefels,080569,2017,175
+1219,Castellfollit de la Roca,170464,2017,4
+1220,Castelló d'Empúries,170470,2017,3
+1221,Castell-Platja d'Aro,170486,2017,3
+1222,"Catllar, el",430430,2017,1
+1223,Celrà,170499,2017,2
+1224,Centelles,080673,2017,29
+1225,Cerdanyola del Vallès,082665,2017,224
+1226,Cervelló,080689,2017,5
+1227,Cervera,250729,2017,19
+1228,Constantí,430477,2017,27
+1229,Corbera de Llobregat,080728,2017,20
+1230,Cornellà de Llobregat,080734,2017,693
+1231,Cornellà del Terri,170561,2017,1
+1232,Cubelles,080749,2017,25
+1233,Cunit,430516,2017,11
+1234,Deltebre,439018,2017,1
+1235,Dosrius,080752,2017,2
+1236,"Escala, l'",170622,2017,9
+1237,Esparreguera,080765,2017,4
+1238,"Espluga de Francolí, l'",430542,2017,3
+1239,Esplugues de Llobregat,080771,2017,125
+1240,Esponellà,170656,2017,1
+1241,Espot,250827,2017,1
+1242,Esterri d'Àneu,250864,2017,2
+1243,Falset,430555,2017,2
+1244,Figaró-Montmany,081347,2017,1
+1245,Figueres,170669,2017,63
+1246,Figuerola del Camp,430593,2017,1
+1247,Flix,430607,2017,4
+1248,"Floresta, la",250925,2017,1
+1249,Fontcoberta,170715,2017,1
+1250,Font-rubí,080850,2017,1
+1251,"Franqueses del Vallès, les",080863,2017,61
+1252,Gandesa,430640,2017,9
+1253,"Garriga, la",080885,2017,2
+1254,Gavà,080898,2017,294
+1255,Gelida,080919,2017,13
+1256,Girona,170792,2017,172
+1257,Gironella,080924,2017,4
+1258,Golmés,250997,2017,1
+1259,"Granada, la",080945,2017,5
+1260,Granollers,080961,2017,297
+1261,"Guingueta d'Àneu, la",259031,2017,1
+1262,Guissona,251109,2017,29
+1263,Horta de Sant Joan,430712,2017,2
+1264,"Hospitalet de Llobregat, l'",081017,2017,1611
+1265,Hostalric,170834,2017,5
+1266,Igualada,081022,2017,128
+1267,"Jonquera, la",170865,2017,1
+1268,Les,251214,2017,2
+1269,"Llagosta, la",081056,2017,10
+1270,Llagostera,170890,2017,8
+1271,Llançà,170926,2017,8
+1272,Lleida,251207,2017,630
+1273,Lliçà d'Amunt,081075,2017,6
+1274,Lliçà de Vall,081081,2017,3
+1275,Llinars del Vallès,081069,2017,3
+1276,Llívia,170947,2017,3
+1277,Llorenç del Penedès,430748,2017,1
+1278,Lloret de Mar,170950,2017,20
+1279,Maçanet de la Selva,171030,2017,6
+1280,Malgrat de Mar,081108,2017,43
+1281,Manlleu,081120,2017,26
+1282,Manresa,081136,2017,264
+1283,Martorell,081141,2017,74
+1284,Martorelles,081154,2017,2
+1285,Masdenverge,430786,2017,1
+1286,"Masies de Voltregà, les",081173,2017,3
+1287,"Masnou, el",081189,2017,139
+1288,Masquefa,081192,2017,2
+1289,Matadepera,081206,2017,1
+1290,Mataró,081213,2017,506
+1291,Mediona,081228,2017,1
+1292,Meranges,170998,2017,1
+1293,Moià,081385,2017,2
+1294,Molins de Rei,081234,2017,178
+1295,Mollerussa,251370,2017,94
+1296,Mollet del Vallès,081249,2017,271
+1297,Monistrol de Calders,081287,2017,1
+1298,Monistrol de Montserrat,081271,2017,7
+1299,Montblanc,430862,2017,12
+1300,Montbrió del Camp,430884,2017,4
+1301,Montcada i Reixac,081252,2017,84
+1302,Montellà i Martinet,251399,2017,3
+1303,Montgat,081265,2017,75
+1304,Montmeló,081350,2017,28
+1305,Montoliu de Lleida,251425,2017,1
+1306,Montornès del Vallès,081363,2017,10
+1307,Mont-ras,171100,2017,1
+1308,Mont-roig del Camp,430923,2017,9
+1309,Móra d'Ebre,430939,2017,17
+1310,Móra la Nova,430944,2017,3
+1311,Navarcles,081402,2017,7
+1312,Navàs,081419,2017,3
+1313,Nulles,430982,2017,1
+1314,Òdena,081430,2017,1
+1315,Olèrdola,081458,2017,2
+1316,Olesa de Bonesvalls,081461,2017,1
+1317,Olesa de Montserrat,081477,2017,24
+1318,Olius,251517,2017,1
+1319,Olivella,081483,2017,2
+1320,Olost,081496,2017,1
+1321,Olot,171143,2017,148
+1322,Olvan,081445,2017,1
+1323,Os de Balaguer,251569,2017,1
+1324,Palafolls,081555,2017,10
+1325,Palafrugell,171175,2017,88
+1326,Palamós,171181,2017,12
+1327,"Palau d'Anglesola, el",251581,2017,1
+1328,Palau-solità i Plegamans,081568,2017,7
+1329,Pallejà,081574,2017,7
+1330,"Palma de Cervelló, la",089058,2017,1
+1331,"Papiol, el",081580,2017,2
+1332,Parets del Vallès,081593,2017,34
+1333,Penelles,251641,2017,2
+1334,Perafort,431037,2017,1
+1335,"Perelló, el",431042,2017,1
+1336,Piera,081614,2017,12
+1337,"Piles, les",431055,2017,1
+1338,Pineda de Mar,081635,2017,20
+1339,"Pla de Santa Maria, el",431080,2017,3
+1340,"Pla del Penedès, el",081640,2017,6
+1341,Planoles,171349,2017,1
+1342,"Pobla de Claramunt, la",081653,2017,1
+1343,"Pobla de Mafumet, la",431093,2017,5
+1344,"Pobla de Montornès, la",431114,2017,1
+1345,"Pobla de Segur, la",251713,2017,20
+1346,Polinyà,081672,2017,67
+1347,"Pont de Suert, el",251734,2017,6
+1348,"Pont de Vilomara i Rocafort, el",081825,2017,5
+1349,Porqueres,171371,2017,4
+1350,Portbou,171387,2017,1
+1351,"Prat de Llobregat, el",081691,2017,405
+1352,"Prats de Rei, els",081705,2017,2
+1353,Premià de Dalt,082303,2017,20
+1354,Premià de Mar,081727,2017,27
+1355,"Preses, les",171390,2017,14
+1356,Prullans,251790,2017,1
+1357,Puigcerdà,171411,2017,19
+1358,Puigverd de Lleida,251826,2017,1
+1359,Quart,171426,2017,1
+1360,Reus,431233,2017,304
+1361,Rialp,251832,2017,4
+1362,Ribes de Freser,171450,2017,1
+1363,Ripoll,171479,2017,21
+1364,Ripollet,081803,2017,95
+1365,Riudarenes,171485,2017,1
+1366,Riudoms,431299,2017,2
+1367,Roda de Ter,081831,2017,9
+1368,Roquetes,431331,2017,1
+1369,Roses,171523,2017,27
+1370,Rosselló,251898,2017,2
+1371,Rubí,081846,2017,84
+1372,Sabadell,081878,2017,853
+1373,Sallent,081918,2017,14
+1374,Salou,439057,2017,76
+1375,Salt,171557,2017,225
+1376,Sant Adrià de Besòs,081944,2017,220
+1377,Sant Andreu de la Barca,081960,2017,109
+1378,Sant Andreu de Llavaneres,081976,2017,1
+1379,Sant Aniol de Finestres,171833,2017,1
+1380,Sant Antoni de Vilamajor,081982,2017,1
+1381,Sant Boi de Llobregat,082009,2017,171
+1382,Sant Carles de la Ràpita,431362,2017,41
+1383,Sant Celoni,082021,2017,7
+1384,Sant Cugat del Vallès,082055,2017,709
+1385,Sant Cugat Sesgarrigues,082068,2017,2
+1386,Sant Esteve Sesrovires,082080,2017,20
+1387,Sant Feliu de Guíxols,171609,2017,57
+1388,Sant Feliu de Llobregat,082114,2017,202
+1389,Sant Fost de Campsentelles,082093,2017,27
+1390,Sant Fruitós de Bages,082135,2017,16
+1391,Sant Gregori,171637,2017,8
+1392,Sant Hilari Sacalm,171642,2017,7
+1393,Sant Hipòlit de Voltregà,082153,2017,3
+1394,Sant Joan de les Abadesses,171674,2017,13
+1395,Sant Joan de Vilatorrada,082188,2017,11
+1396,Sant Joan Despí,082172,2017,337
+1397,Sant Joan les Fonts,171851,2017,8
+1398,Sant Jordi Desvalls,171668,2017,1
+1399,Sant Julià de Vilatorta,082205,2017,7
+1400,Sant Just Desvern,082212,2017,111
+1401,Sant Llorenç d'Hortons,082227,2017,3
+1402,Sant Llorenç Savall,082233,2017,4
+1403,Sant Martí de Tous,082264,2017,1
+1404,Sant Martí Sarroca,082270,2017,6
+1405,Sant Mateu de Bages,082299,2017,1
+1406,Sant Pere de Ribes,082310,2017,120
+1407,Sant Pere de Riudebitlles,082325,2017,1
+1408,Sant Pere de Torelló,082331,2017,5
+1409,Sant Pere de Vilamajor,082346,2017,1
+1410,Sant Pere Pescador,171788,2017,1
+1411,Sant Pol de Mar,082359,2017,8
+1412,Sant Quintí de Mediona,082362,2017,9
+1413,Sant Quirze de Besora,082378,2017,1
+1414,Sant Quirze del Vallès,082384,2017,77
+1415,Sant Sadurní d'Anoia,082401,2017,39
+1416,Sant Vicenç de Castellet,082628,2017,20
+1417,Sant Vicenç de Montalt,082649,2017,1
+1418,Sant Vicenç de Torelló,082652,2017,5
+1419,Sant Vicenç dels Horts,082634,2017,69
+1420,Santa Bàrbara,431384,2017,2
+1421,Santa Coloma de Cervelló,082444,2017,11
+1422,Santa Coloma de Farners,171805,2017,9
+1423,Santa Coloma de Gramenet,082457,2017,295
+1424,Santa Coloma de Queralt,431397,2017,2
+1425,Santa Cristina d'Aro,171812,2017,2
+1426,Santa Eugènia de Berga,082460,2017,7
+1427,Santa Eulàlia de Riuprimer,082476,2017,1
+1428,Santa Eulàlia de Ronçana,082482,2017,2
+1429,Santa Margarida de Montbui,082508,2017,23
+1430,Santa Margarida i els Monjos,082515,2017,34
+1431,Santa Maria de Palautordera,082592,2017,2
+1432,Santa Maria d'Oló,082589,2017,1
+1433,Santa Perpètua de Mogoda,082606,2017,122
+1434,Santa Susanna,082613,2017,1
+1435,Santpedor,081923,2017,11
+1436,Sarrià de Ter,171864,2017,3
+1437,"Selva del Camp, la",431457,2017,7
+1438,Sentmenat,082671,2017,26
+1439,Seròs,252043,2017,1
+1440,"Seu d'Urgell, la",252038,2017,25
+1441,Sitges,082704,2017,35
+1442,Solsona,252075,2017,38
+1443,Sort,252094,2017,22
+1444,Subirats,082732,2017,2
+1445,Súria,082747,2017,4
+1446,Taradell,082785,2017,5
+1447,Tarragona,431482,2017,348
+1448,Tàrrega,252173,2017,68
+1449,Teià,082819,2017,18
+1450,Terrassa,082798,2017,1633
+1451,Tiana,082824,2017,39
+1452,Tírvia,252213,2017,1
+1453,Tordera,082845,2017,57
+1454,Torelló,082858,2017,62
+1455,"Torre de Cabdella, la",252271,2017,2
+1456,"Torre de l'Espanyol, la",431520,2017,5
+1457,Torredembarra,431536,2017,18
+1458,Torrefarrera,252287,2017,1
+1459,Torregrossa,252304,2017,1
+1460,Torrelles de Foix,082883,2017,4
+1461,Torrelles de Llobregat,082896,2017,11
+1462,Torre-serona,252332,2017,1
+1463,Torroella de Montgrí,171997,2017,4
+1464,Torroja del Priorat,431541,2017,1
+1465,Tortosa,431554,2017,34
+1466,Tossa de Mar,172023,2017,1
+1467,Tremp,252347,2017,68
+1468,Ullà,172044,2017,1
+1469,Ullastrell,082900,2017,1
+1470,Vacarisses,082917,2017,3
+1471,"Vall d'en Bas, la",172076,2017,1
+1472,Vallfogona de Balaguer,252402,2017,1
+1473,Vallirana,082956,2017,6
+1474,Valls,431613,2017,98
+1475,Vandellòs i l'Hospitalet de l'Infant,431628,2017,3
+1476,"Vendrell, el",431634,2017,133
+1477,Ventalló,172109,2017,1
+1478,Verdú,252424,2017,1
+1479,Verges,172116,2017,1
+1480,Vic,082981,2017,330
+1481,Vidrà,172121,2017,1
+1482,Vidreres,172137,2017,4
+1483,Vielha e Mijaran,252430,2017,20
+1484,Vilablareix,172155,2017,2
+1485,Viladecans,083015,2017,295
+1486,Viladecavalls,083008,2017,3
+1487,Vilafant,172214,2017,3
+1488,Vilafranca del Penedès,083054,2017,219
+1489,Vilallonga del Camp,431665,2017,3
+1490,Vilanova de Segrià,252516,2017,1
+1491,Vilanova del Camí,083020,2017,11
+1492,Vilanova i la Geltrú,083073,2017,277
+1493,Vila-rodona,431704,2017,1
+1494,Vila-seca,431711,2017,61
+1495,Vilassar de Dalt,082140,2017,6
+1496,Vilassar de Mar,082191,2017,59
+1497,Vilobí d'Onyar,172333,2017,1
+1498,Vimbodí i Poblet,431763,2017,1
+1499,Vinyols i els Arcs,431785,2017,4
+1500,Abrera,080018,2016,55
+1501,Agramunt,250030,2016,8
+1502,Agullana,170010,2016,1
+1503,Aiguamúrcia,430017,2016,2
+1504,Aiguaviva,170025,2016,1
+1505,"Alamús, els",250045,2016,1
+1506,Albatàrrec,250077,2016,2
+1507,Albinyana,430022,2016,1
+1508,Alcarràs,250117,2016,18
+1509,Alcoletge,250122,2016,22
+1510,Alcover,430056,2016,2
+1511,"Aldea, l'",439044,2016,1
+1512,Alella,080039,2016,16
+1513,Alfarràs,250138,2016,3
+1514,Alforja,430094,2016,1
+1515,Alguaire,250169,2016,2
+1516,Almacelles,250194,2016,1
+1517,Almenar,250215,2016,1
+1518,Alpicat,250236,2016,4
+1519,Altafulla,430120,2016,11
+1520,"Ametlla del Vallès, l'",080057,2016,2
+1521,"Ampolla, l'",439060,2016,6
+1522,Amposta,430141,2016,34
+1523,Anglès,170084,2016,3
+1524,"Arboç, l'",430167,2016,12
+1525,Arbúcies,170097,2016,4
+1526,Arenys de Mar,080060,2016,25
+1527,Arenys de Munt,080076,2016,2
+1528,Argentona,080095,2016,5
+1529,"Armentera, l'",170118,2016,2
+1530,Artés,080109,2016,18
+1531,Avinyó,080121,2016,3
+1532,Badalona,080155,2016,791
+1533,Badia del Vallès,089045,2016,51
+1534,Balaguer,250404,2016,103
+1535,Balenyà,080174,2016,4
+1536,Balsareny,080180,2016,6
+1537,Banyeres del Penedès,430206,2016,8
+1538,Banyoles,170157,2016,69
+1539,Barberà del Vallès,082520,2016,134
+1540,Barcelona,080193,2016,8343
+1541,Batea,430228,2016,2
+1542,Begues,080207,2016,12
+1543,Begur,170139,2016,7
+1544,Bell-lloc d'Urgell,250485,2016,2
+1545,Bellpuig,250501,2016,23
+1546,Bellvei,430249,2016,1
+1547,Bellver de Cerdanya,250518,2016,2
+1548,Berga,080229,2016,40
+1549,Besalú,170195,2016,2
+1550,Bescanó,170209,2016,2
+1551,Bigues i Riells,080235,2016,6
+1552,"Bisbal del Penedès, la",430287,2016,3
+1553,"Bisbal d'Empordà, la",170221,2016,25
+1554,Blanes,170237,2016,137
+1555,Bolvir,170242,2016,1
+1556,"Borges Blanques, les",250582,2016,5
+1557,Borrassà,170268,2016,1
+1558,Breda,170274,2016,1
+1559,"Cabanyes, les",080272,2016,1
+1560,Cabrera de Mar,080291,2016,5
+1561,Cadaqués,170329,2016,4
+1562,Calaf,080312,2016,11
+1563,Calafell,430379,2016,27
+1564,Caldes de Malavella,170335,2016,5
+1565,Caldes de Montbui,080333,2016,23
+1566,Caldes d'Estrac,080327,2016,3
+1567,Calella,080351,2016,5
+1568,Calldetenes,080370,2016,2
+1569,Callús,080386,2016,8
+1570,Cambrils,430385,2016,177
+1571,Campdevànol,170366,2016,6
+1572,Canet de Mar,080403,2016,8
+1573,"Canonja, la",439076,2016,8
+1574,Canovelles,080410,2016,71
+1575,Canyelles,080431,2016,1
+1576,Capellades,080446,2016,7
+1577,Cardedeu,080462,2016,14
+1578,Cardona,080478,2016,4
+1579,Caseres,430419,2016,1
+1580,Cassà de la Selva,170448,2016,4
+1581,Castellar del Vallès,080517,2016,56
+1582,Castellbell i el Vilar,080538,2016,3
+1583,Castellbisbal,080543,2016,56
+1584,Castelldefels,080569,2016,105
+1585,Castellet i la Gornal,080581,2016,2
+1586,Castellfollit de la Roca,170464,2016,6
+1587,Castellfollit de Riubregós,080608,2016,1
+1588,Castellnou de Seana,250680,2016,1
+1589,Castelló d'Empúries,170470,2016,6
+1590,Castell-Platja d'Aro,170486,2016,14
+1591,Castellterçol,080641,2016,2
+1592,"Cellera de Ter, la",171899,2016,1
+1593,Celrà,170499,2016,4
+1594,Centelles,080673,2016,20
+1595,Cerdanyola del Vallès,082665,2016,135
+1596,Cervelló,080689,2016,5
+1597,Cervera,250729,2016,14
+1598,Collbató,080692,2016,1
+1599,Constantí,430477,2016,16
+1600,Corbera de Llobregat,080728,2016,12
+1601,Corbera d'Ebre,430483,2016,1
+1602,Corbins,250788,2016,1
+1603,Cornellà de Llobregat,080734,2016,459
+1604,Cornellà del Terri,170561,2016,1
+1605,Creixell,430509,2016,5
+1606,Cubelles,080749,2016,19
+1607,Cunit,430516,2016,19
+1608,Deltebre,439018,2016,1
+1609,Duesaigües,430537,2016,1
+1610,"Escala, l'",170622,2016,30
+1611,Esparreguera,080765,2016,6
+1612,"Espluga de Francolí, l'",430542,2016,1
+1613,Esplugues de Llobregat,080771,2016,138
+1614,Esterri d'Àneu,250864,2016,1
+1615,Falset,430555,2016,4
+1616,"Far d'Empordà, el",170059,2016,1
+1617,Figaró-Montmany,081347,2016,1
+1618,Figueres,170669,2016,104
+1619,Flix,430607,2016,2
+1620,"Floresta, la",250925,2016,1
+1621,Folgueroles,080832,2016,2
+1622,Fondarella,250931,2016,1
+1623,Fonollosa,080847,2016,1
+1624,Fontcoberta,170715,2016,1
+1625,Font-rubí,080850,2016,2
+1626,Forallac,179026,2016,1
+1627,Fornells de la Selva,170736,2016,1
+1628,Fortià,170741,2016,1
+1629,"Franqueses del Vallès, les",080863,2016,72
+1630,"Fuliola, la",250962,2016,1
+1631,Gandesa,430640,2016,5
+1632,"Garriga, la",080885,2016,5
+1633,Gavà,080898,2016,260
+1634,Gelida,080919,2016,22
+1635,Ginestar,430672,2016,1
+1636,Girona,170792,2016,174
+1637,Gironella,080924,2016,4
+1638,Golmés,250997,2016,1
+1639,"Granada, la",080945,2016,8
+1640,Granollers,080961,2016,329
+1641,Guissona,251109,2016,32
+1642,Horta de Sant Joan,430712,2016,4
+1643,"Hospitalet de Llobregat, l'",081017,2016,1794
+1644,Hostalric,170834,2016,1
+1645,Igualada,081022,2016,133
+1646,"Jonquera, la",170865,2016,1
+1647,Jorba,081038,2016,1
+1648,"Llagosta, la",081056,2016,8
+1649,Llagostera,170890,2016,16
+1650,Llançà,170926,2016,6
+1651,Llavorsí,251266,2016,1
+1652,Lleida,251207,2016,762
+1653,Lliçà d'Amunt,081075,2016,6
+1654,Lliçà de Vall,081081,2016,2
+1655,Llinars del Vallès,081069,2016,2
+1656,Llívia,170947,2016,1
+1657,Llorenç del Penedès,430748,2016,2
+1658,Lloret de Mar,170950,2016,11
+1659,Maçanet de la Selva,171030,2016,2
+1660,Malgrat de Mar,081108,2016,29
+1661,Manlleu,081120,2016,32
+1662,Manresa,081136,2016,212
+1663,Marçà,430764,2016,1
+1664,Martorell,081141,2016,76
+1665,Martorelles,081154,2016,1
+1666,Masdenverge,430786,2016,1
+1667,"Masies de Voltregà, les",081173,2016,2
+1668,"Masnou, el",081189,2016,84
+1669,Masquefa,081192,2016,2
+1670,Matadepera,081206,2016,12
+1671,Mataró,081213,2016,500
+1672,Mediona,081228,2016,3
+1673,Miralcamp,251351,2016,1
+1674,Moià,081385,2016,4
+1675,Molins de Rei,081234,2016,112
+1676,Mollerussa,251370,2016,79
+1677,Mollet del Vallès,081249,2016,68
+1678,Monistrol de Montserrat,081271,2016,16
+1679,Montblanc,430862,2016,18
+1680,Montbrió del Camp,430884,2016,2
+1681,Montcada i Reixac,081252,2016,84
+1682,Montellà i Martinet,251399,2016,2
+1683,Montesquiu,081311,2016,1
+1684,Montgat,081265,2016,58
+1685,Montmeló,081350,2016,18
+1686,Montornès del Vallès,081363,2016,31
+1687,Mont-ras,171100,2016,1
+1688,Mont-roig del Camp,430923,2016,6
+1689,Móra d'Ebre,430939,2016,23
+1690,Móra la Nova,430944,2016,6
+1691,Navarcles,081402,2016,3
+1692,Navàs,081419,2016,1
+1693,Òdena,081430,2016,3
+1694,Olèrdola,081458,2016,2
+1695,Olesa de Montserrat,081477,2016,23
+1696,Olivella,081483,2016,1
+1697,Olot,171143,2016,194
+1698,Olvan,081445,2016,2
+1699,Palafolls,081555,2016,7
+1700,Palafrugell,171175,2016,131
+1701,Palamós,171181,2016,18
+1702,Palau-sator,171215,2016,1
+1703,Palau-saverdera,171208,2016,1
+1704,Palau-solità i Plegamans,081568,2016,6
+1705,Pallejà,081574,2016,4
+1706,Parets del Vallès,081593,2016,34
+1707,Penelles,251641,2016,1
+1708,Piera,081614,2016,12
+1709,Pineda de Mar,081635,2016,27
+1710,"Pla de Santa Maria, el",431080,2016,2
+1711,"Pla del Penedès, el",081640,2016,8
+1712,Planoles,171349,2016,1
+1713,"Pobla de Claramunt, la",081653,2016,3
+1714,"Pobla de Mafumet, la",431093,2016,4
+1715,"Pobla de Segur, la",251713,2016,12
+1716,Polinyà,081672,2016,48
+1717,Pont de Molins,171352,2016,1
+1718,"Pont de Suert, el",251734,2016,11
+1719,"Pont de Vilomara i Rocafort, el",081825,2016,11
+1720,Porqueres,171371,2016,2
+1721,Prades,431166,2016,1
+1722,"Prat de Llobregat, el",081691,2016,368
+1723,"Prats de Rei, els",081705,2016,5
+1724,Premià de Dalt,082303,2016,18
+1725,Premià de Mar,081727,2016,22
+1726,"Preses, les",171390,2016,7
+1727,Puigcerdà,171411,2016,17
+1728,Puig-reig,081751,2016,1
+1729,Quart,171426,2016,2
+1730,Rellinars,081799,2016,1
+1731,Reus,431233,2016,350
+1732,Rialp,251832,2016,1
+1733,Ribes de Freser,171450,2016,3
+1734,Riells i Viabrea,171463,2016,3
+1735,Ripoll,171479,2016,26
+1736,Ripollet,081803,2016,428
+1737,Riudarenes,171485,2016,1
+1738,Riudecols,431286,2016,1
+1739,Riudellots de la Selva,171501,2016,1
+1740,Riudoms,431299,2016,2
+1741,"Roca del Vallès, la",081810,2016,2
+1742,Roda de Berà,431310,2016,3
+1743,Roda de Ter,081831,2016,4
+1744,Roquetes,431331,2016,5
+1745,Roses,171523,2016,30
+1746,Rosselló,251898,2016,2
+1747,Rubí,081846,2016,143
+1748,Rupià,171539,2016,2
+1749,Sabadell,081878,2016,691
+1750,Sallent,081918,2016,9
+1751,Salou,439057,2016,35
+1752,Salt,171557,2016,139
+1753,Sant Adrià de Besòs,081944,2016,269
+1754,Sant Andreu de la Barca,081960,2016,152
+1755,Sant Andreu de Llavaneres,081976,2016,1
+1756,Sant Boi de Llobregat,082009,2016,136
+1757,Sant Carles de la Ràpita,431362,2016,38
+1758,Sant Celoni,082021,2016,5
+1759,Sant Climent de Llobregat,082042,2016,2
+1760,Sant Cugat del Vallès,082055,2016,770
+1761,Sant Esteve Sesrovires,082080,2016,17
+1762,Sant Feliu de Codines,082107,2016,1
+1763,Sant Feliu de Guíxols,171609,2016,71
+1764,Sant Feliu de Llobregat,082114,2016,203
+1765,Sant Fost de Campsentelles,082093,2016,12
+1766,Sant Fruitós de Bages,082135,2016,10
+1767,Sant Gregori,171637,2016,16
+1768,Sant Hilari Sacalm,171642,2016,4
+1769,Sant Jaume dels Domenys,431378,2016,1
+1770,Sant Jaume d'Enveja,439023,2016,1
+1771,Sant Joan de les Abadesses,171674,2016,9
+1772,Sant Joan de Vilatorrada,082188,2016,8
+1773,Sant Joan Despí,082172,2016,131
+1774,Sant Joan les Fonts,171851,2016,11
+1775,Sant Julià de Ramis,171693,2016,2
+1776,Sant Julià de Vilatorta,082205,2016,4
+1777,Sant Just Desvern,082212,2016,130
+1778,Sant Llorenç Savall,082233,2016,8
+1779,Sant Martí de Centelles,082248,2016,1
+1780,Sant Martí de Tous,082264,2016,1
+1781,Sant Martí Sarroca,082270,2016,7
+1782,Sant Pere de Ribes,082310,2016,164
+1783,Sant Pere de Riudebitlles,082325,2016,2
+1784,Sant Pere de Torelló,082331,2016,9
+1785,Sant Pere de Vilamajor,082346,2016,1
+1786,Sant Pere Pescador,171788,2016,3
+1787,Sant Pol de Mar,082359,2016,2
+1788,Sant Quintí de Mediona,082362,2016,5
+1789,Sant Quirze de Besora,082378,2016,3
+1790,Sant Quirze del Vallès,082384,2016,49
+1791,Sant Sadurní d'Anoia,082401,2016,42
+1792,Sant Vicenç de Castellet,082628,2016,14
+1793,Sant Vicenç de Montalt,082649,2016,2
+1794,Sant Vicenç de Torelló,082652,2016,4
+1795,Sant Vicenç dels Horts,082634,2016,61
+1796,Santa Bàrbara,431384,2016,2
+1797,Santa Coloma de Cervelló,082444,2016,6
+1798,Santa Coloma de Farners,171805,2016,28
+1799,Santa Coloma de Gramenet,082457,2016,367
+1800,Santa Coloma de Queralt,431397,2016,1
+1801,Santa Cristina d'Aro,171812,2016,14
+1802,Santa Eugènia de Berga,082460,2016,3
+1803,Santa Eulàlia de Ronçana,082482,2016,3
+1804,Santa Margarida de Montbui,082508,2016,20
+1805,Santa Margarida i els Monjos,082515,2016,46
+1806,Santa Maria de Palautordera,082592,2016,2
+1807,Santa Maria d'Oló,082589,2016,1
+1808,Santa Perpètua de Mogoda,082606,2016,79
+1809,Santpedor,081923,2016,7
+1810,Sarral,431423,2016,1
+1811,"Selva del Camp, la",431457,2016,3
+1812,Sentmenat,082671,2016,17
+1813,Serinyà,171903,2016,1
+1814,"Seu d'Urgell, la",252038,2016,37
+1815,Sils,171931,2016,4
+1816,Sitges,082704,2016,58
+1817,Solsona,252075,2016,45
+1818,Soriguera,252081,2016,1
+1819,Sort,252094,2016,24
+1820,Subirats,082732,2016,1
+1821,Sudanell,252115,2016,1
+1822,Súria,082747,2016,3
+1823,Taradell,082785,2016,4
+1824,Tarragona,431482,2016,359
+1825,Tàrrega,252173,2016,70
+1826,Teià,082819,2016,16
+1827,Térmens,252206,2016,1
+1828,Terrassa,082798,2016,1878
+1829,Tiana,082824,2016,21
+1830,Tona,082830,2016,2
+1831,Torà,252234,2016,1
+1832,Tordera,082845,2016,52
+1833,Torelló,082858,2016,41
+1834,"Torre de Cabdella, la",252271,2016,6
+1835,"Torre de Claramunt, la",082861,2016,1
+1836,"Torre de l'Espanyol, la",431520,2016,5
+1837,Torredembarra,431536,2016,13
+1838,Torrelavit,082877,2016,2
+1839,Torrelles de Foix,082883,2016,4
+1840,Torrelles de Llobregat,082896,2016,6
+1841,Torres de Segre,252326,2016,3
+1842,Torroella de Montgrí,171997,2016,14
+1843,Tortosa,431554,2016,40
+1844,Tossa de Mar,172023,2016,2
+1845,Tremp,252347,2016,52
+1846,Ullà,172044,2016,2
+1847,Vacarisses,082917,2016,3
+1848,Vall de Cardós,259010,2016,1
+1849,"Vall d'en Bas, la",172076,2016,1
+1850,Vallbona d'Anoia,082922,2016,1
+1851,Vallcebre,082938,2016,1
+1852,Vallirana,082956,2016,3
+1853,Valls,431613,2016,75
+1854,Vandellòs i l'Hospitalet de l'Infant,431628,2016,10
+1855,"Vendrell, el",431634,2016,97
+1856,Vic,082981,2016,226
+1857,Vidreres,172137,2016,1
+1858,Vielha e Mijaran,252430,2016,19
+1859,Vilablareix,172155,2016,5
+1860,Viladecans,083015,2016,343
+1861,Viladecavalls,083008,2016,1
+1862,Vilafant,172214,2016,1
+1863,Vilafranca del Penedès,083054,2016,220
+1864,Vilallonga del Camp,431665,2016,3
+1865,Vilanova de la Barca,252542,2016,1
+1866,Vilanova del Camí,083020,2016,17
+1867,Vilanova del Vallès,089024,2016,1
+1868,Vilanova d'Escornalbou,431671,2016,1
+1869,Vilanova i la Geltrú,083073,2016,258
+1870,Vila-seca,431711,2016,73
+1871,Vilassar de Dalt,082140,2016,4
+1872,Vilassar de Mar,082191,2016,32
+1873,Vilobí d'Onyar,172333,2016,1
+1874,Vinyols i els Arcs,431785,2016,2
+1875,Abrera,080018,2015,29
+1876,Agramunt,250030,2015,3
+1877,Agullana,170010,2015,14
+1878,Aitona,250387,2015,3
+1879,Albinyana,430022,2015,2
+1880,Alcanar,430043,2015,4
+1881,Alcarràs,250117,2015,12
+1882,Alcoletge,250122,2015,11
+1883,Alcover,430056,2015,3
+1884,"Aldea, l'",439044,2015,3
+1885,Alella,080039,2015,12
+1886,Alfarràs,250138,2015,2
+1887,Alforja,430094,2015,2
+1888,Alguaire,250169,2015,3
+1889,Almacelles,250194,2015,2
+1890,Almenar,250215,2015,1
+1891,Altafulla,430120,2015,9
+1892,"Ametlla de Mar, l'",430136,2015,1
+1893,"Ametlla del Vallès, l'",080057,2015,1
+1894,"Ampolla, l'",439060,2015,34
+1895,Amposta,430141,2015,31
+1896,Anglès,170084,2015,3
+1897,"Arboç, l'",430167,2015,6
+1898,Arbúcies,170097,2015,6
+1899,Arenys de Mar,080060,2015,8
+1900,Arenys de Munt,080076,2015,3
+1901,Argelaguer,170101,2015,1
+1902,Argentona,080095,2015,2
+1903,"Armentera, l'",170118,2015,8
+1904,Artés,080109,2015,7
+1905,Artesa de Lleida,250334,2015,1
+1906,Artesa de Segre,250349,2015,1
+1907,Avià,080116,2015,1
+1908,Avinyó,080121,2015,3
+1909,Badalona,080155,2015,670
+1910,Badia del Vallès,089045,2015,22
+1911,Bagà,080168,2015,3
+1912,Balaguer,250404,2015,108
+1913,Balenyà,080174,2015,3
+1914,Balsareny,080180,2015,2
+1915,Banyeres del Penedès,430206,2015,10
+1916,Banyoles,170157,2015,71
+1917,Barberà del Vallès,082520,2015,106
+1918,Barcelona,080193,2015,7088
+1919,Batea,430228,2015,1
+1920,Begues,080207,2015,6
+1921,Begur,170139,2015,1
+1922,Belianes,250463,2015,1
+1923,Bell-lloc d'Urgell,250485,2015,1
+1924,Bellpuig,250501,2015,24
+1925,Bellvei,430249,2015,2
+1926,Bellver de Cerdanya,250518,2015,1
+1927,Bellvís,250523,2015,1
+1928,Berga,080229,2015,21
+1929,Besalú,170195,2015,1
+1930,Bigues i Riells,080235,2015,5
+1931,"Bisbal del Penedès, la",430287,2015,1
+1932,"Bisbal d'Empordà, la",170221,2015,28
+1933,Blanes,170237,2015,113
+1934,Bolvir,170242,2015,1
+1935,"Borges Blanques, les",250582,2015,3
+1936,Botarell,430332,2015,2
+1937,Bràfim,430347,2015,1
+1938,Breda,170274,2015,1
+1939,Cabra del Camp,430363,2015,1
+1940,Cabrera de Mar,080291,2015,2
+1941,Cabrils,080305,2015,1
+1942,Cadaqués,170329,2015,6
+1943,Calaf,080312,2015,11
+1944,Calafell,430379,2015,24
+1945,Caldes de Malavella,170335,2015,2
+1946,Caldes de Montbui,080333,2015,19
+1947,Calella,080351,2015,9
+1948,Calldetenes,080370,2015,1
+1949,Callús,080386,2015,18
+1950,Cambrils,430385,2015,139
+1951,Campdevànol,170366,2015,2
+1952,Canet de Mar,080403,2015,5
+1953,"Canonja, la",439076,2015,5
+1954,Canovelles,080410,2015,32
+1955,Capellades,080446,2015,7
+1956,Cardedeu,080462,2015,3
+1957,Cardona,080478,2015,6
+1958,Cassà de la Selva,170448,2015,5
+1959,Castellar del Vallès,080517,2015,47
+1960,Castellbisbal,080543,2015,32
+1961,Castelldefels,080569,2015,186
+1962,Castellet i la Gornal,080581,2015,2
+1963,Castellfollit de la Roca,170464,2015,6
+1964,Castelló d'Empúries,170470,2015,7
+1965,Castell-Platja d'Aro,170486,2015,9
+1966,Castellserà,250707,2015,1
+1967,Castellví de la Marca,080654,2015,1
+1968,Celrà,170499,2015,1
+1969,Centelles,080673,2015,18
+1970,Cerdanyola del Vallès,082665,2015,102
+1971,Cervelló,080689,2015,1
+1972,Cervera,250729,2015,24
+1973,Constantí,430477,2015,24
+1974,Corbera de Llobregat,080728,2015,47
+1975,Cornellà de Llobregat,080734,2015,418
+1976,Cornellà del Terri,170561,2015,1
+1977,Creixell,430509,2015,1
+1978,Cubelles,080749,2015,13
+1979,Cunit,430516,2015,17
+1980,Deltebre,439018,2015,1
+1981,Dosrius,080752,2015,1
+1982,Esparreguera,080765,2015,2
+1983,"Espluga de Francolí, l'",430542,2015,1
+1984,Esplugues de Llobregat,080771,2015,139
+1985,"Esquirol, l'",082541,2015,2
+1986,Falset,430555,2015,1
+1987,Figaró-Montmany,081347,2015,1
+1988,Figueres,170669,2015,102
+1989,Flix,430607,2015,5
+1990,Folgueroles,080832,2015,2
+1991,Fontcoberta,170715,2015,1
+1992,Font-rubí,080850,2015,1
+1993,Forallac,179026,2015,2
+1994,"Franqueses del Vallès, les",080863,2015,34
+1995,"Fuliola, la",250962,2015,1
+1996,Gandesa,430640,2015,16
+1997,"Garriga, la",080885,2015,1
+1998,Gavà,080898,2015,215
+1999,Gelida,080919,2015,11
+2000,Girona,170792,2015,164
+2001,Gironella,080924,2015,2
+2002,"Granada, la",080945,2015,6
+2003,"Granadella, la",251018,2015,1
+2004,Granollers,080961,2015,213
+2005,Guardiola de Berguedà,080996,2015,1
+2006,Guissona,251109,2015,46
+2007,Gurb,081000,2015,1
+2008,Horta de Sant Joan,430712,2015,1
+2009,"Hospitalet de Llobregat, l'",081017,2015,876
+2010,Hostalric,170834,2015,2
+2011,Igualada,081022,2015,138
+2012,Ivars d'Urgell,251137,2015,1
+2013,"Jonquera, la",170865,2015,3
+2014,Linyola,251229,2015,2
+2015,"Llagosta, la",081056,2015,37
+2016,Llagostera,170890,2015,10
+2017,Lleida,251207,2015,606
+2018,Lliçà d'Amunt,081075,2015,4
+2019,Lliçà de Vall,081081,2015,2
+2020,Llinars del Vallès,081069,2015,1
+2021,Lloret de Mar,170950,2015,38
+2022,Maçanet de la Selva,171030,2015,1
+2023,Malgrat de Mar,081108,2015,23
+2024,Manlleu,081120,2015,27
+2025,Manresa,081136,2015,217
+2026,Martorell,081141,2015,54
+2027,Martorelles,081154,2015,3
+2028,"Masies de Voltregà, les",081173,2015,4
+2029,"Masnou, el",081189,2015,52
+2030,Masquefa,081192,2015,1
+2031,Matadepera,081206,2015,8
+2032,Mataró,081213,2015,282
+2033,Moià,081385,2015,3
+2034,Molins de Rei,081234,2015,135
+2035,Mollerussa,251370,2015,117
+2036,Mollet del Vallès,081249,2015,149
+2037,Monistrol de Montserrat,081271,2015,9
+2038,Montblanc,430862,2015,26
+2039,Montbrió del Camp,430884,2015,3
+2040,Montcada i Reixac,081252,2015,126
+2041,Montellà i Martinet,251399,2015,5
+2042,Montesquiu,081311,2015,2
+2043,Montgat,081265,2015,33
+2044,"Montmell, el",430901,2015,1
+2045,Montmeló,081350,2015,12
+2046,Montornès del Vallès,081363,2015,4
+2047,Mont-ras,171100,2015,1
+2048,Mont-roig del Camp,430923,2015,5
+2049,Móra d'Ebre,430939,2015,21
+2050,Móra la Nova,430944,2015,4
+2051,Navarcles,081402,2015,4
+2052,Navàs,081419,2015,2
+2053,Olesa de Montserrat,081477,2015,18
+2054,Olivella,081483,2015,1
+2055,Olost,081496,2015,1
+2056,Olot,171143,2015,101
+2057,Palafolls,081555,2015,8
+2058,Palafrugell,171175,2015,106
+2059,Palamós,171181,2015,25
+2060,Palau-saverdera,171208,2015,3
+2061,Palau-solità i Plegamans,081568,2015,2
+2062,"Pallaresos, els",431009,2015,2
+2063,Pallejà,081574,2015,7
+2064,Pals,171241,2015,1
+2065,"Papiol, el",081580,2015,2
+2066,Parets del Vallès,081593,2015,15
+2067,Penelles,251641,2015,1
+2068,Piera,081614,2015,14
+2069,Pineda de Mar,081635,2015,8
+2070,Pira,431074,2015,1
+2071,"Pla de Santa Maria, el",431080,2015,1
+2072,"Pla del Penedès, el",081640,2015,2
+2073,"Pobla de Claramunt, la",081653,2015,1
+2074,"Pobla de Mafumet, la",431093,2015,5
+2075,"Pobla de Montornès, la",431114,2015,1
+2076,"Pobla de Segur, la",251713,2015,24
+2077,Polinyà,081672,2015,6
+2078,"Pont de Suert, el",251734,2015,8
+2079,"Pont de Vilomara i Rocafort, el",081825,2015,9
+2080,"Port de la Selva, el",171404,2015,1
+2081,"Prat de Llobregat, el",081691,2015,419
+2082,"Prats de Rei, els",081705,2015,4
+2083,Premià de Dalt,082303,2015,5
+2084,Premià de Mar,081727,2015,12
+2085,"Preses, les",171390,2015,10
+2086,Puigcerdà,171411,2015,16
+2087,Puigverd de Lleida,251826,2015,1
+2088,Quart,171426,2015,3
+2089,Reus,431233,2015,352
+2090,Rialp,251832,2015,2
+2091,Ribes de Freser,171450,2015,5
+2092,Riells i Viabrea,171463,2015,1
+2093,Ripoll,171479,2015,37
+2094,Ripollet,081803,2015,155
+2095,Riudellots de la Selva,171501,2015,2
+2096,Riudoms,431299,2015,1
+2097,"Roca del Vallès, la",081810,2015,2
+2098,Roda de Berà,431310,2015,2
+2099,Roda de Ter,081831,2015,5
+2100,Roquetes,431331,2015,4
+2101,Roses,171523,2015,22
+2102,Rosselló,251898,2015,2
+2103,Rubí,081846,2015,50
+2104,Sabadell,081878,2015,613
+2105,Salàs de Pallars,251902,2015,2
+2106,Sallent,081918,2015,9
+2107,Salou,439057,2015,77
+2108,Salt,171557,2015,117
+2109,Sant Adrià de Besòs,081944,2015,306
+2110,Sant Andreu de la Barca,081960,2015,62
+2111,Sant Antoni de Vilamajor,081982,2015,1
+2112,Sant Boi de Llobregat,082009,2015,67
+2113,Sant Carles de la Ràpita,431362,2015,51
+2114,Sant Celoni,082021,2015,2
+2115,Sant Cugat del Vallès,082055,2015,543
+2116,Sant Esteve Sesrovires,082080,2015,3
+2117,Sant Feliu de Codines,082107,2015,1
+2118,Sant Feliu de Guíxols,171609,2015,37
+2119,Sant Feliu de Llobregat,082114,2015,187
+2120,Sant Fost de Campsentelles,082093,2015,12
+2121,Sant Fruitós de Bages,082135,2015,2
+2122,Sant Gregori,171637,2015,15
+2123,Sant Hilari Sacalm,171642,2015,1
+2124,Sant Hipòlit de Voltregà,082153,2015,1
+2125,Sant Joan de les Abadesses,171674,2015,3
+2126,Sant Joan de Vilatorrada,082188,2015,2
+2127,Sant Joan Despí,082172,2015,83
+2128,Sant Joan les Fonts,171851,2015,5
+2129,Sant Julià de Ramis,171693,2015,1
+2130,Sant Julià de Vilatorta,082205,2015,2
+2131,Sant Just Desvern,082212,2015,30
+2132,Sant Llorenç Savall,082233,2015,10
+2133,Sant Martí de Centelles,082248,2015,3
+2134,Sant Martí Sarroca,082270,2015,2
+2135,Sant Pere de Ribes,082310,2015,37
+2136,Sant Pere de Riudebitlles,082325,2015,4
+2137,Sant Pere de Torelló,082331,2015,10
+2138,Sant Quintí de Mediona,082362,2015,2
+2139,Sant Quirze de Besora,082378,2015,3
+2140,Sant Quirze del Vallès,082384,2015,37
+2141,Sant Sadurní d'Anoia,082401,2015,35
+2142,Sant Vicenç de Castellet,082628,2015,33
+2143,Sant Vicenç de Montalt,082649,2015,1
+2144,Sant Vicenç de Torelló,082652,2015,5
+2145,Sant Vicenç dels Horts,082634,2015,39
+2146,Santa Bàrbara,431384,2015,2
+2147,Santa Coloma de Cervelló,082444,2015,2
+2148,Santa Coloma de Farners,171805,2015,16
+2149,Santa Coloma de Gramenet,082457,2015,292
+2150,Santa Coloma de Queralt,431397,2015,1
+2151,Santa Cristina d'Aro,171812,2015,22
+2152,Santa Eugènia de Berga,082460,2015,10
+2153,Santa Margarida de Montbui,082508,2015,15
+2154,Santa Margarida i els Monjos,082515,2015,45
+2155,Santa Maria de Martorelles,082567,2015,1
+2156,Santa Perpètua de Mogoda,082606,2015,77
+2157,Santpedor,081923,2015,4
+2158,Sarrià de Ter,171864,2015,6
+2159,Sarroca de Bellera,252017,2015,1
+2160,"Selva del Camp, la",431457,2015,10
+2161,"Sénia, la",430445,2015,1
+2162,"Sentiu de Sió, la",250352,2015,2
+2163,Sentmenat,082671,2015,11
+2164,"Seu d'Urgell, la",252038,2015,23
+2165,Sidamon,252056,2015,1
+2166,Sils,171931,2015,2
+2167,Sitges,082704,2015,96
+2168,Solsona,252075,2015,57
+2169,Sort,252094,2015,25
+2170,Subirats,082732,2015,1
+2171,Súria,082747,2015,3
+2172,Talarn,252154,2015,1
+2173,Taradell,082785,2015,8
+2174,Tarragona,431482,2015,329
+2175,Tàrrega,252173,2015,31
+2176,Tavèrnoles,082750,2015,1
+2177,Teià,082819,2015,7
+2178,Terrassa,082798,2015,1080
+2179,Tiana,082824,2015,14
+2180,Tona,082830,2015,3
+2181,Torà,252234,2015,1
+2182,Tordera,082845,2015,52
+2183,Torelló,082858,2015,50
+2184,"Torre de Cabdella, la",252271,2015,25
+2185,"Torre de Claramunt, la",082861,2015,3
+2186,"Torre de l'Espanyol, la",431520,2015,14
+2187,Torredembarra,431536,2015,15
+2188,Torrelavit,082877,2015,2
+2189,Torrelles de Foix,082883,2015,2
+2190,Torrelles de Llobregat,082896,2015,2
+2191,Torres de Segre,252326,2015,1
+2192,Torroella de Montgrí,171997,2015,10
+2193,Tortosa,431554,2015,28
+2194,Tremp,252347,2015,56
+2195,Vallirana,082956,2015,2
+2196,Vallmoll,431606,2015,1
+2197,Valls,431613,2015,47
+2198,Vandellòs i l'Hospitalet de l'Infant,431628,2015,8
+2199,"Vendrell, el",431634,2015,100
+2200,Verges,172116,2015,1
+2201,Vic,082981,2015,151
+2202,Vidrà,172121,2015,1
+2203,Vielha e Mijaran,252430,2015,19
+2204,Vilablareix,172155,2015,2
+2205,Vilada,082994,2015,1
+2206,Viladecans,083015,2015,145
+2207,Vilafant,172214,2015,2
+2208,Vilafranca del Penedès,083054,2015,232
+2209,Vilallonga del Camp,431665,2015,2
+2210,Vilamalla,172266,2015,1
+2211,Vilanova de Segrià,252516,2015,3
+2212,Vilanova del Camí,083020,2015,12
+2213,Vilanova d'Escornalbou,431671,2015,2
+2214,Vilanova i la Geltrú,083073,2015,215
+2215,Vila-rodona,431704,2015,1
+2216,Vila-seca,431711,2015,63
+2217,Vilassar de Dalt,082140,2015,2
+2218,Vilassar de Mar,082191,2015,31
+2219,Vimbodí i Poblet,431763,2015,1
+2220,Vinyols i els Arcs,431785,2015,1
+2221,Abrera,080018,2014,34
+2222,Agramunt,250030,2014,2
+2223,Aiguafreda,080142,2014,3
+2224,Aiguaviva,170025,2014,1
+2225,Aitona,250387,2014,1
+2226,Alcanar,430043,2014,1
+2227,Alcarràs,250117,2014,2
+2228,Alcoletge,250122,2014,15
+2229,Alcover,430056,2014,2
+2230,"Aleixar, l'",430075,2014,1
+2231,Alella,080039,2014,5
+2232,Alguaire,250169,2014,5
+2233,Almacelles,250194,2014,1
+2234,Almoster,430115,2014,1
+2235,Alt Àneu,250241,2014,1
+2236,Altafulla,430120,2014,14
+2237,"Ametlla del Vallès, l'",080057,2014,2
+2238,"Ampolla, l'",439060,2014,3
+2239,Amposta,430141,2014,37
+2240,Anglès,170084,2014,4
+2241,Arbeca,250292,2014,3
+2242,"Arboç, l'",430167,2014,13
+2243,Arbúcies,170097,2014,6
+2244,Arenys de Mar,080060,2014,9
+2245,Arenys de Munt,080076,2014,2
+2246,Argentona,080095,2014,1
+2247,"Armentera, l'",170118,2014,5
+2248,Artés,080109,2014,4
+2249,Artesa de Segre,250349,2014,3
+2250,Avinyó,080121,2014,10
+2251,Avinyonet del Penedès,080137,2014,2
+2252,Badalona,080155,2014,385
+2253,Badia del Vallès,089045,2014,18
+2254,Bagà,080168,2014,3
+2255,Balaguer,250404,2014,76
+2256,Balenyà,080174,2014,1
+2257,Balsareny,080180,2014,3
+2258,Banyeres del Penedès,430206,2014,2
+2259,Banyoles,170157,2014,43
+2260,Barberà del Vallès,082520,2014,114
+2261,Barcelona,080193,2014,6139
+2262,Batea,430228,2014,2
+2263,Begues,080207,2014,2
+2264,Bellcaire d'Urgell,250479,2014,1
+2265,Bellpuig,250501,2014,1
+2266,Bellver de Cerdanya,250518,2014,2
+2267,Benissanet,430265,2014,1
+2268,Berga,080229,2014,17
+2269,Bigues i Riells,080235,2014,1
+2270,"Bisbal del Penedès, la",430287,2014,2
+2271,"Bisbal d'Empordà, la",170221,2014,16
+2272,Blanes,170237,2014,64
+2273,"Borges Blanques, les",250582,2014,6
+2274,Botarell,430332,2014,2
+2275,Cabanes,170307,2014,1
+2276,"Cabanyes, les",080272,2014,1
+2277,Cabrera de Mar,080291,2014,3
+2278,Cabrils,080305,2014,1
+2279,Cadaqués,170329,2014,9
+2280,Calaf,080312,2014,25
+2281,Calafell,430379,2014,16
+2282,Caldes de Malavella,170335,2014,4
+2283,Caldes de Montbui,080333,2014,4
+2284,Calella,080351,2014,4
+2285,Calldetenes,080370,2014,7
+2286,Callús,080386,2014,14
+2287,Cambrils,430385,2014,148
+2288,Campdevànol,170366,2014,2
+2289,Campllong,170388,2014,1
+2290,Camprodon,170391,2014,1
+2291,Canet de Mar,080403,2014,18
+2292,"Canonja, la",439076,2014,8
+2293,Canovelles,080410,2014,28
+2294,Canyelles,080431,2014,2
+2295,Capellades,080446,2014,3
+2296,Cardedeu,080462,2014,5
+2297,Cardona,080478,2014,5
+2298,Carme,080484,2014,1
+2299,Caseres,430419,2014,1
+2300,Cassà de la Selva,170448,2014,5
+2301,Castellar del Vallès,080517,2014,21
+2302,Castellbell i el Vilar,080538,2014,3
+2303,Castellbisbal,080543,2014,16
+2304,Castellcir,080556,2014,1
+2305,Castelldefels,080569,2014,82
+2306,Castellet i la Gornal,080581,2014,5
+2307,Castellfollit de la Roca,170464,2014,3
+2308,Castelló d'Empúries,170470,2014,5
+2309,Castell-Platja d'Aro,170486,2014,17
+2310,Castellterçol,080641,2014,2
+2311,Castellvell del Camp,430424,2014,1
+2312,"Cellera de Ter, la",171899,2014,1
+2313,Celrà,170499,2014,2
+2314,Centelles,080673,2014,8
+2315,Cerdanyola del Vallès,082665,2014,56
+2316,Cervelló,080689,2014,1
+2317,Cervera,250729,2014,15
+2318,Colomers,170558,2014,1
+2319,Constantí,430477,2014,22
+2320,Corbera de Llobregat,080728,2014,8
+2321,Cornellà de Llobregat,080734,2014,218
+2322,Creixell,430509,2014,1
+2323,Cubelles,080749,2014,10
+2324,Cunit,430516,2014,19
+2325,Deltebre,439018,2014,2
+2326,Dosrius,080752,2014,1
+2327,Esparreguera,080765,2014,3
+2328,"Espluga de Francolí, l'",430542,2014,3
+2329,Esplugues de Llobregat,080771,2014,76
+2330,"Esquirol, l'",082541,2014,2
+2331,"Estany, l'",080790,2014,1
+2332,Figueres,170669,2014,94
+2333,Flix,430607,2014,5
+2334,Fondarella,250931,2014,1
+2335,Fontcoberta,170715,2014,5
+2336,Forallac,179026,2014,1
+2337,Fornells de la Selva,170736,2014,1
+2338,"Franqueses del Vallès, les",080863,2014,27
+2339,"Fuliola, la",250962,2014,3
+2340,Gandesa,430640,2014,16
+2341,"Garriga, la",080885,2014,4
+2342,Gavà,080898,2014,97
+2343,Gelida,080919,2014,20
+2344,Girona,170792,2014,181
+2345,Gironella,080924,2014,3
+2346,"Granada, la",080945,2014,2
+2347,"Granadella, la",251018,2014,1
+2348,Granollers,080961,2014,115
+2349,Guissona,251109,2014,63
+2350,Gurb,081000,2014,1
+2351,Horta de Sant Joan,430712,2014,9
+2352,"Hospitalet de Llobregat, l'",081017,2014,680
+2353,Hostalric,170834,2014,5
+2354,Igualada,081022,2014,122
+2355,"Llagosta, la",081056,2014,4
+2356,Llagostera,170890,2014,5
+2357,Llançà,170926,2014,5
+2358,Llavorsí,251266,2014,1
+2359,Lleida,251207,2014,480
+2360,Llers,170932,2014,1
+2361,Lliçà d'Amunt,081075,2014,16
+2362,Llívia,170947,2014,1
+2363,Lloret de Mar,170950,2014,15
+2364,Maçanet de la Selva,171030,2014,1
+2365,Malgrat de Mar,081108,2014,20
+2366,Manlleu,081120,2014,15
+2367,Manresa,081136,2014,63
+2368,Martorell,081141,2014,15
+2369,Martorelles,081154,2014,1
+2370,Mas de Barberans,430770,2014,1
+2371,Masdenverge,430786,2014,1
+2372,"Masies de Voltregà, les",081173,2014,6
+2373,"Masnou, el",081189,2014,48
+2374,Masquefa,081192,2014,2
+2375,Matadepera,081206,2014,13
+2376,Mataró,081213,2014,234
+2377,Moià,081385,2014,9
+2378,Molins de Rei,081234,2014,35
+2379,Mollerussa,251370,2014,127
+2380,Mollet del Vallès,081249,2014,112
+2381,Monistrol de Montserrat,081271,2014,10
+2382,Montagut i Oix,171096,2014,2
+2383,Montblanc,430862,2014,12
+2384,Montbrió del Camp,430884,2014,3
+2385,Montcada i Reixac,081252,2014,68
+2386,Montellà i Martinet,251399,2014,3
+2387,Montgat,081265,2014,25
+2388,Montmeló,081350,2014,9
+2389,Montornès del Vallès,081363,2014,4
+2390,Mont-roig del Camp,430923,2014,9
+2391,Móra d'Ebre,430939,2014,20
+2392,Móra la Nova,430944,2014,1
+2393,"Morell, el",430957,2014,2
+2394,Muntanyola,081290,2014,1
+2395,Navarcles,081402,2014,3
+2396,Òdena,081430,2014,1
+2397,Olesa de Montserrat,081477,2014,41
+2398,Olot,171143,2014,105
+2399,Olvan,081445,2014,3
+2400,Palafolls,081555,2014,8
+2401,Palafrugell,171175,2014,63
+2402,Palamós,171181,2014,8
+2403,Palau-saverdera,171208,2014,1
+2404,Palau-solità i Plegamans,081568,2014,2
+2405,Parets del Vallès,081593,2014,18
+2406,Penelles,251641,2014,2
+2407,Perafort,431037,2014,1
+2408,Piera,081614,2014,15
+2409,Pineda de Mar,081635,2014,11
+2410,"Pla de Santa Maria, el",431080,2014,2
+2411,"Planes d'Hostoles, les",171334,2014,1
+2412,"Pobla de Claramunt, la",081653,2014,1
+2413,"Pobla de Mafumet, la",431093,2014,3
+2414,"Pobla de Segur, la",251713,2014,10
+2415,Polinyà,081672,2014,2
+2416,"Pont de Suert, el",251734,2014,9
+2417,"Pont de Vilomara i Rocafort, el",081825,2014,4
+2418,Porqueres,171371,2014,2
+2419,"Port de la Selva, el",171404,2014,1
+2420,"Prat de Llobregat, el",081691,2014,165
+2421,"Prats de Rei, els",081705,2014,3
+2422,Premià de Dalt,082303,2014,1
+2423,Premià de Mar,081727,2014,3
+2424,"Preses, les",171390,2014,10
+2425,Puigcerdà,171411,2014,7
+2426,Puigdàlber,081748,2014,1
+2427,Puigpelat,431191,2014,1
+2428,Quart,171426,2014,1
+2429,Reus,431233,2014,411
+2430,Rialp,251832,2014,1
+2431,Ripoll,171479,2014,20
+2432,Ripollet,081803,2014,28
+2433,Riudoms,431299,2014,1
+2434,"Roca del Vallès, la",081810,2014,1
+2435,Roda de Berà,431310,2014,3
+2436,Roda de Ter,081831,2014,5
+2437,Roquetes,431331,2014,3
+2438,Roses,171523,2014,28
+2439,Rubí,081846,2014,14
+2440,Sabadell,081878,2014,550
+2441,Sallent,081918,2014,9
+2442,Salou,439057,2014,93
+2443,Salt,171557,2014,113
+2444,Sant Adrià de Besòs,081944,2014,171
+2445,Sant Andreu de la Barca,081960,2014,20
+2446,Sant Boi de Llobregat,082009,2014,33
+2447,Sant Carles de la Ràpita,431362,2014,75
+2448,Sant Celoni,082021,2014,3
+2449,Sant Cugat del Vallès,082055,2014,241
+2450,Sant Feliu de Codines,082107,2014,1
+2451,Sant Feliu de Guíxols,171609,2014,25
+2452,Sant Feliu de Llobregat,082114,2014,104
+2453,Sant Fost de Campsentelles,082093,2014,15
+2454,Sant Fruitós de Bages,082135,2014,1
+2455,Sant Gregori,171637,2014,16
+2456,Sant Hilari Sacalm,171642,2014,5
+2457,Sant Hipòlit de Voltregà,082153,2014,4
+2458,Sant Iscle de Vallalta,081939,2014,1
+2459,Sant Jaume de Llierca,171655,2014,2
+2460,Sant Joan de les Abadesses,171674,2014,6
+2461,Sant Joan Despí,082172,2014,137
+2462,Sant Joan les Fonts,171851,2014,8
+2463,Sant Julià de Ramis,171693,2014,1
+2464,Sant Just Desvern,082212,2014,24
+2465,Sant Llorenç Savall,082233,2014,9
+2466,Sant Martí de Centelles,082248,2014,3
+2467,Sant Martí de Tous,082264,2014,1
+2468,Sant Martí Sesgueioles,082286,2014,1
+2469,Sant Pere de Ribes,082310,2014,17
+2470,Sant Pere de Torelló,082331,2014,1
+2471,Sant Pol de Mar,082359,2014,2
+2472,Sant Quintí de Mediona,082362,2014,1
+2473,Sant Quirze de Besora,082378,2014,2
+2474,Sant Quirze del Vallès,082384,2014,65
+2475,Sant Sadurní d'Anoia,082401,2014,33
+2476,Sant Vicenç de Castellet,082628,2014,31
+2477,Sant Vicenç de Montalt,082649,2014,1
+2478,Sant Vicenç de Torelló,082652,2014,3
+2479,Sant Vicenç dels Horts,082634,2014,4
+2480,Santa Bàrbara,431384,2014,4
+2481,Santa Coloma de Cervelló,082444,2014,2
+2482,Santa Coloma de Farners,171805,2014,31
+2483,Santa Coloma de Gramenet,082457,2014,150
+2484,Santa Coloma de Queralt,431397,2014,2
+2485,Santa Cristina d'Aro,171812,2014,1
+2486,Santa Eugènia de Berga,082460,2014,5
+2487,Santa Margarida de Montbui,082508,2014,22
+2488,Santa Margarida i els Monjos,082515,2014,59
+2489,Santa Maria d'Oló,082589,2014,1
+2490,Santa Perpètua de Mogoda,082606,2014,73
+2491,Santpedor,081923,2014,12
+2492,Sarrià de Ter,171864,2014,2
+2493,"Selva de Mar, la",171886,2014,1
+2494,"Selva del Camp, la",431457,2014,6
+2495,"Sénia, la",430445,2014,1
+2496,Sentmenat,082671,2014,22
+2497,"Seu d'Urgell, la",252038,2014,37
+2498,Sils,171931,2014,2
+2499,Sitges,082704,2014,124
+2500,Solsona,252075,2014,8
+2501,Soriguera,252081,2014,2
+2502,Sort,252094,2014,10
+2503,Sudanell,252115,2014,1
+2504,Súria,082747,2014,2
+2505,Talarn,252154,2014,1
+2506,Talavera,252167,2014,1
+2507,Taradell,082785,2014,3
+2508,Tarragona,431482,2014,425
+2509,Tàrrega,252173,2014,22
+2510,Teià,082819,2014,2
+2511,Terrassa,082798,2014,632
+2512,Tiana,082824,2014,19
+2513,Tírvia,252213,2014,2
+2514,Tona,082830,2014,2
+2515,Torà,252234,2014,2
+2516,Tordera,082845,2014,25
+2517,Torelló,082858,2014,59
+2518,"Torre de Cabdella, la",252271,2014,2
+2519,"Torre de Claramunt, la",082861,2014,1
+2520,"Torre de l'Espanyol, la",431520,2014,2
+2521,Torredembarra,431536,2014,23
+2522,Torrelavit,082877,2014,1
+2523,Torrelles de Foix,082883,2014,2
+2524,Torrelles de Llobregat,082896,2014,2
+2525,Torres de Segre,252326,2014,5
+2526,Torroella de Montgrí,171997,2014,13
+2527,Tortosa,431554,2014,25
+2528,Tremp,252347,2014,34
+2529,Vall de Cardós,259010,2014,1
+2530,"Vall d'en Bas, la",172076,2014,2
+2531,Vallbona d'Anoia,082922,2014,1
+2532,Vallfogona de Balaguer,252402,2014,1
+2533,Vallirana,082956,2014,9
+2534,Valls,431613,2014,46
+2535,Vandellòs i l'Hospitalet de l'Infant,431628,2014,6
+2536,"Vendrell, el",431634,2014,145
+2537,Vic,082981,2014,73
+2538,Vidreres,172137,2014,1
+2539,Vielha e Mijaran,252430,2014,30
+2540,Vilablareix,172155,2014,2
+2541,Viladecans,083015,2014,136
+2542,Viladecavalls,083008,2014,1
+2543,Vilafant,172214,2014,2
+2544,Vilafranca del Penedès,083054,2014,159
+2545,Vilagrassa,252445,2014,1
+2546,Vilalba dels Arcs,431750,2014,1
+2547,Vilallonga del Camp,431665,2014,1
+2548,Vilanova de la Barca,252542,2014,2
+2549,Vilanova de Segrià,252516,2014,1
+2550,Vilanova del Camí,083020,2014,14
+2551,Vilanova i la Geltrú,083073,2014,137
+2552,Vila-rodona,431704,2014,1
+2553,Vila-seca,431711,2014,60
+2554,Vilassar de Dalt,082140,2014,1
+2555,Vilassar de Mar,082191,2014,41
+2556,Vilobí del Penedès,083041,2014,1
+2557,Vinyols i els Arcs,431785,2014,1
+2558,Abrera,080018,2013,34
+2559,Agramunt,250030,2013,2
+2560,Aiguafreda,080142,2013,1
+2561,Aitona,250387,2013,2
+2562,Albatàrrec,250077,2013,4
+2563,Albinyana,430022,2013,2
+2564,Alcanar,430043,2013,1
+2565,Alcarràs,250117,2013,7
+2566,Alcoletge,250122,2013,9
+2567,Alcover,430056,2013,8
+2568,"Aldea, l'",439044,2013,1
+2569,Alella,080039,2013,2
+2570,Alguaire,250169,2013,7
+2571,Alins,250175,2013,1
+2572,Almacelles,250194,2013,2
+2573,Altafulla,430120,2013,3
+2574,"Ametlla de Mar, l'",430136,2013,2
+2575,"Ampolla, l'",439060,2013,9
+2576,Amposta,430141,2013,39
+2577,"Arboç, l'",430167,2013,4
+2578,Arenys de Mar,080060,2013,29
+2579,Argentona,080095,2013,1
+2580,Artés,080109,2013,4
+2581,Avià,080116,2013,1
+2582,Avinyó,080121,2013,8
+2583,Avinyonet del Penedès,080137,2013,1
+2584,Badalona,080155,2013,1033
+2585,Badia del Vallès,089045,2013,14
+2586,Baix Pallars,250390,2013,1
+2587,Balaguer,250404,2013,47
+2588,Balsareny,080180,2013,2
+2589,Banyeres del Penedès,430206,2013,1
+2590,Banyoles,170157,2013,33
+2591,Barberà del Vallès,082520,2013,82
+2592,Barcelona,080193,2013,6586
+2593,Bàscara,170160,2013,1
+2594,Batea,430228,2013,1
+2595,Begues,080207,2013,3
+2596,Bell-lloc d'Urgell,250485,2013,2
+2597,Bellpuig,250501,2013,7
+2598,Berga,080229,2013,37
+2599,Besalú,170195,2013,2
+2600,"Bisbal del Penedès, la",430287,2013,1
+2601,"Bisbal d'Empordà, la",170221,2013,20
+2602,Blanes,170237,2013,91
+2603,"Borges Blanques, les",250582,2013,13
+2604,Botarell,430332,2013,1
+2605,Breda,170274,2013,1
+2606,Cabacés,430350,2013,1
+2607,Cabrils,080305,2013,1
+2608,Calaf,080312,2013,3
+2609,Calafell,430379,2013,12
+2610,Caldes de Montbui,080333,2013,2
+2611,Calella,080351,2013,7
+2612,Callús,080386,2013,27
+2613,Camarles,439039,2013,1
+2614,Cambrils,430385,2013,57
+2615,Camós,170353,2013,1
+2616,Campdevànol,170366,2013,2
+2617,Canet de Mar,080403,2013,30
+2618,"Canonja, la",439076,2013,4
+2619,Canovelles,080410,2013,2
+2620,Capellades,080446,2013,2
+2621,Cardona,080478,2013,5
+2622,Cassà de la Selva,170448,2013,1
+2623,Castellar del Vallès,080517,2013,40
+2624,Castellbisbal,080543,2013,3
+2625,Castelldefels,080569,2013,40
+2626,Castellfollit de la Roca,170464,2013,12
+2627,Castelló d'Empúries,170470,2013,29
+2628,Castell-Platja d'Aro,170486,2013,3
+2629,Celrà,170499,2013,1
+2630,Centelles,080673,2013,28
+2631,Cerdanyola del Vallès,082665,2013,35
+2632,Cervelló,080689,2013,1
+2633,Cervera,250729,2013,13
+2634,Collbató,080692,2013,2
+2635,Constantí,430477,2013,6
+2636,Copons,080713,2013,1
+2637,Corbera de Llobregat,080728,2013,1
+2638,Cornellà de Llobregat,080734,2013,267
+2639,Cubelles,080749,2013,5
+2640,Cunit,430516,2013,1
+2641,Deltebre,439018,2013,1
+2642,Esparreguera,080765,2013,3
+2643,"Espluga de Francolí, l'",430542,2013,2
+2644,Esplugues de Llobregat,080771,2013,76
+2645,Espot,250827,2013,2
+2646,Esterri d'Àneu,250864,2013,6
+2647,Esterri de Cardós,250870,2013,1
+2648,Figueres,170669,2013,146
+2649,Figuerola del Camp,430593,2013,1
+2650,Flaçà,170675,2013,1
+2651,"Franqueses del Vallès, les",080863,2013,39
+2652,"Fuliola, la",250962,2013,1
+2653,Gandesa,430640,2013,11
+2654,"Garriga, la",080885,2013,1
+2655,Gavà,080898,2013,67
+2656,Gelida,080919,2013,15
+2657,Girona,170792,2013,111
+2658,"Granada, la",080945,2013,1
+2659,Granollers,080961,2013,42
+2660,"Guingueta d'Àneu, la",259031,2013,1
+2661,Guissona,251109,2013,33
+2662,Horta de Sant Joan,430712,2013,7
+2663,"Hospitalet de Llobregat, l'",081017,2013,698
+2664,Igualada,081022,2013,80
+2665,"Jonquera, la",170865,2013,1
+2666,"Llagosta, la",081056,2013,6
+2667,Llagostera,170890,2013,1
+2668,Llançà,170926,2013,6
+2669,Llavorsí,251266,2013,6
+2670,Lleida,251207,2013,575
+2671,Lliçà de Vall,081081,2013,1
+2672,Llinars del Vallès,081069,2013,1
+2673,Llívia,170947,2013,1
+2674,Lloret de Mar,170950,2013,51
+2675,Malgrat de Mar,081108,2013,4
+2676,Manlleu,081120,2013,17
+2677,Manresa,081136,2013,64
+2678,Martorell,081141,2013,18
+2679,"Masies de Voltregà, les",081173,2013,3
+2680,"Masnou, el",081189,2013,143
+2681,Masquefa,081192,2013,2
+2682,Matadepera,081206,2013,6
+2683,Mataró,081213,2013,209
+2684,Molins de Rei,081234,2013,23
+2685,Mollerussa,251370,2013,71
+2686,Mollet del Vallès,081249,2013,62
+2687,Monistrol de Montserrat,081271,2013,1
+2688,Montblanc,430862,2013,4
+2689,Montbrió del Camp,430884,2013,1
+2690,Montcada i Reixac,081252,2013,62
+2691,Montesquiu,081311,2013,1
+2692,Montgat,081265,2013,21
+2693,Montmeló,081350,2013,6
+2694,Mont-ras,171100,2013,1
+2695,Mont-roig del Camp,430923,2013,11
+2696,Móra d'Ebre,430939,2013,1
+2697,Navarcles,081402,2013,13
+2698,Navàs,081419,2013,11
+2699,Òdena,081430,2013,1
+2700,Olesa de Montserrat,081477,2013,2
+2701,Olot,171143,2013,136
+2702,Olvan,081445,2013,3
+2703,Palafolls,081555,2013,19
+2704,Palafrugell,171175,2013,113
+2705,Palamós,171181,2013,26
+2706,"Palau d'Anglesola, el",251581,2013,1
+2707,Palau-solità i Plegamans,081568,2013,5
+2708,Pallejà,081574,2013,1
+2709,"Palma de Cervelló, la",089058,2013,1
+2710,Pals,171241,2013,1
+2711,Pardines,171254,2013,2
+2712,Parets del Vallès,081593,2013,48
+2713,Penelles,251641,2013,4
+2714,Perafort,431037,2013,1
+2715,Piera,081614,2013,7
+2716,Pineda de Mar,081635,2013,5
+2717,"Pla de Santa Maria, el",431080,2013,2
+2718,"Pla del Penedès, el",081640,2013,1
+2719,"Planes d'Hostoles, les",171334,2013,1
+2720,"Pobla de Claramunt, la",081653,2013,1
+2721,"Pobla de Segur, la",251713,2013,4
+2722,Polinyà,081672,2013,7
+2723,"Pont de Vilomara i Rocafort, el",081825,2013,1
+2724,"Port de la Selva, el",171404,2013,4
+2725,"Prat de Llobregat, el",081691,2013,130
+2726,"Prats de Rei, els",081705,2013,1
+2727,Premià de Dalt,082303,2013,6
+2728,Premià de Mar,081727,2013,10
+2729,"Preses, les",171390,2013,9
+2730,Puigcerdà,171411,2013,12
+2731,Quart,171426,2013,1
+2732,Reus,431233,2013,340
+2733,Rialp,251832,2013,11
+2734,Ribes de Freser,171450,2013,2
+2735,Ripoll,171479,2013,10
+2736,Ripollet,081803,2013,21
+2737,Roquetes,431331,2013,6
+2738,Roses,171523,2013,21
+2739,Rosselló,251898,2013,1
+2740,Rubí,081846,2013,29
+2741,Sabadell,081878,2013,595
+2742,Sallent,081918,2013,33
+2743,Salou,439057,2013,43
+2744,Salt,171557,2013,81
+2745,Sant Adrià de Besòs,081944,2013,241
+2746,Sant Andreu de la Barca,081960,2013,42
+2747,Sant Andreu de Llavaneres,081976,2013,1
+2748,Sant Aniol de Finestres,171833,2013,1
+2749,Sant Boi de Llobregat,082009,2013,14
+2750,Sant Carles de la Ràpita,431362,2013,74
+2751,Sant Celoni,082021,2013,3
+2752,Sant Climent de Llobregat,082042,2013,1
+2753,Sant Cugat del Vallès,082055,2013,265
+2754,Sant Esteve Sesrovires,082080,2013,1
+2755,Sant Feliu de Codines,082107,2013,1
+2756,Sant Feliu de Guíxols,171609,2013,13
+2757,Sant Feliu de Llobregat,082114,2013,88
+2758,Sant Feliu de Pallerols,171616,2013,1
+2759,Sant Fost de Campsentelles,082093,2013,6
+2760,Sant Fruitós de Bages,082135,2013,3
+2761,Sant Gregori,171637,2013,24
+2762,Sant Hilari Sacalm,171642,2013,6
+2763,Sant Hipòlit de Voltregà,082153,2013,1
+2764,Sant Iscle de Vallalta,081939,2013,1
+2765,Sant Jaume de Llierca,171655,2013,2
+2766,Sant Joan de les Abadesses,171674,2013,7
+2767,Sant Joan de Vilatorrada,082188,2013,1
+2768,Sant Joan Despí,082172,2013,75
+2769,Sant Julià de Ramis,171693,2013,1
+2770,Sant Just Desvern,082212,2013,7
+2771,Sant Llorenç Savall,082233,2013,2
+2772,Sant Martí Sarroca,082270,2013,1
+2773,Sant Pere de Ribes,082310,2013,27
+2774,Sant Pol de Mar,082359,2013,3
+2775,Sant Quirze de Besora,082378,2013,1
+2776,Sant Quirze del Vallès,082384,2013,85
+2777,Sant Sadurní d'Anoia,082401,2013,26
+2778,Sant Vicenç de Castellet,082628,2013,2
+2779,Sant Vicenç de Montalt,082649,2013,1
+2780,Sant Vicenç dels Horts,082634,2013,14
+2781,Santa Coloma de Cervelló,082444,2013,3
+2782,Santa Coloma de Farners,171805,2013,25
+2783,Santa Coloma de Gramenet,082457,2013,99
+2784,Santa Cristina d'Aro,171812,2013,8
+2785,Santa Eulàlia de Ronçana,082482,2013,1
+2786,Santa Margarida de Montbui,082508,2013,11
+2787,Santa Margarida i els Monjos,082515,2013,52
+2788,Santa Maria de Palautordera,082592,2013,1
+2789,Santa Perpètua de Mogoda,082606,2013,59
+2790,Santpedor,081923,2013,6
+2791,Sarrià de Ter,171864,2013,1
+2792,"Selva del Camp, la",431457,2013,3
+2793,Sentmenat,082671,2013,16
+2794,"Seu d'Urgell, la",252038,2013,40
+2795,Sils,171931,2013,3
+2796,Sitges,082704,2013,71
+2797,Solsona,252075,2013,26
+2798,Soriguera,252081,2013,5
+2799,Sort,252094,2013,48
+2800,Súria,082747,2013,6
+2801,Taradell,082785,2013,1
+2802,Tarragona,431482,2013,300
+2803,Tàrrega,252173,2013,22
+2804,Teià,082819,2013,4
+2805,Terrassa,082798,2013,813
+2806,Tiana,082824,2013,115
+2807,Tona,082830,2013,1
+2808,Tordera,082845,2013,33
+2809,Torelló,082858,2013,51
+2810,"Torre de Cabdella, la",252271,2013,1
+2811,"Torre de l'Espanyol, la",431520,2013,2
+2812,Torredembarra,431536,2013,11
+2813,Torres de Segre,252326,2013,7
+2814,Torroella de Montgrí,171997,2013,10
+2815,Tortosa,431554,2013,34
+2816,Tremp,252347,2013,2
+2817,Vacarisses,082917,2013,2
+2818,"Vall de Bianya, la",172082,2013,2
+2819,Vall de Cardós,259010,2013,2
+2820,"Vall d'en Bas, la",172076,2013,3
+2821,Vallirana,082956,2013,3
+2822,Valls,431613,2013,32
+2823,"Vendrell, el",431634,2013,58
+2824,Vic,082981,2013,79
+2825,Vidreres,172137,2013,1
+2826,Vielha e Mijaran,252430,2013,26
+2827,Vilablareix,172155,2013,5
+2828,Viladecans,083015,2013,58
+2829,Vilademuls,172180,2013,1
+2830,Vilafant,172214,2013,4
+2831,Vilafranca del Penedès,083054,2013,158
+2832,Vilanova de Sau,083036,2013,1
+2833,Vilanova del Camí,083020,2013,9
+2834,Vilanova i la Geltrú,083073,2013,114
+2835,Vila-rodona,431704,2013,1
+2836,Vila-seca,431711,2013,18
+2837,Vilassar de Dalt,082140,2013,1
+2838,Vilassar de Mar,082191,2013,21
+2839,Vilobí del Penedès,083041,2013,1
+2840,Abrera,080018,2012,3
+2841,Aitona,250387,2012,4
+2842,Albatàrrec,250077,2012,1
+2843,Albinyana,430022,2012,1
+2844,Alcarràs,250117,2012,1
+2845,Alcoletge,250122,2012,2
+2846,Alcover,430056,2012,2
+2847,"Aldea, l'",439044,2012,2
+2848,Alella,080039,2012,7
+2849,Alfarràs,250138,2012,1
+2850,Alguaire,250169,2012,1
+2851,Almacelles,250194,2012,3
+2852,Almoster,430115,2012,1
+2853,Alp,170062,2012,2
+2854,Altafulla,430120,2012,3
+2855,"Ametlla de Mar, l'",430136,2012,1
+2856,"Ampolla, l'",439060,2012,3
+2857,Amposta,430141,2012,31
+2858,"Arboç, l'",430167,2012,5
+2859,Arbúcies,170097,2012,1
+2860,Arenys de Mar,080060,2012,27
+2861,Arenys de Munt,080076,2012,2
+2862,Argentona,080095,2012,4
+2863,Artés,080109,2012,6
+2864,Avinyó,080121,2012,4
+2865,Badalona,080155,2012,325
+2866,Badia del Vallès,089045,2012,19
+2867,Balaguer,250404,2012,4
+2868,Balsareny,080180,2012,3
+2869,Banyeres del Penedès,430206,2012,3
+2870,Banyoles,170157,2012,71
+2871,Barberà del Vallès,082520,2012,64
+2872,Barcelona,080193,2012,8315
+2873,Begues,080207,2012,3
+2874,Bellpuig,250501,2012,23
+2875,Benissanet,430265,2012,1
+2876,Berga,080229,2012,41
+2877,Besalú,170195,2012,2
+2878,Bigues i Riells,080235,2012,30
+2879,"Bisbal del Penedès, la",430287,2012,1
+2880,"Bisbal d'Empordà, la",170221,2012,39
+2881,Blanes,170237,2012,23
+2882,Bolvir,170242,2012,11
+2883,Cabacés,430350,2012,1
+2884,Cabrera d'Anoia,080288,2012,1
+2885,Cabrera de Mar,080291,2012,4
+2886,Calaf,080312,2012,17
+2887,Calafell,430379,2012,10
+2888,Caldes de Montbui,080333,2012,2
+2889,Caldes d'Estrac,080327,2012,1
+2890,Calella,080351,2012,5
+2891,Callús,080386,2012,13
+2892,Cambrils,430385,2012,36
+2893,Canet de Mar,080403,2012,6
+2894,"Canonja, la",439076,2012,4
+2895,Canovelles,080410,2012,2
+2896,Capellades,080446,2012,3
+2897,Cardona,080478,2012,19
+2898,Castellar del Vallès,080517,2012,30
+2899,Castellbisbal,080543,2012,2
+2900,Castelldefels,080569,2012,319
+2901,Castellfollit de la Roca,170464,2012,6
+2902,Castelló d'Empúries,170470,2012,4
+2903,"Cellera de Ter, la",171899,2012,1
+2904,Celrà,170499,2012,1
+2905,Cerdanyola del Vallès,082665,2012,74
+2906,Cervelló,080689,2012,1
+2907,Cervera,250729,2012,43
+2908,Constantí,430477,2012,19
+2909,Cornellà de Llobregat,080734,2012,596
+2910,Cornellà del Terri,170561,2012,2
+2911,Cubelles,080749,2012,4
+2912,Cunit,430516,2012,5
+2913,Deltebre,439018,2012,4
+2914,Dosrius,080752,2012,3
+2915,Esparreguera,080765,2012,1
+2916,Esplugues de Llobregat,080771,2012,376
+2917,Falset,430555,2012,1
+2918,Figueres,170669,2012,214
+2919,Flix,430607,2012,10
+2920,Folgueroles,080832,2012,1
+2921,Forallac,179026,2012,2
+2922,"Franqueses del Vallès, les",080863,2012,48
+2923,"Fuliola, la",250962,2012,2
+2924,Gandesa,430640,2012,10
+2925,"Garriga, la",080885,2012,1
+2926,Gavà,080898,2012,301
+2927,Gelida,080919,2012,16
+2928,Girona,170792,2012,312
+2929,Gironella,080924,2012,1
+2930,"Granada, la",080945,2012,1
+2931,Granollers,080961,2012,65
+2932,Guardiola de Berguedà,080996,2012,3
+2933,Horta de Sant Joan,430712,2012,7
+2934,"Hospitalet de Llobregat, l'",081017,2012,1126
+2935,Igualada,081022,2012,113
+2936,"Jonquera, la",170865,2012,1
+2937,Lladó,170887,2012,1
+2938,"Llagosta, la",081056,2012,7
+2939,Llagostera,170890,2012,1
+2940,Llançà,170926,2012,34
+2941,Lleida,251207,2012,441
+2942,Lliçà d'Amunt,081075,2012,4
+2943,Lliçà de Vall,081081,2012,1
+2944,Llinars del Vallès,081069,2012,3
+2945,Llívia,170947,2012,7
+2946,Lloret de Mar,170950,2012,135
+2947,Malgrat de Mar,081108,2012,2
+2948,Manlleu,081120,2012,21
+2949,Manresa,081136,2012,18
+2950,Martorell,081141,2012,223
+2951,Martorelles,081154,2012,1
+2952,"Masies de Voltregà, les",081173,2012,1
+2953,"Masnou, el",081189,2012,9
+2954,Masquefa,081192,2012,2
+2955,Matadepera,081206,2012,13
+2956,Mataró,081213,2012,203
+2957,Mieres,171058,2012,3
+2958,Molins de Rei,081234,2012,28
+2959,Mollerussa,251370,2012,104
+2960,Mollet del Vallès,081249,2012,86
+2961,Monistrol de Montserrat,081271,2012,1
+2962,Montagut i Oix,171096,2012,3
+2963,Montblanc,430862,2012,22
+2964,Montcada i Reixac,081252,2012,30
+2965,Montgat,081265,2012,28
+2966,Montmeló,081350,2012,11
+2967,Montornès del Vallès,081363,2012,7
+2968,Mont-roig del Camp,430923,2012,3
+2969,Móra d'Ebre,430939,2012,6
+2970,Móra la Nova,430944,2012,1
+2971,"Morell, el",430957,2012,1
+2972,Navàs,081419,2012,3
+2973,Navata,171117,2012,1
+2974,Òdena,081430,2012,1
+2975,Olot,171143,2012,141
+2976,Olvan,081445,2012,1
+2977,Palafolls,081555,2012,34
+2978,Palafrugell,171175,2012,28
+2979,Palamós,171181,2012,20
+2980,Palau-solità i Plegamans,081568,2012,1
+2981,"Pallaresos, els",431009,2012,2
+2982,Pallejà,081574,2012,3
+2983,Parets del Vallès,081593,2012,2
+2984,Penelles,251641,2012,1
+2985,Piera,081614,2012,17
+2986,Pineda de Mar,081635,2012,4
+2987,"Planes d'Hostoles, les",171334,2012,1
+2988,Planoles,171349,2012,2
+2989,"Pobla de Claramunt, la",081653,2012,2
+2990,"Pobla de Mafumet, la",431093,2012,2
+2991,"Pobla de Segur, la",251713,2012,3
+2992,Polinyà,081672,2012,46
+2993,"Pont de Vilomara i Rocafort, el",081825,2012,2
+2994,Ponts,251728,2012,1
+2995,Porqueres,171371,2012,1
+2996,"Port de la Selva, el",171404,2012,5
+2997,"Prat de Llobregat, el",081691,2012,288
+2998,"Prats de Rei, els",081705,2012,9
+2999,Premià de Dalt,082303,2012,22
+3000,Premià de Mar,081727,2012,12
+3001,"Preses, les",171390,2012,8
+3002,Puigcerdà,171411,2012,32
+3003,Puig-reig,081751,2012,1
+3004,Reus,431233,2012,558
+3005,Rialp,251832,2012,1
+3006,Ribes de Freser,171450,2012,2
+3007,Ripoll,171479,2012,2
+3008,Ripollet,081803,2012,45
+3009,Riudoms,431299,2012,1
+3010,"Roca del Vallès, la",081810,2012,1
+3011,Roda de Berà,431310,2012,22
+3012,Roquetes,431331,2012,7
+3013,Roses,171523,2012,29
+3014,Rubí,081846,2012,30
+3015,Sabadell,081878,2012,993
+3016,Sallent,081918,2012,2
+3017,Salou,439057,2012,45
+3018,Salt,171557,2012,36
+3019,Sant Adrià de Besòs,081944,2012,174
+3020,Sant Andreu de la Barca,081960,2012,47
+3021,Sant Andreu de Llavaneres,081976,2012,1
+3022,Sant Antoni de Vilamajor,081982,2012,1
+3023,Sant Boi de Llobregat,082009,2012,35
+3024,Sant Carles de la Ràpita,431362,2012,47
+3025,Sant Celoni,082021,2012,2
+3026,Sant Climent de Llobregat,082042,2012,1
+3027,Sant Cugat del Vallès,082055,2012,558
+3028,Sant Esteve de Palautordera,082074,2012,1
+3029,Sant Esteve Sesrovires,082080,2012,6
+3030,Sant Feliu de Guíxols,171609,2012,53
+3031,Sant Feliu de Llobregat,082114,2012,44
+3032,Sant Feliu de Pallerols,171616,2012,1
+3033,Sant Fost de Campsentelles,082093,2012,1
+3034,Sant Fruitós de Bages,082135,2012,1
+3035,Sant Gregori,171637,2012,10
+3036,Sant Hilari Sacalm,171642,2012,7
+3037,Sant Jaume de Llierca,171655,2012,2
+3038,Sant Joan de les Abadesses,171674,2012,11
+3039,Sant Joan de Vilatorrada,082188,2012,2
+3040,Sant Joan Despí,082172,2012,158
+3041,Sant Joan les Fonts,171851,2012,6
+3042,Sant Julià de Vilatorta,082205,2012,8
+3043,Sant Just Desvern,082212,2012,16
+3044,Sant Martí de Llémena,171729,2012,1
+3045,Sant Mateu de Bages,082299,2012,1
+3046,Sant Pere de Ribes,082310,2012,16
+3047,Sant Pere de Vilamajor,082346,2012,1
+3048,Sant Pol de Mar,082359,2012,10
+3049,Sant Quirze de Besora,082378,2012,2
+3050,Sant Quirze del Vallès,082384,2012,76
+3051,Sant Sadurní d'Anoia,082401,2012,5
+3052,Sant Vicenç de Castellet,082628,2012,2
+3053,Sant Vicenç de Montalt,082649,2012,3
+3054,Sant Vicenç dels Horts,082634,2012,28
+3055,Santa Bàrbara,431384,2012,4
+3056,Santa Coloma de Cervelló,082444,2012,7
+3057,Santa Coloma de Farners,171805,2012,33
+3058,Santa Coloma de Gramenet,082457,2012,124
+3059,Santa Cristina d'Aro,171812,2012,7
+3060,Santa Eulàlia de Ronçana,082482,2012,1
+3061,Santa Margarida de Montbui,082508,2012,19
+3062,Santa Margarida i els Monjos,082515,2012,165
+3063,Santa Maria de Martorelles,082567,2012,1
+3064,Santa Oliva,431401,2012,1
+3065,Santa Pau,171848,2012,1
+3066,Santa Perpètua de Mogoda,082606,2012,63
+3067,Santpedor,081923,2012,3
+3068,"Selva del Camp, la",431457,2012,6
+3069,"Sénia, la",430445,2012,1
+3070,Senterada,252022,2012,1
+3071,"Seu d'Urgell, la",252038,2012,42
+3072,Sitges,082704,2012,143
+3073,Solsona,252075,2012,4
+3074,Sort,252094,2012,4
+3075,Súria,082747,2012,10
+3076,Taradell,082785,2012,6
+3077,Tarragona,431482,2012,343
+3078,Tàrrega,252173,2012,24
+3079,Teià,082819,2012,5
+3080,Terrassa,082798,2012,1202
+3081,Tiana,082824,2012,51
+3082,Tona,082830,2012,1
+3083,Tordera,082845,2012,16
+3084,Torelló,082858,2012,24
+3085,"Torre de Cabdella, la",252271,2012,1
+3086,"Torre de l'Espanyol, la",431520,2012,4
+3087,Torredembarra,431536,2012,13
+3088,Torrefarrera,252287,2012,3
+3089,Torres de Segre,252326,2012,6
+3090,Torroella de Montgrí,171997,2012,28
+3091,Tortosa,431554,2012,16
+3092,Tossa de Mar,172023,2012,1
+3093,Tremp,252347,2012,2
+3094,"Vall de Bianya, la",172082,2012,4
+3095,"Vall d'en Bas, la",172076,2012,2
+3096,Vallbona d'Anoia,082922,2012,1
+3097,Vallcebre,082938,2012,1
+3098,Vallirana,082956,2012,4
+3099,Valls,431613,2012,51
+3100,"Vendrell, el",431634,2012,83
+3101,Vic,082981,2012,34
+3102,Vidreres,172137,2012,1
+3103,Vilabella,431652,2012,1
+3104,Vilablareix,172155,2012,6
+3105,Viladecans,083015,2012,70
+3106,Viladecavalls,083008,2012,1
+3107,Vilafant,172214,2012,1
+3108,Vilafranca del Penedès,083054,2012,143
+3109,Vilalba dels Arcs,431750,2012,1
+3110,Vilallonga del Camp,431665,2012,1
+3111,Vilanova del Camí,083020,2012,11
+3112,Vilanova del Vallès,089024,2012,1
+3113,Vilanova i la Geltrú,083073,2012,186
+3114,Vila-rodona,431704,2012,1
+3115,Vila-seca,431711,2012,8
+3116,Vilassar de Mar,082191,2012,36
+3117,Abrera,080018,2011,2
+3118,Agramunt,250030,2011,1
+3119,Aitona,250387,2011,7
+3120,Albatàrrec,250077,2011,1
+3121,Alcanar,430043,2011,1
+3122,Alcarràs,250117,2011,17
+3123,Alcoletge,250122,2011,7
+3124,"Aldea, l'",439044,2011,2
+3125,Alella,080039,2011,1
+3126,Alguaire,250169,2011,3
+3127,Almacelles,250194,2011,3
+3128,Alp,170062,2011,1
+3129,Alpicat,250236,2011,3
+3130,Altafulla,430120,2011,14
+3131,"Ametlla de Mar, l'",430136,2011,1
+3132,"Ampolla, l'",439060,2011,1
+3133,Amposta,430141,2011,11
+3134,"Arboç, l'",430167,2011,4
+3135,Arbúcies,170097,2011,8
+3136,Arenys de Mar,080060,2011,160
+3137,Arenys de Munt,080076,2011,2
+3138,Argelaguer,170101,2011,1
+3139,Argentona,080095,2011,8
+3140,Artés,080109,2011,3
+3141,Avinyó,080121,2011,2
+3142,Badalona,080155,2011,345
+3143,Badia del Vallès,089045,2011,14
+3144,Balaguer,250404,2011,27
+3145,Banyeres del Penedès,430206,2011,11
+3146,Banyoles,170157,2011,30
+3147,Barberà del Vallès,082520,2011,11
+3148,Barcelona,080193,2011,6707
+3149,Batea,430228,2011,1
+3150,Begues,080207,2011,13
+3151,Begur,170139,2011,1
+3152,Bell-lloc d'Urgell,250485,2011,3
+3153,Bellpuig,250501,2011,16
+3154,Bellver de Cerdanya,250518,2011,11
+3155,Benissanet,430265,2011,1
+3156,Berga,080229,2011,11
+3157,Besalú,170195,2011,2
+3158,Beuda,170216,2011,1
+3159,"Bisbal d'Empordà, la",170221,2011,51
+3160,Blanes,170237,2011,70
+3161,Boadella i les Escaules,170293,2011,1
+3162,"Borges Blanques, les",250582,2011,5
+3163,Botarell,430332,2011,1
+3164,Cabacés,430350,2011,1
+3165,Cabrera de Mar,080291,2011,26
+3166,Cadaqués,170329,2011,1
+3167,Calaf,080312,2011,2
+3168,Calafell,430379,2011,6
+3169,Caldes de Montbui,080333,2011,14
+3170,Calella,080351,2011,10
+3171,Callús,080386,2011,4
+3172,Camarles,439039,2011,2
+3173,Cambrils,430385,2011,92
+3174,Campdevànol,170366,2011,1
+3175,Canet de Mar,080403,2011,3
+3176,"Canonja, la",439076,2011,2
+3177,Canovelles,080410,2011,1
+3178,Cantallops,170412,2011,1
+3179,Capellades,080446,2011,2
+3180,Cardedeu,080462,2011,2
+3181,Cardona,080478,2011,14
+3182,Cassà de la Selva,170448,2011,1
+3183,Castellar del Vallès,080517,2011,149
+3184,Castellbisbal,080543,2011,2
+3185,Castelldefels,080569,2011,765
+3186,Castellfollit de la Roca,170464,2011,6
+3187,Castelló d'Empúries,170470,2011,25
+3188,Castell-Platja d'Aro,170486,2011,23
+3189,"Catllar, el",430430,2011,2
+3190,"Cellera de Ter, la",171899,2011,1
+3191,Celrà,170499,2011,1
+3192,Cerdanyola del Vallès,082665,2011,49
+3193,Cervelló,080689,2011,7
+3194,Cervera,250729,2011,8
+3195,Constantí,430477,2011,32
+3196,Corçà,170577,2011,1
+3197,Cornellà de Llobregat,080734,2011,268
+3198,Creixell,430509,2011,3
+3199,Cubelles,080749,2011,7
+3200,Cunit,430516,2011,8
+3201,Deltebre,439018,2011,14
+3202,"Escala, l'",170622,2011,2
+3203,Esparreguera,080765,2011,2
+3204,"Espluga de Francolí, l'",430542,2011,2
+3205,Esplugues de Llobregat,080771,2011,164
+3206,Esterri d'Àneu,250864,2011,3
+3207,Falset,430555,2011,4
+3208,Figaró-Montmany,081347,2011,1
+3209,Figueres,170669,2011,201
+3210,Flix,430607,2011,4
+3211,"Floresta, la",250925,2011,1
+3212,Folgueroles,080832,2011,1
+3213,Forallac,179026,2011,2
+3214,Fortià,170741,2011,1
+3215,"Franqueses del Vallès, les",080863,2011,68
+3216,Gandesa,430640,2011,5
+3217,Gavà,080898,2011,478
+3218,Gimenells i el Pla de la Font,259123,2011,1
+3219,Girona,170792,2011,223
+3220,"Granada, la",080945,2011,1
+3221,Granollers,080961,2011,31
+3222,Horta de Sant Joan,430712,2011,4
+3223,"Hospitalet de Llobregat, l'",081017,2011,1401
+3224,"Hostalets de Pierola, els",081629,2011,1
+3225,Igualada,081022,2011,77
+3226,Ivars de Noguera,251121,2011,1
+3227,"Jonquera, la",170865,2011,1
+3228,Juneda,251193,2011,2
+3229,Lladó,170887,2011,1
+3230,"Llagosta, la",081056,2011,6
+3231,Llagostera,170890,2011,35
+3232,Llançà,170926,2011,1
+3233,Lleida,251207,2011,589
+3234,Lliçà d'Amunt,081075,2011,5
+3235,Llinars del Vallès,081069,2011,2
+3236,Llívia,170947,2011,25
+3237,Lloret de Mar,170950,2011,31
+3238,Maçanet de la Selva,171030,2011,2
+3239,Malgrat de Mar,081108,2011,16
+3240,Manlleu,081120,2011,62
+3241,Manresa,081136,2011,42
+3242,Martorell,081141,2011,1
+3243,"Masies de Voltregà, les",081173,2011,5
+3244,"Masnou, el",081189,2011,63
+3245,"Masroig, el",430825,2011,1
+3246,Matadepera,081206,2011,14
+3247,Mataró,081213,2011,331
+3248,Molins de Rei,081234,2011,46
+3249,Mollerussa,251370,2011,115
+3250,Mollet del Vallès,081249,2011,162
+3251,Montagut i Oix,171096,2011,1
+3252,Montblanc,430862,2011,17
+3253,Montcada i Reixac,081252,2011,50
+3254,Montellà i Martinet,251399,2011,5
+3255,Montferrer i Castellbò,251403,2011,1
+3256,Montgat,081265,2011,179
+3257,Montmeló,081350,2011,10
+3258,Montornès del Vallès,081363,2011,11
+3259,Mont-roig del Camp,430923,2011,1
+3260,Móra d'Ebre,430939,2011,24
+3261,Móra la Nova,430944,2011,3
+3262,"Morell, el",430957,2011,5
+3263,Naut Aran,250254,2011,26
+3264,Navarcles,081402,2011,1
+3265,Navàs,081419,2011,5
+3266,Òdena,081430,2011,1
+3267,Olesa de Montserrat,081477,2011,4
+3268,Olot,171143,2011,142
+3269,Olvan,081445,2011,1
+3270,Palafolls,081555,2011,21
+3271,Palafrugell,171175,2011,152
+3272,Palamós,171181,2011,28
+3273,Palau-saverdera,171208,2011,1
+3274,Palau-solità i Plegamans,081568,2011,2
+3275,"Pallaresos, els",431009,2011,3
+3276,Pallejà,081574,2011,1
+3277,"Palma de Cervelló, la",089058,2011,1
+3278,Pals,171241,2011,4
+3279,Pardines,171254,2011,4
+3280,Parets del Vallès,081593,2011,15
+3281,Penelles,251641,2011,7
+3282,Perafort,431037,2011,3
+3283,Piera,081614,2011,3
+3284,Pineda de Mar,081635,2011,10
+3285,"Pla de Santa Maria, el",431080,2011,1
+3286,"Pobla de Claramunt, la",081653,2011,1
+3287,"Pobla de Mafumet, la",431093,2011,5
+3288,"Pobla de Montornès, la",431114,2011,2
+3289,"Pobla de Segur, la",251713,2011,6
+3290,Polinyà,081672,2011,38
+3291,"Pont de Suert, el",251734,2011,6
+3292,Porqueres,171371,2011,1
+3293,"Port de la Selva, el",171404,2011,4
+3294,"Prat de Llobregat, el",081691,2011,269
+3295,Prats de Lluçanès,081712,2011,1
+3296,Premià de Dalt,082303,2011,75
+3297,Premià de Mar,081727,2011,22
+3298,"Preses, les",171390,2011,10
+3299,Puigcerdà,171411,2011,23
+3300,Puigverd de Lleida,251826,2011,1
+3301,Reus,431233,2011,655
+3302,Rialp,251832,2011,1
+3303,Riba-roja d'Ebre,431251,2011,1
+3304,Ribes de Freser,171450,2011,1
+3305,"Riera de Gaià, la",431264,2011,1
+3306,Ripoll,171479,2011,47
+3307,Ripollet,081803,2011,41
+3308,Riu de Cerdanya,259139,2011,1
+3309,Riudarenes,171485,2011,1
+3310,"Roca del Vallès, la",081810,2011,90
+3311,Roda de Berà,431310,2011,6
+3312,Roquetes,431331,2011,5
+3313,Roses,171523,2011,73
+3314,Rubí,081846,2011,17
+3315,Sabadell,081878,2011,1269
+3316,Sallent,081918,2011,97
+3317,Salou,439057,2011,54
+3318,Salt,171557,2011,150
+3319,Sant Adrià de Besòs,081944,2011,160
+3320,Sant Andreu de la Barca,081960,2011,469
+3321,Sant Boi de Llobregat,082009,2011,54
+3322,Sant Carles de la Ràpita,431362,2011,8
+3323,Sant Cebrià de Vallalta,082037,2011,1
+3324,Sant Celoni,082021,2011,21
+3325,Sant Cugat del Vallès,082055,2011,311
+3326,Sant Esteve Sesrovires,082080,2011,14
+3327,Sant Feliu de Guíxols,171609,2011,44
+3328,Sant Feliu de Llobregat,082114,2011,33
+3329,Sant Fost de Campsentelles,082093,2011,2
+3330,Sant Fruitós de Bages,082135,2011,1
+3331,Sant Gregori,171637,2011,7
+3332,Sant Hilari Sacalm,171642,2011,1
+3333,Sant Joan de les Abadesses,171674,2011,26
+3334,Sant Joan de Vilatorrada,082188,2011,2
+3335,Sant Joan Despí,082172,2011,253
+3336,Sant Joan les Fonts,171851,2011,12
+3337,Sant Just Desvern,082212,2011,114
+3338,Sant Llorenç Savall,082233,2011,1
+3339,Sant Martí de Riucorb,259025,2011,1
+3340,Sant Martí de Tous,082264,2011,1
+3341,Sant Pere de Ribes,082310,2011,29
+3342,Sant Pere de Vilamajor,082346,2011,1
+3343,Sant Pol de Mar,082359,2011,25
+3344,Sant Quintí de Mediona,082362,2011,1
+3345,Sant Quirze de Besora,082378,2011,2
+3346,Sant Quirze del Vallès,082384,2011,91
+3347,Sant Sadurní d'Anoia,082401,2011,24
+3348,Sant Vicenç de Castellet,082628,2011,1
+3349,Sant Vicenç de Montalt,082649,2011,14
+3350,Sant Vicenç dels Horts,082634,2011,7
+3351,Santa Coloma de Cervelló,082444,2011,2
+3352,Santa Coloma de Farners,171805,2011,1
+3353,Santa Coloma de Gramenet,082457,2011,220
+3354,Santa Cristina d'Aro,171812,2011,20
+3355,Santa Eulàlia de Ronçana,082482,2011,1
+3356,Santa Margarida de Montbui,082508,2011,8
+3357,Santa Margarida i els Monjos,082515,2011,1
+3358,Santa Maria de Palautordera,082592,2011,2
+3359,Santa Oliva,431401,2011,2
+3360,Santa Perpètua de Mogoda,082606,2011,244
+3361,"Secuita, la",431444,2011,1
+3362,"Selva del Camp, la",431457,2011,6
+3363,Sentmenat,082671,2011,2
+3364,"Seu d'Urgell, la",252038,2011,100
+3365,Sidamon,252056,2011,1
+3366,Sitges,082704,2011,93
+3367,Súria,082747,2011,11
+3368,Tarragona,431482,2011,533
+3369,Tàrrega,252173,2011,23
+3370,Teià,082819,2011,5
+3371,Terrassa,082798,2011,1370
+3372,Tiana,082824,2011,7
+3373,Tivissa,431508,2011,1
+3374,Tona,082830,2011,3
+3375,Torà,252234,2011,1
+3376,Tordera,082845,2011,19
+3377,Torelló,082858,2011,53
+3378,"Torre de Cabdella, la",252271,2011,2
+3379,"Torre de l'Espanyol, la",431520,2011,8
+3380,Torredembarra,431536,2011,32
+3381,Torrefarrera,252287,2011,3
+3382,Torrelles de Foix,082883,2011,2
+3383,Torroella de Montgrí,171997,2011,33
+3384,Tortosa,431554,2011,50
+3385,Tossa de Mar,172023,2011,49
+3386,Tremp,252347,2011,10
+3387,Ullà,172044,2011,2
+3388,Ulldecona,431567,2011,2
+3389,"Vall de Bianya, la",172082,2011,1
+3390,"Vall d'en Bas, la",172076,2011,3
+3391,Vallirana,082956,2011,1
+3392,Valls,431613,2011,74
+3393,Vandellòs i l'Hospitalet de l'Infant,431628,2011,1
+3394,"Vendrell, el",431634,2011,39
+3395,Verges,172116,2011,1
+3396,Vic,082981,2011,26
+3397,Vidreres,172137,2011,1
+3398,Vielha e Mijaran,252430,2011,11
+3399,Vilablareix,172155,2011,4
+3400,Viladecans,083015,2011,79
+3401,Viladecavalls,083008,2011,8
+3402,Vilafranca del Penedès,083054,2011,185
+3403,Vilallonga del Camp,431665,2011,2
+3404,Vilanova del Camí,083020,2011,6
+3405,Vilanova i la Geltrú,083073,2011,224
+3406,Vila-seca,431711,2011,25
+3407,Vilassar de Mar,082191,2011,43
