@@ -38,7 +38,7 @@ def initCP():
     return indicador
 
 '''
-    Netejar dades referents a la fertilitat (NPD)
+    #Netejar dades referents a la fertilitat (NPD)
 '''
 def initF():
     data = pd.DataFrame()
@@ -50,6 +50,7 @@ def initF():
         dataAny["Any"] = any
 
         # Editar file columna 0 te un espai davant 
+        # Remove unnecessari columns
         dataAny.drop([' 0', '1', '2', '3', '4 i més', 'Total Dones', 'Total Fills'], axis = 1, inplace=True)
         
         data = data.append(dataAny)
@@ -64,20 +65,27 @@ def initF():
 def initM():
     data = pd.DataFrame()
     for any in range(2000, 2021):
-        nomArxiu = "NPD_" + str(any) + ".csv"
+        nomArxiu = "M_" + str(any) + ".csv"
         dataAny = pd.read_csv(os.path.join(data_path, 'migracions', nomArxiu), index_col=None)
         
         # Preprocessing necessari 
         dataAny["Any"] = any
 
-        # Suma migracions  
+        # Suma migracions 
+        dataAny['Immigracions'] = dataAny['Migracions internes  amb la resta de Catalunya  immigracions'] + dataAny["Migracions internes  amb la resta d'Espanya  immigracions"] + dataAny['Migracions externes  immigracions']
+        dataAny['Emigracions'] = dataAny['Migracions internes  amb la resta de Catalunya  emigracions'] + dataAny["Migracions internes  amb la resta d'Espanya  emigracions"] + dataAny['Migracions externes  emigracions']
         
+        # Remove unnecessary columns 
+        dataAny.drop(['Migracions internes  amb la resta de Catalunya  immigracions', 'Migracions internes  amb la resta de Catalunya  emigracions',
+        "Migracions internes  amb la resta d'Espanya  immigracions", "Migracions internes  amb la resta d'Espanya  emigracions", 
+        'Migracions externes  immigracions', 'Migracions externes  emigracions'], axis = 1, inplace=True)
+
         data = data.append(dataAny)
 
     data.info()
     indicador = Indicador(data, range(2000, 2021), "municipi", "unitats")
     return indicador
-        
+
 def initDemografica():
     dimensio = Dimensio()
 
