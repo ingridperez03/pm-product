@@ -1,7 +1,7 @@
 from aplicacio import Aplicacio
 from proc_demografica import initDemografica
 from proc_urbanistica import initUrbanistica
-# from proc_economica import initEconomica
+from proc_economica import initEconomica
 # from proc_residencial import initResidencial
 
 def initApp():
@@ -16,8 +16,8 @@ def initApp():
     App.afegirDimensio("Urbanistica", dimensioUrbanistica)
     
     # Dimensio Economica
-    # dimensioEconomica = initEconomica()
-    # App.afegirDimensio("Economica", dimensioEconomica)
+    dimensioEconomica = initEconomica()
+    App.afegirDimensio("Economica", dimensioEconomica)
     
     # Dimensio Residencial
     # dimensioResidencial = initResidencial()
