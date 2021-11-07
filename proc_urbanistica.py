@@ -23,7 +23,7 @@ def initSe():
     data = data[data["Codi"].notna()]
     data["Codi"] = data["Codi"].astype(int).astype(str).str.zfill(6)
 
-    indicador = Indicador(data, range(2012, 2021), "municipi", "Ha")
+    indicador = Indicador(data, range(2012, 2021), "municipi", "hectarees")
     return indicador
 
 
@@ -44,7 +44,7 @@ def initSo():
     data = data[data["Codi"].notna()]
     data["Codi"] = data["Codi"].astype(str).str.zfill(6)
     
-    indicador = Indicador(data, range(2012, 2021), "municipi", "Ha")
+    indicador = Indicador(data, range(2012, 2021), "municipi", "hectarees")
     return indicador
 
 
@@ -65,7 +65,7 @@ def initZV():
     data = data[data["Codi"].notna()]
     data["Codi"] = data["Codi"].astype(str).str.zfill(6)
 
-    indicador = Indicador(data, range(2012, 2021), "municipi", "Ha")
+    indicador = Indicador(data, range(2012, 2021), "municipi", "hectarees")
     return indicador
 
 
@@ -86,7 +86,7 @@ def initE():
     data = data[data["Codi"].notna()]
     data["Codi"] = data["Codi"].astype(str).str.zfill(6)
 
-    indicador = Indicador(data, range(2012, 2021), "municipi", "m2 / habitant")
+    indicador = Indicador(data, range(2012, 2021), "municipi", "m2 per habitant")
     return indicador
 
 
@@ -110,7 +110,7 @@ def initCon():
     data = data[data["Codi"].notna()]
     data["Codi"] = data["Codi"].astype(str).str.zfill(6)
 
-    indicador = Indicador(data, range(2012, 2021), "municipi", "Ha")
+    indicador = Indicador(data, range(2012, 2021), "municipi", "hectarees")
     return indicador
 
 
@@ -131,7 +131,7 @@ def initCom():
     data = data[data["Codi"].notna()]
     data["Codi"] = data["Codi"].astype(str).str.zfill(6)
 
-    indicador = Indicador(data, range(2017, 2020), "municipi", "m2 / 1.000 habitants")
+    indicador = Indicador(data, range(2017, 2020), "municipi", "m2 per mil habitants")
     return indicador
 
 
@@ -154,7 +154,7 @@ def initR():
     data = data[data["Codi"].notna()]
     data["Codi"] = data["Codi"].astype(str).str.zfill(6)
 
-    indicador = Indicador(data, 2021, "municipi", "unitats")
+    indicador = Indicador(data, 2021, "municipi", "nombre de riscos")
     return indicador
 
 

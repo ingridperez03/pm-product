@@ -21,7 +21,7 @@ def initAC():
 
     rang = ["Abans de 1900", "De 1900 a 1920", "De 1921 a 1940", "De 1941 a 1950", "De 1951 a 1960", 
             "De 1961 a 1970", "De 1971 a 1980", "De 1981 a 1990", "De 1991 a 2001", "De 2002 a 2011"]
-    indicador = Indicador(data, rang, 'municipi', 'unitats')
+    indicador = Indicador(data, rang, 'municipi', 'habitatges construits')
     return indicador
 
 
@@ -46,7 +46,7 @@ def initDem():
     data = data[data["Codi"].notna()]
     data["Codi"] = data["Codi"].astype(str).str.zfill(6)
 
-    indicador = Indicador(data, range(2011, 2021), 'municipi', 'unitats')
+    indicador = Indicador(data, range(2011, 2021), 'municipi', 'habitatges solicitats')
     return indicador
 
 
@@ -74,7 +74,7 @@ def initPH():
     data.rename(columns={">6": ">=6"}, inplace=True)
     data.drop(columns="Total", inplace=True)
 
-    indicador = Indicador(data, [2001, 2011], 'comarca', 'unitats')
+    indicador = Indicador(data, [2001, 2011], 'comarca', 'persones per habitatge')
     return indicador
 
 
@@ -109,7 +109,7 @@ def initTH():
     data = data[data["Codi"].notna()]
     data["Codi"] = data["Codi"].astype(int).astype(str).str.zfill(6)
 
-    indicador = Indicador(data, [2001, 2011], 'municipi', 'unitats')
+    indicador = Indicador(data, [2001, 2011], 'municipi', 'nombre habitatges')
     return indicador
 
 
@@ -133,7 +133,7 @@ def initRT():
     data = data[data["Codi"].notna()]
     data["Codi"] = data["Codi"].astype(int).astype(str).str.zfill(6)
 
-    indicador = Indicador(data, [2001, 2011], 'municipi', 'unitats')
+    indicador = Indicador(data, [2001, 2011], 'municipi', 'nombre habitatges')
     return indicador
 
 

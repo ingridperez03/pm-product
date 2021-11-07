@@ -38,7 +38,7 @@ def initCP():
     data = data[data["Codi"].notna()]
     data["Codi"] = data["Codi"].astype(int).astype(str).str.zfill(6)
     
-    indicador = Indicador(data, range(2000, 2021), "municipi", "unitats")
+    indicador = Indicador(data, range(2000, 2021), "municipi", "nombre persones")
     return indicador
 
 '''
@@ -64,7 +64,7 @@ def initIE():
     data = data[data["Codi"].notna()]
     data["Codi"] = data["Codi"].astype(int).astype(str).str.zfill(6)
     
-    indicador = Indicador(data, range(2000, 2021), "municipi", "unitats")
+    indicador = Indicador(data, range(2000, 2021), "municipi", "index")
     return indicador
 
 '''
@@ -88,7 +88,7 @@ def initF():
 
         data = data.append(dataAny)
 
-    indicador = Indicador(data, [1991, 2011], "municipi", "unitats")
+    indicador = Indicador(data, [1991, 2011], "municipi", "nombre fills per dona")
     return indicador
 
 '''
@@ -118,8 +118,9 @@ def initM():
     data = data[data["Codi"].notna()]
     data["Codi"] = data["Codi"].astype(str).str.zfill(6)
 
-    indicador = Indicador(data, range(2000, 2021), "municipi", "unitats")
+    indicador = Indicador(data, range(2000, 2021), "municipi", "nombre persones")
     return indicador
+
 
 def initDemografica():
     dimensio = Dimensio()
