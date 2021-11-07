@@ -1,7 +1,0 @@
-The original data was average Renda Familiar Disponible Bruta (RFDB) per year and it only included municipis
-whose population was bigger than 1000 habitants.
-
-So we did the following:
-
-	1. Join the the data of each year in a single CSV
-	

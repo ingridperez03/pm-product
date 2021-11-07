@@ -1,10 +1,10 @@
 from aplicacio import Aplicacio
-from indicador import Indicador
-from dimensio import Dimensio
-from proc_demografica import initDemografica
+from proc_economica import initEconomica
 
-def initApp(App):
+def initApp():
     App = Aplicacio()
+    dimensioEconomica = initEconomica()
+    App.afegirDimensio("Economica", dimensioEconomica)
 
 if __name__ == "__main__":
     initApp()

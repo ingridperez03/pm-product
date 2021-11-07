@@ -1,3 +1,0 @@
-With the preprocessed data of atur that we had before. 
-
-We calculated the differences between each year to get the evolution of ´the unemployment rate
