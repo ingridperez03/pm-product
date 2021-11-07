@@ -3,10 +3,12 @@ import os
 from dimensio import Dimensio
 from indicador import Indicador
 
-'''
-    Netejar dades referents al creixement població (CP)
-'''
+# Localització path dades demografia
 data_path = os.path.join('dades', 'demografia')
+
+'''
+    Neteja dades referents al creixement població (CP)
+'''
 def initCP():
     data = pd.DataFrame()
     for any in range(2000, 2021):
@@ -38,7 +40,31 @@ def initCP():
     return indicador
 
 '''
-    #Netejar dades referents a la fertilitat (NPD)
+    Neteja dades referents als índexs d'envelliment i de sobreenvelliment
+'''
+def initIE():
+    data = pd.DataFrame()
+    for any in range(2000, 2021):
+        nomArxiu = "IE_" + str(any) + ".csv"
+        dataAny = pd.read_csv(os.path.join(data_path, 'index_envelliment', nomArxiu), index_col=None)
+        # Preprocessing necessari 
+        dataAny["Any"] = any
+
+        dataAny.drop(["% 0 a 15 anys", "% 16 a 64 anys", "% 65 anys i més", 
+                      "Índex de dependència juvenil", "Índex de dependència de la gent gran", 
+                      "Índex de dependència global"], axis = 1, inplace=True)
+        
+        if any == 2000 or any == 2001:
+            dataAny.drop([2, 12], inplace=True)
+        
+        data = data.append(dataAny)
+    
+    data.info()
+    indicador = Indicador(data, range(2000, 2021), "municipi", "unitats")
+    return indicador
+
+'''
+    Neteja dades referents als naixements per dona (NPD) / fertilitat (F)
 '''
 def initF():
     data = pd.DataFrame()
@@ -52,6 +78,7 @@ def initF():
         # Editar file columna 0 te un espai davant 
         # Remove unnecessari columns
         dataAny.drop([' 0', '1', '2', '3', '4 i més', 'Total Dones', 'Total Fills'], axis = 1, inplace=True)
+        dataAny.rename(columns={" Nombre fills mitjà per dona": "Nombre fills mitjà per dona"}, inplace=True)
         
         data = data.append(dataAny)
 
@@ -93,12 +120,16 @@ def initDemografica():
     creixement = initCP()
     dimensio.afegirIndicador("Creixement Poblacio", creixement)
 
+    # Index Envelliment
+    envelliment = initIE()
+    dimensio.afegirIndicador("Index Envelliment", envelliment)
+
     # Fertilitat 
     fertilitat = initF()
     dimensio.afegirIndicador("Fertilitat", fertilitat)
 
     # Migracions
-    migracions = initM()
-    dimensio.afegirIndicador("Migracions", migracions)
+    # migracions = initM()
+    # dimensio.afegirIndicador("Migracions", migracions)
 
     return dimensio
