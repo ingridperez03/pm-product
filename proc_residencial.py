@@ -3,265 +3,150 @@ import pandas as pd
 from dimensio import Dimensio
 from indicador import Indicador
 
-data_path = os.path.join('dades','residencials')
+data_path = os.path.join('dades', 'residencials')
+municipis = pd.read_csv(os.path.join('dades', 'noms_municipis.csv'))
 
 '''
     Netejar dades referents a l'any de creació dels edificis (antiguitat)
 '''
+def initAC():
+    path = os.path.join(data_path, 'any_construccio')
 
-def initAnt():
-    path = os.path.join(data_path, 'antiguitat')
+    nom_arxiu = 'AC_2011.csv'
+    data = pd.read_csv(os.path.join(path, nom_arxiu), index_col=False)
+    data.drop(columns="Total", inplace=True)
 
-    nom_arxiu = 'Resi_municipi_2002_2011.csv'
-    df = pd.read_csv(os.path.join(path,nom_arxiu), index_col=False, error_bad_lines=False)
-    years = pd.DataFrame(['2002', '2003', '2004', '2005', '2006', '2007','2008', '2009', '2010', '2011'])
-    
-    #Transposem els edificis amb antiguitat
-    df_values = df.drop(['Codi', 'Literal', 'Total'], axis = 1)
-    df_values_t = df_values.T
-    
-    #Modificacions per tenir els nivells i els anys
-    df_aux = df[['Codi', 'Literal']]
-    df_aux = pd.concat([df_aux] * 10).sort_values('Literal').reset_index()
-    df_years = pd.concat([years] * len(df_values_t.columns)).reset_index().reset_index().drop(['index'], axis = 1).rename({'level_0':'ind', 0:'Any'}, axis =1)
-    df_aux_year = df_aux.join(df_years).drop(['index'], axis = 1)
-    
-    #Passem totes les dades a la estructura [codi, any, nivell, edificis amb antiguitat]
-    all_values = []
-    for column in df_values_t:
-        this_column_values = df_values_t[column].tolist()
-        all_values += this_column_values
-
-    one_column_df = pd.DataFrame(all_values).reset_index().rename({0:'Values', 'index':'ind'}, axis = 1)
-
-    data = df_aux_year.merge(one_column_df).drop(['ind'], axis = 1)
-    
-    '''
-    #por si el codigo tiene que tener 6 digitos
-    if nivell == 'Municipis':
-        data['Codi'] = data['Codi'].astype(str).str.zfill(6)   
-    '''
-
-    indicador = Indicador(data, range(2002,2011), 'municipi', 'unitats')
-
+    data.info()
+    rang = ["Abans de 1900", "De 1900 a 1920", "De 1921 a 1940", "De 1941 a 1950", "De 1951 a 1960", 
+            "De 1961 a 1970", "De 1971 a 1980", "De 1981 a 1990", "De 1991 a 2001", "De 2002 a 2011"]
+    indicador = Indicador(data, rang, 'municipi', 'unitats')
     return indicador
 
 
 '''
     Netejar dades referents a la demanda de habitatges socials per anys (demanda)
 '''
-
 def initDem():
     path = os.path.join(data_path, 'demanda')
 
-    nom_arxiu = 'Resi_comarca_2018_2012.csv'
-    df = pd.read_csv(os.path.join(path,nom_arxiu), index_col=False, error_bad_lines=False, encoding='utf-8')
-    #df = pd.read_csv('dades\\residencials\\demanda\\Resi_comarca_2018_2012.csv', index_col=False, error_bad_lines=False)
-    years = pd.DataFrame(['2012', '2013', '2014', '2015', '2016', '2017','2018'])
+    nom_arxiu = 'DHS_2020.csv'
+    data = pd.read_csv(os.path.join(path, nom_arxiu), index_col=False)
+    data.drop(columns="Codi", inplace=True)
+    data = pd.merge(data, municipis, left_on="Literal", right_on="Municipi")
+    data.drop(columns=["NomMun", "Municipi"], inplace=True)
 
-    #Separem els valors númerics eliminant les comarques
-    df_values_t = df.drop(['Comarques'], axis = 1).T
+    data = data.melt(id_vars =["Literal", "Codi"], var_name="Any", value_name="Demanda")
+    data = data[data["Demanda"] != "-"]
+    data.reset_index(inplace=True)
+    data.drop(columns="index", inplace=True)
 
-    #Fem el dataframe de les comarques y anys. 
-    df_aux = df[['Comarques']]
-    df_aux = pd.concat([df_aux] * 7).sort_values('Comarques').reset_index().rename({'index':'codi', 'level_0':'ind'}, axis = 1)
-    df_aux['codi'] = df_aux['codi'] + 1
-    df_years = pd.concat([years] * len(df_values_t.columns)).reset_index().reset_index().drop(['index'], axis = 1).rename({'level_0':'ind', 0:'Any'}, axis =1)
-    df_aux_year = df_aux.join(df_years)
-
-    #Passem totes les dades a la estructura [codi, any, nivell, demanda]
-    all_values = []
-    for column in df_values_t:
-        this_column_values = df_values_t[column].tolist()
-        all_values += this_column_values
-
-    one_column_df = pd.DataFrame(all_values).reset_index().rename({0:'Values', 'index':'ind'}, axis = 1)
-
-    data = df_aux_year.merge(one_column_df).drop(['ind'], axis = 1)
-
-    indicador = Indicador(data, range(2012,2018), 'comarca', 'unitats')
-
+    data.info()
+    indicador = Indicador(data, range(2011, 2021), 'municipi', 'unitats')
     return indicador
 
-'''
-    Netejar dades referents als habitants que viuen en un habitatge (habitants)
-'''
 
-def initHab():
-    path = os.path.join(data_path, 'habitants')
+'''
+    Netejar dades referents als habitants que viuen en un habitatge (PH)
+'''
+def initPH():
+    path = os.path.join(data_path, 'persones_habitatge')
     
     data = pd.DataFrame()
-    for any_ in ['1996', '2001', '2011']:
-        nom_arxiu = 'Resi_Comarques_' + any_ + '.csv'
-        df = pd.read_csv(os.path.join(path,nom_arxiu))
-        df['Any'] = any_
-
-        #Any 2011 li falta una columna de 6 persones. Dupliquem la de >6. 
-        if any_ == '2011':
-            df_filtered = df.drop(['Unnamed: 8'], axis = 1)
-            df_filtered['6'] =  df_filtered['>6']
-            df_filtered = df_filtered[['Comarca', '1', '2', '3', '4', '5', '6', '>6', 'Total', 'Any']]
-            df_filtered_cod = df_filtered.reset_index().rename({'index': 'Codi'}, axis = 1)
-            df_filtered_cod['Codi'] = df_filtered_cod['Codi'] + 1
-            data = data.append(df_filtered_cod)
-        else:
-            df_filtered = df.drop(['Unnamed: 9'], axis = 1)
-            df_filtered_cod = df_filtered.reset_index().rename({'index': 'Codi'}, axis = 1)
-            df_filtered_cod['Codi'] = df_filtered_cod['Codi'] + 1
-            data = data.append(df_filtered_cod)
+    for any in [2001, 2011]:
+        nom_arxiu = 'PH_' + str(any) + '.csv'
+        dataAny = pd.read_csv(os.path.join(path,nom_arxiu))
+        dataAny['Any'] = any
+        
+        if any == 2001:
+            dataAny[">6"] += dataAny["6"]
+            dataAny.drop(columns="6", inplace=True)
+        
+        data = data.append(dataAny)
     
-    indicador = Indicador(data, ['1996', '2001', '2011'], 'comarca', 'unitats')
+    data.rename(columns={">6": ">=6"}, inplace=True)
+    data.drop(columns="Total", inplace=True)
 
-    return indicador
-
-'''
-    Netejar dades referents als tipus d'habitatges (principals)
-'''
-def initPrin():
-    path = os.path.join(data_path, 'habitants')
-
-    nom_arxiu = 'Resi_Comarques_2011.csv'
-    df = pd.read_csv(os.path.join(path,nom_arxiu))
-    df['total_no_principals'] = df['total']
-    df['any'] = '2011'
-    df_ind = df.reset_index().rename({'index':'Codi'}, axis = 1)
-    df_ind['Codi'] = df_ind['Codi'] + 1
-    data = df_ind.drop(['total'], axis = 1)
-
-    indicador = Indicador(data, '2011', 'comarca', 'unitats')
-
+    data.info()
+    indicador = Indicador(data, [2001, 2011], 'comarca', 'unitats')
     return indicador
 
 
 '''
-    Netejar dades referents a la tinença (tinença)
+    Netejar dades referents als tipus d'habitatges (TH)
 '''
+def initTH():
+    path = os.path.join(data_path, 'tipus')
 
-def initTin():
-    path = os.path.join(data_path, 'tinenSa')
-    
-    nom_arxiu = 'Resi_municipi_2011.csv'
-    df = pd.read_csv(os.path.join(path,nom_arxiu), index_col=False)
-    df['Codi'] = df['Codi'].astype(str)
+    data = pd.DataFrame()
+    for any in [2001, 2011]:
+        nom_arxiu = 'TH_' + str(any) + '.csv'
+        dataAny = pd.read_csv(os.path.join(path,nom_arxiu))
+        dataAny['Any'] = any
 
-    #eliminem aquestes dues columnes pq no tenen gaire info.
-    df = df.drop(['Cedit gratis o a baix preu', 'Altres formes'], axis = 1)
-    
-    data = df.copy()
-    
-    indicador = Indicador(data, '2011', 'municipi', 'unitats')
+        if any == 2001:
+            dataAny["Habitatges familiars principals"] = dataAny["Habitatges familiars  principals  convencionals"] + dataAny["Habitatges familiars  principals  allotjaments"]
+            dataAny.rename(columns = {"Habitatges familiars  no principals  secundaris": "Habitatges familiars secundaris", 
+                                      "Habitatges familiars  no principals  vacants": "Habitatges familiars vacants", 
+                                      "Habitatges familiars  no principals  altres": "Habitatges familiars altres"}, inplace=True)
 
+            dataAny.drop(columns=["Habitatges familiars  principals  convencionals", "Habitatges familiars  principals  allotjaments", "Habitatges familiars    total", "Establiments col·lectius"], inplace=True)
+
+        elif any == 2011:
+            dataAny.rename(columns = {"Habitatges familiars    principals": "Habitatges familiars principals", "Habitatges familiars  no principals  secundaris": "Habitatges familiars secundaris", 
+                            "Habitatges familiars  no principals  buits": "Habitatges familiars vacants"}, inplace=True)
+
+            dataAny.drop(columns=[ "Habitatges familiars  no principals  total", "Habitatges familiars    total", "Habitatges col·lectius"], inplace=True)
+
+        data = data.append(dataAny)
+
+    data.info()
+    indicador = Indicador(data, [2001, 2011], 'municipi', 'unitats')
     return indicador
 
 
 '''
-    Netejar dades referent als tipus de residencia (tipus)
+    Netejar dades referents al règim de tinença (RT)
 '''
+def initRT():
+    path = os.path.join(data_path, 'tinença')
 
-def initTip():
-    path = os.path.join(data_path, 'tipus') 
+    data = pd.DataFrame()
+    for any in [2001, 2011]:
+        nom_arxiu = 'RT_' + str(any) + '.csv'
+        dataAny = pd.read_csv(os.path.join(path, nom_arxiu))
+        dataAny['Any'] = any
 
-    nom_arxiu = 'Resi_2014_2020.csv'
-    df = pd.read_csv(os.path.join(path,nom_arxiu))
-
-    df_years = df[['Any']]
-    df_years_ = pd.concat([df_years] * 9, ignore_index=True).reset_index() 
-
-    df_values = df.drop(['Any'], axis = 1)
-
-    all_values = []
-    for column in df_values:
-        this_column_values = df_values[column].tolist()
-        all_values += this_column_values
-
-    one_column_df = pd.DataFrame(all_values).reset_index().rename({0:'Values'}, axis = 1)
-
-    data = df_years_.merge(one_column_df).drop(['index'], axis = 1)
-
-    indicador = Indicador(data, range(2014,2020), 'altre', 'milers')
-
-    return indicador
-
-'''
-    Netejar dades referent a la produccií inmobiliaria (producció)
-'''
-
-def initPro():
-    path = os.path.join(data_path, 'antiguitat')
-
-    nom_arxiu = 'Resi_municipi_2002_2011.csv'
-    df = pd.read_csv(os.path.join(path,nom_arxiu), index_col=False, error_bad_lines=False)
+        dataAny["De propietat"] = dataAny["De propietat. Per compra pagada"] + dataAny["De propietat. Per compra amb pagaments pendents"] + dataAny["De propietat. Per herència o donació"]
+        
+        dataAny.drop(columns=["De propietat. Per compra pagada","De propietat. Per compra amb pagaments pendents","De propietat. Per herència o donació","Cedit gratis o a baix preu","Altres formes","Total"], inplace=True)
+        data = data.append(dataAny)
     
-    #calculamos los % de producció inmobiliaria per municipi
-    y = ['2002', '2003', '2004', '2005', '2006', '2007','2008','2009', '2010', '2011']
-    df_aux = pd.DataFrame()
-    for pos in range(0,9):
-        df_aux[y[pos+1]] =  round((((df[y[pos+1]] / df[y[pos]]) - 1) * 100),2)
-    df_aux_T = df_aux.T
-
-    all_values = []
-    for column in df_aux_T:
-        this_column_values = df_aux_T[column].tolist()
-        all_values += this_column_values
-
-    one_column_df = pd.DataFrame(all_values).reset_index().rename({0:'Values'}, axis = 1)
-
-    years = pd.DataFrame(['2003', '2004', '2005', '2006', '2007','2008','2009', '2010', '2011'])
-    df_city = df[['Codi', 'Literal']]
-    df_city_ = pd.concat([df_city] * 9)
-    df_city_sort = df_city_.sort_values(['Literal']).reset_index().reset_index().drop(['index'], axis = 1).rename({'level_0':'index','Literal':'Municipi'}, axis = 1)
-    df_years = pd.concat([years] * len(df_city.T.columns)).reset_index().reset_index().drop(['index'], axis = 1).rename({'level_0':'index', 0:'Any'}, axis =1)
-    
-    df_city_years = df_city_sort.merge(df_years)
-
-    data = df_city_years.merge(one_column_df).drop(['index'], axis = 1)
-
-    indicador = Indicador(data, range(2003,2011), 'municipi', 'percentatge')
-
+    data.info()
+    indicador = Indicador(data, [2001, 2011], 'municipi', 'unitats')
     return indicador
-
 
 
 def initResidencial():
 
     dimensio = Dimensio()
 
-#Antiguitat
+    # Antiguitat
+    any_construccio = initAC() 
+    dimensio.afegirIndicador('Edificis per any construccio', any_construccio)
 
-    antiguitat = initAnt() 
-    dimensio.afegirIndicador('Antiguitat Edificis', antiguitat)
-
-
-#Demanda 
+    # Demanda 
     demanda = initDem()
     dimensio.afegirIndicador('Demanda Social', demanda)
 
-#Habitants per habitatge
-
-    habitants = initHab()
+    # Habitants per habitatge
+    habitants = initPH()
     dimensio.afegirIndicador('Habitants per Habitatge', habitants)
 
-#Habitantges principals
-
-    principals = initPrin()
-    dimensio.afegirIndicador('Habitatges Principals', principals)
-
-#Tinença
-
-    tinenSa_mun = initTin()
-    dimensio.afegirIndicador('Tinença', tinenSa_mun)
-
-#Tipus (milers)
-
-    tipus = initTip()
+    # Tipus Habitatges 
+    tipus = initTH()
     dimensio.afegirIndicador('Tipus Habitatges', tipus)
 
-#Producció immobiliaria
-
-    produccio = initPro()
-    dimensio.afegirIndicador('Produccio Inmobiliaria', produccio)
-
+    # Regim de Tinença
+    tinença = initRT()
+    dimensio.afegirIndicador('Regim de Tinença', tinença)
     
-    
-
-
