@@ -20,7 +20,9 @@ def initSe():
         dataAny.rename(columns={'NomMun':'Literal', 'Codi_ine_6_txt':'Codi', '12_A2_SUC':'Serveis'}, inplace=True)
         data = data.append(dataAny, ignore_index = True)
 
-    data.info()
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(int).astype(str).str.zfill(6)
+
     indicador = Indicador(data, range(2012, 2021), "municipi", "Ha")
     return indicador
 
@@ -39,7 +41,9 @@ def initSo():
         dataAny.rename(columns={'NomMun':'Literal', 'Codi_ine_6_txt':'Codi', '15_Qual_SUC_SISTEMES':'Solar'}, inplace=True)
         data = data.append(dataAny, ignore_index = True)
 
-    data.info()
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(str).str.zfill(6)
+    
     indicador = Indicador(data, range(2012, 2021), "municipi", "Ha")
     return indicador
 
@@ -58,7 +62,9 @@ def initZV():
         dataAny.rename(columns={'NomMun':'Literal', 'Codi_ine_6_txt':'Codi', '15_SV_SUC':'Zones verdes'}, inplace=True)
         data = data.append(dataAny, ignore_index = True)
 
-    data.info()
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(str).str.zfill(6)
+
     indicador = Indicador(data, range(2012, 2021), "municipi", "Ha")
     return indicador
 
@@ -77,7 +83,9 @@ def initE():
         dataAny.rename(columns={'NomMun':'Literal', 'Codi_ine_6_txt':'Codi', '20_Equip_habt':'Equipament'}, inplace=True)
         data = data.append(dataAny, ignore_index = True)
  
-    data.info()
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(str).str.zfill(6)
+
     indicador = Indicador(data, range(2012, 2021), "municipi", "m2 / habitant")
     return indicador
 
@@ -99,7 +107,9 @@ def initCon():
     data["Connectivitat"] = data[["Ferroviari", "Camins Principals", "Camins Secundaris"]].sum(axis=1)
     data.drop(["Ferroviari", "Camins Principals", "Camins Secundaris"], axis=1, inplace=True)
 
-    data.info()
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(str).str.zfill(6)
+
     indicador = Indicador(data, range(2012, 2021), "municipi", "Ha")
     return indicador
 
@@ -118,7 +128,9 @@ def initCom():
         dataAny.rename(columns={'NomMun':'Literal', 'Codi_ine_6_txt':'Codi', 'Densitat comercial (m2 / 1.000 hab.)':'Densitat comercial'}, inplace=True)
         data = data.append(dataAny, ignore_index = True)
 
-    data.info()
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(str).str.zfill(6)
+
     indicador = Indicador(data, range(2017, 2020), "municipi", "m2 / 1.000 habitants")
     return indicador
 
@@ -139,7 +151,9 @@ def initR():
     group = data.groupby(['Literal', 'Codi'])
     data = group.size().reset_index(name='Riscos')
 
-    data.info()
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(str).str.zfill(6)
+
     indicador = Indicador(data, 2021, "municipi", "unitats")
     return indicador
 

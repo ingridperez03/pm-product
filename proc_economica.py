@@ -13,9 +13,11 @@ def initAtur():
     data = pd.read_csv(os.path.join(data_path, 'Atur', 'aturats_catalunya_12-20.csv'))
     data.rename(columns={"Municipi": "Literal"}, inplace=True)
     
-    data = data.melt(id_vars =["Literal", "Codi"], var_name="Any", value_name="Poblacio")
+    data = data.melt(id_vars =["Literal", "Codi"], var_name="Any", value_name="Aturats")
+
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(int).astype(str).str.zfill(6)
     
-    data.info()
     indicador = Indicador(data, list(range(2012, 2021)), "municipi", "unitats")
     return indicador
 
@@ -24,7 +26,9 @@ def initEvAtur():
     data = pd.read_csv(os.path.join(data_path, 'EvolucioAtur', 'evolucio_atur_12-20.csv'), index_col="Index")
     data.rename(columns={"Municipi": "Literal"}, inplace=True)
 
-    data.info()
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(int).astype(str).str.zfill(6)
+    
     indicador = Indicador(data, list(range(2012, 2021)), "municipi", "unitats")
     return indicador
 
@@ -35,7 +39,9 @@ def initPobAct():
     data.drop(columns="NomMun", inplace=True)
     data.rename(columns={"Municipi": "Literal", "Total": "Poblacio activa"}, inplace=True)
 
-    data.info()
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(str).str.zfill(6)
+
     indicador = Indicador(data, list([2011]), "municipi", "unitats")
     return indicador
 
@@ -47,8 +53,10 @@ def initRFDB():
     data.rename(columns={"Municipi": "Literal"}, inplace=True)
 
     data = data.melt(id_vars =["Literal", "Codi"], var_name="Any", value_name="Renda")
+    
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(str).str.zfill(6)
 
-    data.info()
     indicador = Indicador(data, list(range(2010, 2019)), "municipi amb mes de mil habitants", "milers")
     return indicador
 

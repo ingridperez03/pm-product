@@ -16,7 +16,9 @@ def initAC():
     data = pd.read_csv(os.path.join(path, nom_arxiu), index_col=False)
     data.drop(columns="Total", inplace=True)
 
-    data.info()
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(int).astype(str).str.zfill(6)
+
     rang = ["Abans de 1900", "De 1900 a 1920", "De 1921 a 1940", "De 1941 a 1950", "De 1951 a 1960", 
             "De 1961 a 1970", "De 1971 a 1980", "De 1981 a 1990", "De 1991 a 2001", "De 2002 a 2011"]
     indicador = Indicador(data, rang, 'municipi', 'unitats')
@@ -35,12 +37,15 @@ def initDem():
     data = pd.merge(data, municipis, left_on="Literal", right_on="Municipi")
     data.drop(columns=["NomMun", "Municipi"], inplace=True)
 
-    data = data.melt(id_vars =["Literal", "Codi"], var_name="Any", value_name="Demanda")
+    data = data.melt(id_vars=["Literal", "Codi"], var_name="Any", value_name="Demanda")
     data = data[data["Demanda"] != "-"]
     data.reset_index(inplace=True)
+    data["Demanda"] = data["Demanda"].astype(int)
     data.drop(columns="index", inplace=True)
 
-    data.info()
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(str).str.zfill(6)
+
     indicador = Indicador(data, range(2011, 2021), 'municipi', 'unitats')
     return indicador
 
@@ -61,12 +66,14 @@ def initPH():
             dataAny[">6"] += dataAny["6"]
             dataAny.drop(columns="6", inplace=True)
         
+        dataAny["Codi"] = range(1, dataAny.shape[0] + 1)
+        dataAny["Codi"] = dataAny["Codi"].astype(str).str.zfill(2)
+        
         data = data.append(dataAny)
-    
+
     data.rename(columns={">6": ">=6"}, inplace=True)
     data.drop(columns="Total", inplace=True)
 
-    data.info()
     indicador = Indicador(data, [2001, 2011], 'comarca', 'unitats')
     return indicador
 
@@ -99,7 +106,9 @@ def initTH():
 
         data = data.append(dataAny)
 
-    data.info()
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(int).astype(str).str.zfill(6)
+
     indicador = Indicador(data, [2001, 2011], 'municipi', 'unitats')
     return indicador
 
@@ -121,7 +130,9 @@ def initRT():
         dataAny.drop(columns=["De propietat. Per compra pagada","De propietat. Per compra amb pagaments pendents","De propietat. Per herència o donació","Cedit gratis o a baix preu","Altres formes","Total"], inplace=True)
         data = data.append(dataAny)
     
-    data.info()
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(int).astype(str).str.zfill(6)
+
     indicador = Indicador(data, [2001, 2011], 'municipi', 'unitats')
     return indicador
 

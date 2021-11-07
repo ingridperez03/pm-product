@@ -35,7 +35,9 @@ def initCP():
         
         data = data.append(dataAny)
     
-    data.info()
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(int).astype(str).str.zfill(6)
+    
     indicador = Indicador(data, range(2000, 2021), "municipi", "unitats")
     return indicador
 
@@ -59,7 +61,9 @@ def initIE():
         
         data = data.append(dataAny)
     
-    data.info()
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(int).astype(str).str.zfill(6)
+    
     indicador = Indicador(data, range(2000, 2021), "municipi", "unitats")
     return indicador
 
@@ -75,14 +79,15 @@ def initF():
         # Preprocessing necessari 
         dataAny["Any"] = any
 
-        # Editar file columna 0 te un espai davant 
-        # Remove unnecessari columns
+        # Eliminar columnes innecessaries
         dataAny.drop([' 0', '1', '2', '3', '4 i més', 'Total Dones', 'Total Fills'], axis = 1, inplace=True)
         dataAny.rename(columns={" Nombre fills mitjà per dona": "Nombre fills mitjà per dona"}, inplace=True)
         
+        dataAny["Codi"] = range(1, dataAny.shape[0] + 1)
+        dataAny["Codi"] = dataAny["Codi"].astype(str).str.zfill(2)
+
         data = data.append(dataAny)
 
-    data.info()
     indicador = Indicador(data, [1991, 2011], "municipi", "unitats")
     return indicador
 
@@ -110,7 +115,9 @@ def initM():
 
         data = data.append(dataAny)
 
-    data.info()
+    data = data[data["Codi"].notna()]
+    data["Codi"] = data["Codi"].astype(str).str.zfill(6)
+
     indicador = Indicador(data, range(2000, 2021), "municipi", "unitats")
     return indicador
 
