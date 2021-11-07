@@ -91,7 +91,7 @@ def initF():
 '''
 def initM():
     data = pd.DataFrame()
-    for any in range(2000, 2021):
+    for any in range(2002, 2021):
         nomArxiu = "M_" + str(any) + ".csv"
         dataAny = pd.read_csv(os.path.join(data_path, 'migracions', nomArxiu), index_col=None)
         
@@ -104,8 +104,9 @@ def initM():
         
         # Remove unnecessary columns 
         dataAny.drop(['Migracions internes  amb la resta de Catalunya  immigracions', 'Migracions internes  amb la resta de Catalunya  emigracions',
-        "Migracions internes  amb la resta d'Espanya  immigracions", "Migracions internes  amb la resta d'Espanya  emigracions", 
-        'Migracions externes  immigracions', 'Migracions externes  emigracions'], axis = 1, inplace=True)
+                      "Migracions internes  amb la resta d'Espanya  immigracions", "Migracions internes  amb la resta d'Espanya  emigracions", 
+                      'Migracions externes  immigracions', 'Migracions externes  emigracions', "Migracions internes  amb la resta de Catalunya  saldo migratori", 
+                      "Migracions internes  amb la resta d'Espanya  saldo migratori", "Migracions externes  saldo migratori"], axis = 1, inplace=True)
 
         data = data.append(dataAny)
 
@@ -129,7 +130,7 @@ def initDemografica():
     dimensio.afegirIndicador("Fertilitat", fertilitat)
 
     # Migracions
-    # migracions = initM()
-    # dimensio.afegirIndicador("Migracions", migracions)
+    migracions = initM()
+    dimensio.afegirIndicador("Migracions", migracions)
 
     return dimensio
