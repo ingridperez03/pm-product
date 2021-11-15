@@ -125,7 +125,7 @@ def initCom():
         nomArxiu = "comerç_" + str(any) + ".csv"
         dataAny = pd.read_csv(os.path.join(path, nomArxiu))
         dataAny = dataAny[['Any', 'Municipi', 'Codi_ine_6_txt', 'Densitat comercial (m2 / 1.000 hab.)']]
-        dataAny.rename(columns={'NomMun':'Literal', 'Codi_ine_6_txt':'Codi', 'Densitat comercial (m2 / 1.000 hab.)':'Densitat comercial'}, inplace=True)
+        dataAny.rename(columns={'Municipi':'Literal', 'Codi_ine_6_txt':'Codi', 'Densitat comercial (m2 / 1.000 hab.)':'Densitat comercial'}, inplace=True)
         data = data.append(dataAny, ignore_index = True)
 
     data = data[data["Codi"].notna()]
@@ -146,9 +146,10 @@ def initR():
     dataAny = pd.read_csv(os.path.join(path, nomArxiu))
     dataAny = dataAny[['municipiNom', 'ine6', 'nivell']]
     dataAny = dataAny.rename(columns={'municipiNom':'Literal', 'ine6':'Codi', 'nivell':'Nivell'})
+    dataAny["Any"] = 2020
     data = data.append(dataAny, ignore_index = True)
 
-    group = data.groupby(['Literal', 'Codi'])
+    group = data.groupby(['Literal', 'Codi', 'Any'])
     data = group.size().reset_index(name='Riscos')
 
     data = data[data["Codi"].notna()]
@@ -190,3 +191,18 @@ def initUrbanistica():
     dimensio.afegirIndicador("Riscos", riscos)
 
     return dimensio
+
+
+def exportarUrbanistica(dimensio):
+    dades = pd.DataFrame()
+    i = 0
+    for indicador in dimensio.dades.keys():
+        dadesInd = dimensio.dades[indicador].dades
+        print(indicador)
+        if i == 0:
+            dades = dadesInd.copy(deep=True)
+        else:
+            dades = pd.merge(dades, dadesInd, on=["Literal", "Any", "Codi"], how='outer')
+        i += 1
+
+    dades.to_csv(os.path.join('dades', 'resultat', "urbanistica.csv"))

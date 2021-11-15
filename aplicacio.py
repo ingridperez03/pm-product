@@ -1,4 +1,8 @@
 import pandas as pd
+from proc_demografica import exportarDemografica
+from proc_urbanistica import exportarUrbanistica
+from proc_economica import exportarEconomica
+from proc_residencial import exportarResidencial
 
 class Aplicacio:
     
@@ -16,3 +20,8 @@ class Aplicacio:
             dimensio = self.dimensions[nom]
             for indicador in dimensio.dades.keys():
                 dimensio.exportarIndicador(indicador)
+            
+        exportarDemografica(self.dimensions["Demografica"])
+        exportarUrbanistica(self.dimensions["Urbanistica"])
+        exportarEconomica(self.dimensions["Economica"])
+        exportarResidencial(self.dimensions["Residencial"])

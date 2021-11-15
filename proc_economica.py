@@ -27,8 +27,10 @@ def initAtur():
 '''
 def initEvAtur():
     data = pd.read_csv(os.path.join(data_path, 'evolucio_atur', 'evolucio_atur_12-20.csv'), index_col="Index")
-    data.rename(columns={"Municipi": "Literal"}, inplace=True)
+    data.rename(columns={"Municipi": "Literal", "2012-2013": "2013", "2013-2014": "2014", "2014-2015": "2015", "2015-2016": "2016",
+                "2016-2017": "2017", "2017-2018": "2018", "2018-2019": "2019", "2019-2020": "2020"}, inplace=True)
 
+    data = data.melt(id_vars =["Literal", "Codi"], var_name="Any", value_name="Evolucio atur")
     data = data[data["Codi"].notna()]
     data["Codi"] = data["Codi"].astype(int).astype(str).str.zfill(6)
     
@@ -44,6 +46,7 @@ def initPobAct():
     data = pd.merge(data, municipis, on="Municipi")
     data.drop(columns="NomMun", inplace=True)
     data.rename(columns={"Municipi": "Literal", "Total": "Poblacio activa"}, inplace=True)
+    data["Any"] = "2011"
 
     data = data[data["Codi"].notna()]
     data["Codi"] = data["Codi"].astype(str).str.zfill(6)
@@ -88,3 +91,15 @@ def initEconomica():
 
     return dimensio
 
+def exportarEconomica(dimensio):
+    dades = pd.DataFrame()
+    i = 0
+    for indicador in dimensio.dades.keys():
+        dadesInd = dimensio.dades[indicador].dades
+        if i == 0:
+            dades = dadesInd.copy(deep=True)
+        else:
+            dades = pd.merge(dades, dadesInd, on=["Literal", "Any", "Codi"], how='outer')
+        i += 1
+
+    dades.to_csv(os.path.join('dades', 'resultat', "economica.csv"))
