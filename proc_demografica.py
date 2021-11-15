@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import os
 from dimensio import Dimensio
 from indicador import Indicador
@@ -14,20 +15,23 @@ def initCP():
     for any in range(2000, 2021):
         nomArxiu = "CP_" + str(any) + ".csv"
         dataAny = pd.read_csv(os.path.join(data_path, 'creixement_poblacio', nomArxiu), index_col=None)
+        #print(dataAny.info())
         # Preprocessing necessari 
         dataAny["Any"] = any
+        dataAny.replace(np.nan, 0, inplace=True)
+        dataAny.replace("..", 0, inplace=True)
 
         # Total total 
-        dataAny['Total'] = dataAny['Total. De 0 a 14 anys'] + dataAny['Total. De 15 a 64 anys'] + dataAny['Total. 65 anys o més']
+        dataAny['Total'] = dataAny['Total. De 0 a 14 anys'].astype(int) + dataAny['Total. De 15 a 64 anys'].astype(int) + dataAny['Total. 65 anys o més'].astype(int)
 
         # Total per sexes 
-        dataAny['Homes'] = dataAny['Homes. De 0 a 14 anys'] + dataAny['Homes. De 15 a 64 anys'] + dataAny['Homes. 65 anys o més']
-        dataAny['Dones'] = dataAny['Dones. De 0 a 14 anys'] + dataAny['Dones. De 15 a 64 anys'] + dataAny['Dones. 65 anys o més']
+        dataAny['Homes'] = dataAny['Homes. De 0 a 14 anys'].astype(int) + dataAny['Homes. De 15 a 64 anys'].astype(int) + dataAny['Homes. 65 anys o més'].astype(int)
+        dataAny['Dones'] = dataAny['Dones. De 0 a 14 anys'].astype(int) + dataAny['Dones. De 15 a 64 anys'].astype(int) + dataAny['Dones. 65 anys o més'].astype(int)
 
         # Total per grups d'edat
-        dataAny['0-14 Anys'] = dataAny['Homes. De 0 a 14 anys'] + dataAny['Dones. De 0 a 14 anys']
-        dataAny['15-64 Anys'] = dataAny['Homes. De 15 a 64 anys'] + dataAny['Dones. De 15 a 64 anys']
-        dataAny['64 o més'] = dataAny['Homes. 65 anys o més'] + dataAny['Dones. 65 anys o més']
+        dataAny['0-14 Anys'] = dataAny['Homes. De 0 a 14 anys'].astype(int) + dataAny['Dones. De 0 a 14 anys'].astype(int)
+        dataAny['15-64 Anys'] = dataAny['Homes. De 15 a 64 anys'].astype(int) + dataAny['Dones. De 15 a 64 anys'].astype(int)
+        dataAny['64 o més'] = dataAny['Homes. 65 anys o més'].astype(int) + dataAny['Dones. 65 anys o més'].astype(int)
 
         dataAny.drop(['Homes. De 0 a 14 anys', 'Dones. De 0 a 14 anys', 'Homes. De 15 a 64 anys', 
                       'Dones. De 15 a 64 anys', 'Homes. 65 anys o més', 'Dones. 65 anys o més',
@@ -79,10 +83,12 @@ def initM():
         
         # Preprocessing necessari 
         dataAny["Any"] = any
+        dataAny.replace(np.nan, 0, inplace=True)
+        dataAny.replace("..", 0, inplace=True)
 
         # Suma migracions 
-        dataAny['Immigracions'] = dataAny['Migracions internes  amb la resta de Catalunya  immigracions'] + dataAny["Migracions internes  amb la resta d'Espanya  immigracions"] + dataAny['Migracions externes  immigracions']
-        dataAny['Emigracions'] = dataAny['Migracions internes  amb la resta de Catalunya  emigracions'] + dataAny["Migracions internes  amb la resta d'Espanya  emigracions"] + dataAny['Migracions externes  emigracions']
+        dataAny['Immigracions'] = dataAny['Migracions internes  amb la resta de Catalunya  immigracions'].astype(int) + dataAny["Migracions internes  amb la resta d'Espanya  immigracions"].astype(int) + dataAny['Migracions externes  immigracions'].astype(int)
+        dataAny['Emigracions'] = dataAny['Migracions internes  amb la resta de Catalunya  emigracions'].astype(int) + dataAny["Migracions internes  amb la resta d'Espanya  emigracions"].astype(int) + dataAny['Migracions externes  emigracions'].astype(int)
         
         # Remove unnecessary columns 
         dataAny.drop(['Migracions internes  amb la resta de Catalunya  immigracions', 'Migracions internes  amb la resta de Catalunya  emigracions',
@@ -127,4 +133,5 @@ def exportarDemografica(dimensio):
             dades = pd.merge(dades, dadesInd, on=["Literal", "Any", "Codi"], how='outer')
         i += 1
 
+    print(dades)
     dades.to_csv(os.path.join('dades', 'resultat', "demografica.csv"))
