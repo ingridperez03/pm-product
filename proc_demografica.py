@@ -133,5 +133,4 @@ def exportarDemografica(dimensio):
             dades = pd.merge(dades, dadesInd, on=["Literal", "Any", "Codi"], how='outer')
         i += 1
 
-    print(dades)
     dades.to_csv(os.path.join('dades', 'resultat', "demografica.csv"))
