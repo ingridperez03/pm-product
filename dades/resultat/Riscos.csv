@@ -116,9 +116,9 @@
 114,Botarell,430332,2020,5
 115,Bovera,250560,2020,5
 116,Breda,170274,2020,6
-117,Brunyola,170280,2020,3
-118,Bràfim,430347,2020,3
-119,Bàscara,170160,2020,5
+117,Bràfim,430347,2020,3
+118,Bàscara,170160,2020,5
+119,"Bòrdes, Es",250576,2020,6
 120,Cabacés,430350,2020,5
 121,Cabanabona,250609,2020,3
 122,Cabanelles,170314,2020,3
@@ -138,811 +138,678 @@
 136,Calella,080351,2020,6
 137,Calldetenes,080370,2020,3
 138,Callús,080386,2020,4
-139,Calonge,170340,2020,6
-140,Calonge de Segarra,080364,2020,4
-141,Camarasa,250621,2020,5
-142,Camarles,439039,2020,6
-143,Cambrils,430385,2020,9
-144,Campdevànol,170366,2020,5
-145,Campelles,170372,2020,3
-146,Campins,080399,2020,4
-147,Campllong,170388,2020,5
-148,Camprodon,170391,2020,5
-149,Camós,170353,2020,4
-150,Canejan,250637,2020,5
-151,Canet d'Adri,170405,2020,4
-152,Canet de Mar,080403,2020,6
-153,Canovelles,080410,2020,7
-154,Cantallops,170412,2020,4
-155,Canyelles,080431,2020,5
-156,Capafonts,430398,2020,3
-157,Capellades,080446,2020,4
-158,Capmany,170427,2020,6
-159,Capolat,080459,2020,3
-160,Capçanes,430402,2020,6
-161,Cardedeu,080462,2020,6
-162,Cardona,080478,2020,4
-163,Carme,080484,2020,4
-164,Caseres,430419,2020,5
-165,Casserres,080497,2020,3
-166,Cassà de la Selva,170448,2020,4
-167,Castell de Mur,259046,2020,5
-168,Castell de l'Areny,080575,2020,3
-169,Castell-Platja d'Aro,170486,2020,6
-170,Castellar de la Ribera,250642,2020,4
-171,Castellar de n'Hug,080522,2020,5
-172,Castellar del Riu,080500,2020,3
-173,Castellar del Vallès,080517,2020,8
-174,Castellbell i el Vilar,080538,2020,6
-175,Castellbisbal,080543,2020,8
-176,Castellcir,080556,2020,5
-177,Castelldans,250674,2020,5
-178,Castelldefels,080569,2020,7
-179,Castellet i la Gornal,080581,2020,5
-180,Castellfollit de Riubregós,080608,2020,4
-181,Castellfollit de la Roca,170464,2020,3
-182,Castellfollit del Boix,080594,2020,3
-183,Castellgalí,080615,2020,6
-184,Castellnou de Bages,080620,2020,3
-185,Castellnou de Seana,250680,2020,3
-186,Castellolí,080636,2020,5
-187,Castellserà,250707,2020,3
-188,Castellterçol,080641,2020,4
-189,Castellvell del Camp,430424,2020,5
-190,Castellví de Rosanes,080667,2020,7
-191,Castellví de la Marca,080654,2020,5
-192,Castelló d'Empúries,170470,2020,6
-193,Castelló de Farfanya,250693,2020,4
-194,Cava,250714,2020,3
-195,Celrà,170499,2020,7
-196,Centelles,080673,2020,5
-197,Cercs,082687,2020,4
-198,Cerdanyola del Vallès,082665,2020,9
-199,Cervelló,080689,2020,4
-200,Cervera,250729,2020,5
-201,Cervià de Ter,170502,2020,5
-202,Cervià de les Garrigues,250735,2020,3
-203,Cistella,170519,2020,3
-204,Ciutadilla,250740,2020,4
-205,Clariana de Cardener,250753,2020,4
-206,Colera,170545,2020,7
-207,Coll de Nargó,250772,2020,4
-208,Collbató,080692,2020,6
-209,Colldejou,430458,2020,5
-210,Collsuspina,080706,2020,3
-211,Colomers,170558,2020,5
-212,Conca de Dalt,251615,2020,3
-213,Conesa,430461,2020,4
-214,Constantí,430477,2020,8
-215,Copons,080713,2020,5
-216,Corbera d'Ebre,430483,2020,5
-217,Corbera de Llobregat,080728,2020,7
-218,Corbins,250788,2020,4
-219,Cornellà de Llobregat,080734,2020,9
-220,Cornellà del Terri,170561,2020,5
-221,Cornudella de Montsant,430496,2020,5
-222,Corçà,170577,2020,5
-223,Creixell,430509,2020,8
-224,Crespià,170583,2020,3
-225,"Cruïlles, Monells i Sant Sadurní de l'Heura",179011,2020,4
-226,Cubelles,080749,2020,7
-227,Cubells,250791,2020,4
-228,Cunit,430516,2020,7
-229,Cànoves i Samalús,080425,2020,4
-230,Darnius,170600,2020,5
-231,Das,170617,2020,6
-232,Deltebre,439018,2020,7
-233,Dosrius,080752,2020,4
-234,Duesaigües,430537,2020,7
-235,El Bruc,080253,2020,7
-236,El Brull,080266,2020,3
-237,El Catllar,430430,2020,7
-238,El Cogul,250766,2020,4
-239,El Far d'Empordà,170059,2020,4
-240,El Lloar,430727,2020,4
-241,El Masnou,081189,2020,6
-242,El Masroig,430825,2020,5
-243,El Milà,430831,2020,4
-244,El Molar,430859,2020,4
-245,El Montmell,430901,2020,5
-246,El Morell,430957,2020,6
-247,El Palau d'Anglesola,251581,2020,5
-248,El Papiol,081580,2020,7
-249,El Perelló,431042,2020,8
-250,El Pinell de Brai,431068,2020,6
-251,El Pla de Santa Maria,431080,2020,6
-252,El Pla del Penedès,081640,2020,2
-253,El Poal,251689,2020,3
-254,El Pont d'Armentera,431135,2020,4
-255,El Pont de Bar,250306,2020,4
-256,El Pont de Suert,251734,2020,7
-257,El Pont de Vilomara i Rocafort,081825,2020,6
-258,El Port de la Selva,171404,2020,6
-259,El Prat de Llobregat,081691,2020,11
-260,El Rourell,431346,2020,5
-261,El Soleràs,252069,2020,5
-262,El Vendrell,431634,2020,9
-263,El Vilosell,252537,2020,3
-264,Els Alamús,250045,2020,4
-265,Els Garidells,430666,2020,5
-266,Els Guiamets,430705,2020,5
-267,Els Hostalets de Pierola,081629,2020,6
-268,Els Omellons,251538,2020,3
-269,Els Omells de na Gaia,251543,2020,4
-270,Els Pallaresos,431009,2020,6
-271,Els Plans de Sió,259118,2020,3
-272,Els Prats de Rei,081705,2020,5
-273,Els Torms,252249,2020,6
-274,Es Bòrdes,250576,2020,6
-275,Esparreguera,080765,2020,8
-276,Espinelves,170638,2020,3
-277,Esplugues de Llobregat,080771,2020,9
-278,Espolla,170643,2020,4
-279,Esponellà,170656,2020,4
-280,Espot,250827,2020,5
-281,Estamariu,250886,2020,4
-282,Estaràs,250851,2020,4
-283,Esterri d'Àneu,250864,2020,5
-284,Esterri de Cardós,250870,2020,4
-285,Falset,430555,2020,6
-286,Farrera,250899,2020,4
-287,Figaró-Montmany,081347,2020,5
-288,Figueres,170669,2020,6
-289,Figuerola del Camp,430593,2020,3
-290,Flaçà,170675,2020,5
-291,Flix,430607,2020,8
-292,Fogars de Montclús,080811,2020,4
-293,Fogars de la Selva,080826,2020,6
-294,Foixà,170681,2020,4
-295,Folgueroles,080832,2020,5
-296,Fondarella,250931,2020,4
-297,Fonollosa,080847,2020,4
-298,Font-rubí,080850,2020,4
-299,Fontanals de Cerdanya,170694,2020,5
-300,Fontanilles,170708,2020,3
-301,Fontcoberta,170715,2020,4
-302,Foradada,250946,2020,4
-303,Forallac,179026,2020,4
-304,Fornells de la Selva,170736,2020,6
-305,Fortià,170741,2020,3
-306,Forès,430614,2020,3
-307,Freginals,430629,2020,5
-308,Fulleda,250978,2020,3
-309,Fígols,080804,2020,4
-310,Fígols i Alinyà,259084,2020,4
-311,Gaià,080902,2020,5
-312,Gallifa,080879,2020,3
-313,Gandesa,430640,2020,5
-314,Garcia,430653,2020,7
-315,Garrigoles,170767,2020,4
-316,Garriguella,170773,2020,5
-317,Garrigàs,170754,2020,5
-318,Gavet de la Conca,250984,2020,3
-319,Gavà,080898,2020,7
-320,Gelida,080919,2020,6
-321,Ger,170789,2020,4
-322,Gimenells i el Pla de la Font,259123,2020,3
-323,Ginestar,430672,2020,6
-324,Girona,170792,2020,9
-325,Gironella,080924,2020,4
-326,Gisclareny,080930,2020,3
-327,Godall,430688,2020,4
-328,Golmés,250997,2020,5
-329,Gombrèn,170806,2020,3
-330,Granera,080958,2020,3
-331,Granollers,080961,2020,7
-332,Granyanella,251039,2020,4
-333,Granyena de Segarra,251044,2020,3
-334,Granyena de les Garrigues,251057,2020,4
-335,Gratallops,430691,2020,5
-336,Gualba,080977,2020,6
-337,Gualta,170813,2020,3
-338,Guardiola de Berguedà,080996,2020,5
-339,Guils de Cerdanya,170828,2020,4
-340,Guimerà,251095,2020,4
-341,Guissona,251109,2020,4
-342,Guixers,251116,2020,6
-343,Gurb,081000,2020,6
-344,Gósol,251001,2020,5
-345,Horta de Sant Joan,430712,2020,5
-346,Hostalric,170834,2020,6
-347,Igualada,081022,2020,7
-348,Isona i Conca Dellà,251155,2020,3
-349,Isòvol,170849,2020,5
-350,Ivars d'Urgell,251137,2020,3
-351,Ivars de Noguera,251121,2020,4
-352,Ivorra,251142,2020,3
-353,Jafre,170852,2020,4
-354,Jorba,081038,2020,5
-355,Josa i Tuixén,259101,2020,4
-356,Juià,170871,2020,5
-357,Juncosa,251180,2020,6
-358,Juneda,251193,2020,4
-359,L'Albagés,250061,2020,5
-360,L'Albi,250096,2020,3
-361,L'Albiol,430038,2020,6
-362,L'Aldea,439044,2020,6
-363,L'Aleixar,430075,2020,6
-364,L'Ametlla de Mar,430136,2020,9
-365,L'Ametlla del Vallès,080057,2020,6
-366,L'Ampolla,439060,2020,7
-367,L'Arboç,430167,2020,5
-368,L'Argentera,430173,2020,7
-369,L'Armentera,170118,2020,4
-370,L'Escala,170622,2020,5
-371,L'Espluga Calba,250812,2020,4
-372,L'Espluga de Francolí,430542,2020,5
-373,L'Espunyola,080787,2020,3
-374,L'Esquirol,082541,2020,5
-375,L'Estany,080790,2020,3
-376,L'Hospitalet de Llobregat,081017,2020,9
-377,La Baronia de Rialb,250426,2020,4
-378,La Bisbal d'Empordà,170221,2020,5
-379,La Bisbal de Falset,430271,2020,5
-380,La Bisbal del Penedès,430287,2020,5
-381,La Canonja,439076,2020,8
-382,La Cellera de Ter,171899,2020,4
-383,La Coma i la Pedra,251636,2020,5
-384,La Fatarella,430568,2020,6
-385,La Febró,430574,2020,3
-386,La Figuera,430580,2020,4
-387,La Floresta,250925,2020,3
-388,La Fuliola,250962,2020,2
-389,La Galera,430635,2020,3
-390,La Garriga,080885,2020,6
-391,La Granada,080945,2020,4
-392,La Granadella,251018,2020,6
-393,La Granja d'Escarp,251023,2020,5
-394,La Guingueta d'Àneu,259031,2020,5
-395,La Jonquera,170865,2020,6
-396,La Llacuna,081043,2020,4
-397,La Llagosta,081056,2020,6
-398,La Masó,430803,2020,4
-399,La Molsosa,251364,2020,4
-400,La Morera de Montsant,430960,2020,5
-401,La Nou de Berguedà,081424,2020,3
-402,La Nou de Gaià,430976,2020,4
-403,La Palma d'Ebre,430995,2020,5
-404,La Palma de Cervelló,089058,2020,4
-405,La Pera,171306,2020,4
-406,La Pobla de Claramunt,081653,2020,6
-407,La Pobla de Cérvoles,251692,2020,4
-408,La Pobla de Lillet,081666,2020,4
-409,La Pobla de Mafumet,431093,2020,9
-410,La Pobla de Massaluca,431107,2020,7
-411,La Pobla de Montornès,431114,2020,5
-412,La Pobla de Segur,251713,2020,5
-413,La Portella,251749,2020,3
-414,La Quar,081770,2020,3
-415,La Riba,431248,2020,4
-416,La Riera de Gaià,431264,2020,6
-417,La Roca del Vallès,081810,2020,7
-418,La Secuita,431444,2020,4
-419,La Selva de Mar,171886,2020,4
-420,La Selva del Camp,431457,2020,8
-421,La Sentiu de Sió,250352,2020,3
-422,La Seu d'Urgell,252038,2020,6
-423,La Sénia,430445,2020,4
-424,La Tallada d'Empordà,171959,2020,4
-425,La Torre de Cabdella,252271,2020,5
-426,La Torre de Claramunt,082861,2020,5
-427,La Torre de Fontaubella,431515,2020,5
-428,La Torre de l'Espanyol,431520,2020,6
-429,La Vajol,170144,2020,3
-430,La Vall d'en Bas,172076,2020,5
-431,La Vall de Bianya,172082,2020,4
-432,La Vall de Boí,250432,2020,6
-433,La Vansa i Fórnols,259097,2020,5
-434,La Vilella Alta,431732,2020,5
-435,La Vilella Baixa,431747,2020,5
-436,Les,251214,2020,6
-437,Les Avellanes i Santa Linya,250371,2020,4
-438,Les Borges Blanques,250582,2020,5
-439,Les Borges del Camp,430311,2020,6
-440,Les Cabanyes,080272,2020,2
-441,Les Franqueses del Vallès,080863,2020,7
-442,Les Llosses,170963,2020,4
-443,Les Masies de Roda,081167,2020,5
-444,Les Masies de Voltregà,081173,2020,6
-445,Les Oluges,251522,2020,3
-446,Les Piles,431055,2020,4
-447,Les Planes d'Hostoles,171334,2020,4
-448,Les Preses,171390,2020,4
-449,Les Valls d'Aguilar,259062,2020,4
-450,Les Valls de Valira,252398,2020,4
-451,Linyola,251229,2020,3
-452,Lladorre,251235,2020,5
-453,Lladurs,251240,2020,4
-454,Lladó,170887,2020,3
-455,Llagostera,170890,2020,4
-456,Llambilles,170904,2020,4
-457,Llanars,170911,2020,4
-458,Llançà,170926,2020,7
-459,Llardecans,251253,2020,6
-460,Llavorsí,251266,2020,6
-461,Lleida,251207,2020,11
-462,Llers,170932,2020,5
-463,Lles de Cerdanya,251272,2020,3
-464,Llimiana,251288,2020,4
-465,Llinars del Vallès,081069,2020,7
-466,Lliçà d'Amunt,081075,2020,7
-467,Lliçà de Vall,081081,2020,7
-468,Llobera,251291,2020,3
-469,Llorac,430733,2020,4
-470,Llorenç del Penedès,430748,2020,5
-471,Lloret de Mar,170950,2020,6
-472,Lluçà,081094,2020,3
-473,Llívia,170947,2020,5
-474,Madremanya,170979,2020,3
-475,Maials,251333,2020,6
-476,Maià de Montcal,170985,2020,4
-477,Maldà,251305,2020,4
-478,Malgrat de Mar,081108,2020,7
-479,Malla,081115,2020,4
-480,Manlleu,081120,2020,4
-481,Manresa,081136,2020,10
-482,Margalef,430751,2020,5
-483,Marganell,082423,2020,5
-484,Martorell,081141,2020,9
-485,Martorelles,081154,2020,6
-486,Marçà,430764,2020,6
-487,Mas de Barberans,430770,2020,4
-488,Masarac,171002,2020,4
-489,Masdenverge,430786,2020,5
-490,Masllorenç,430799,2020,4
-491,Maspujols,430810,2020,6
-492,Masquefa,081192,2020,6
-493,Massalcoreig,251312,2020,4
-494,Massanes,171019,2020,6
-495,Massoteres,251327,2020,4
-496,Matadepera,081206,2020,4
-497,Mataró,081213,2020,8
-498,Maçanet de Cabrenys,171024,2020,4
-499,Maçanet de la Selva,171030,2020,6
-500,Mediona,081228,2020,4
-501,Menàrguens,251348,2020,3
-502,Meranges,170998,2020,4
-503,Mieres,171058,2020,4
-504,Miralcamp,251351,2020,2
-505,Miravet,430846,2020,6
-506,Moià,081385,2020,5
-507,Molins de Rei,081234,2020,7
-508,Mollerussa,251370,2020,4
-509,Mollet de Peralada,171061,2020,4
-510,Mollet del Vallès,081249,2020,7
-511,Molló,171077,2020,5
-512,Monistrol de Calders,081287,2020,5
-513,Monistrol de Montserrat,081271,2020,6
-514,Mont-ral,430918,2020,3
-515,Mont-ras,171100,2020,5
-516,Mont-roig del Camp,430923,2020,9
-517,Montagut i Oix,171096,2020,4
-518,Montblanc,430862,2020,6
-519,Montbrió del Camp,430884,2020,5
-520,Montcada i Reixac,081252,2020,9
-521,Montclar,081304,2020,3
-522,Montellà i Martinet,251399,2020,5
-523,Montesquiu,081311,2020,4
-524,Montferrer i Castellbò,251403,2020,5
-525,Montferri,430897,2020,4
-526,Montgai,251386,2020,3
-527,Montgat,081265,2020,5
-528,Montmajor,081326,2020,4
-529,Montmaneu,081332,2020,4
-530,Montmeló,081350,2020,6
-531,Montoliu de Lleida,251425,2020,4
-532,Montoliu de Segarra,251410,2020,4
-533,Montornès de Segarra,251431,2020,4
-534,Montornès del Vallès,081363,2020,7
-535,Montseny,081379,2020,3
-536,Muntanyola,081290,2020,5
-537,Mura,081398,2020,4
-538,Móra d'Ebre,430939,2020,7
-539,Móra la Nova,430944,2020,6
-540,Nalec,251459,2020,4
-541,Naut Aran,250254,2020,6
-542,Navarcles,081402,2020,5
-543,Navata,171117,2020,4
-544,Navàs,081419,2020,4
-545,Navès,251462,2020,4
-546,Nulles,430982,2020,3
-547,Odèn,251484,2020,4
-548,Ogassa,171122,2020,2
-549,Olesa de Bonesvalls,081461,2020,4
-550,Olesa de Montserrat,081477,2020,8
-551,Oliana,251497,2020,4
-552,Oliola,251500,2020,4
-553,Olius,251517,2020,3
-554,Olivella,081483,2020,3
-555,Olost,081496,2020,3
-556,Olot,171143,2020,5
-557,Olvan,081445,2020,4
-558,Olèrdola,081458,2020,6
-559,Ordis,171156,2020,3
-560,Organyà,251556,2020,5
-561,Oristà,081516,2020,4
-562,Orpí,081521,2020,3
-563,Orís,081509,2020,4
-564,Os de Balaguer,251569,2020,4
-565,Osor,171169,2020,4
-566,Ossó de Sió,251575,2020,3
-567,Pacs del Penedès,081542,2020,3
-568,Palafolls,081555,2020,6
-569,Palafrugell,171175,2020,6
-570,Palamós,171181,2020,6
-571,Palau de Santa Eulàlia,171194,2020,5
-572,Palau-sator,171215,2020,3
-573,Palau-saverdera,171208,2020,5
-574,Palau-solità i Plegamans,081568,2020,7
-575,Pallejà,081574,2020,7
-576,Palol de Revardit,171236,2020,5
-577,Pals,171241,2020,6
-578,Pardines,171254,2020,3
-579,Parets del Vallès,081593,2020,6
-580,Parlavà,171267,2020,3
-581,Passanant i Belltall,431016,2020,4
-582,Pau,171289,2020,5
-583,Paüls,431021,2020,5
-584,Pedret i Marzà,171292,2020,5
-585,Penelles,251641,2020,3
-586,Perafita,081607,2020,3
-587,Perafort,431037,2020,8
-588,Peralada,171328,2020,5
-589,Peramola,251654,2020,4
-590,Piera,081614,2020,5
-591,Pineda de Mar,081635,2020,6
-592,Pinell de Solsonès,251667,2020,4
-593,Pinós,251673,2020,4
-594,Pira,431074,2020,3
-595,Planoles,171349,2020,4
-596,Poboleda,431129,2020,5
-597,Polinyà,081672,2020,7
-598,Pont de Molins,171352,2020,5
-599,Pontils,431418,2020,4
-600,Pontons,081688,2020,4
-601,Ponts,251728,2020,4
-602,Pontós,171365,2020,4
-603,Porqueres,171371,2020,4
-604,Porrera,431140,2020,5
-605,Portbou,171387,2020,8
-606,Pradell de la Teixeta,431153,2020,8
-607,Prades,431166,2020,3
-608,Prat de Comte,431172,2020,5
-609,Pratdip,431188,2020,6
-610,Prats de Lluçanès,081712,2020,4
-611,Prats i Sansor,251752,2020,5
-612,Preixana,251765,2020,3
-613,Preixens,251771,2020,3
-614,Premià de Dalt,082303,2020,4
-615,Premià de Mar,081727,2020,5
-616,Prullans,251790,2020,4
-617,Puig-reig,081751,2020,5
-618,Puigcerdà,171411,2020,6
-619,Puigdàlber,081748,2020,2
-620,Puiggròs,251804,2020,2
-621,Puigpelat,431191,2020,6
-622,Puigverd d'Agramunt,251811,2020,3
-623,Puigverd de Lleida,251826,2020,4
-624,Pujalt,081764,2020,3
-625,Quart,171426,2020,4
-626,Queralbs,170433,2020,5
-627,Querol,431205,2020,3
-628,Rabós,171432,2020,4
-629,Rajadell,081786,2020,4
-630,Rasquera,431212,2020,6
-631,Regencós,171447,2020,4
-632,Rellinars,081799,2020,4
-633,Renau,431227,2020,4
-634,Reus,431233,2020,10
-635,Rialp,251832,2020,5
-636,Riba-roja d'Ebre,431251,2020,8
-637,Ribera d'Ondara,259059,2020,4
-638,Ribera d'Urgellet,251850,2020,5
-639,Ribes de Freser,171450,2020,6
-640,Riells i Viabrea,171463,2020,6
-641,Riner,251863,2020,4
-642,Ripoll,171479,2020,5
-643,Ripollet,081803,2020,8
-644,Riu de Cerdanya,259139,2020,3
-645,Riudarenes,171485,2020,5
-646,Riudaura,171498,2020,3
-647,Riudecanyes,431270,2020,7
-648,Riudecols,431286,2020,6
-649,Riudellots de la Selva,171501,2020,5
-650,Riudoms,431299,2020,8
-651,Riumors,171518,2020,3
-652,Rocafort de Queralt,431303,2020,4
-653,Roda de Berà,431310,2020,9
-654,Roda de Ter,081831,2020,4
-655,Rodonyà,431325,2020,5
-656,Roquetes,431331,2020,6
-657,Roses,171523,2020,7
-658,Rosselló,251898,2020,4
-659,Rubió,081859,2020,3
-660,Rubí,081846,2020,8
-661,Rupit i Pruit,089019,2020,3
-662,Rupià,171539,2020,2
-663,Sabadell,081878,2020,9
-664,Sagàs,081884,2020,3
-665,Saldes,081901,2020,4
-666,Sales de Llierca,171544,2020,3
-667,Sallent,081918,2020,7
-668,Salomó,431359,2020,4
-669,Salou,439057,2020,11
-670,Salt,171557,2020,7
-671,Salàs de Pallars,251902,2020,4
-672,Sanaüja,251919,2020,4
-673,Sant Adrià de Besòs,081944,2020,9
-674,Sant Agustí de Lluçanès,081957,2020,3
-675,Sant Andreu Salou,171576,2020,5
-676,Sant Andreu de Llavaneres,081976,2020,6
-677,Sant Andreu de la Barca,081960,2020,8
-678,Sant Aniol de Finestres,171833,2020,4
-679,Sant Antoni de Vilamajor,081982,2020,5
-680,Sant Bartomeu del Grau,081995,2020,3
-681,Sant Boi de Llobregat,082009,2020,10
-682,Sant Boi de Lluçanès,082016,2020,3
-683,Sant Carles de la Ràpita,431362,2020,7
-684,Sant Cebrià de Vallalta,082037,2020,4
-685,Sant Celoni,082021,2020,6
-686,Sant Climent Sescebes,171582,2020,4
-687,Sant Climent de Llobregat,082042,2020,5
-688,Sant Cugat Sesgarrigues,082068,2020,3
-689,Sant Cugat del Vallès,082055,2020,8
-690,Sant Esteve Sesrovires,082080,2020,7
-691,Sant Esteve de Palautordera,082074,2020,5
-692,Sant Esteve de la Sarga,251961,2020,3
-693,Sant Feliu Sasserra,082129,2020,3
-694,Sant Feliu de Buixalleu,171595,2020,6
-695,Sant Feliu de Codines,082107,2020,4
-696,Sant Feliu de Guíxols,171609,2020,6
-697,Sant Feliu de Llobregat,082114,2020,7
-698,Sant Feliu de Pallerols,171616,2020,3
-699,Sant Ferriol,171621,2020,4
-700,Sant Fost de Campsentelles,082093,2020,7
-701,Sant Fruitós de Bages,082135,2020,6
-702,Sant Gregori,171637,2020,5
-703,Sant Guim de Freixenet,251924,2020,4
-704,Sant Guim de la Plana,251977,2020,2
-705,Sant Hilari Sacalm,171642,2020,3
-706,Sant Hipòlit de Voltregà,082153,2020,2
-707,Sant Iscle de Vallalta,081939,2020,4
-708,Sant Jaume d'Enveja,439023,2020,6
-709,Sant Jaume de Frontanyà,082166,2020,3
-710,Sant Jaume de Llierca,171655,2020,3
-711,Sant Jaume dels Domenys,431378,2020,6
-712,Sant Joan Despí,082172,2020,7
-713,Sant Joan de Mollet,171680,2020,4
-714,Sant Joan de Vilatorrada,082188,2020,5
-715,Sant Joan de les Abadesses,171674,2020,5
-716,Sant Joan les Fonts,171851,2020,4
-717,Sant Jordi Desvalls,171668,2020,5
-718,Sant Julià de Cerdanyola,089030,2020,4
-719,Sant Julià de Ramis,171693,2020,5
-720,Sant Julià de Vilatorta,082205,2020,4
-721,Sant Julià del Llor i Bonmatí,179032,2020,4
-722,Sant Just Desvern,082212,2020,6
-723,Sant Llorenç Savall,082233,2020,5
-724,Sant Llorenç d'Hortons,082227,2020,6
-725,Sant Llorenç de Morunys,251930,2020,4
-726,Sant Llorenç de la Muga,171714,2020,4
-727,Sant Martí Sarroca,082270,2020,5
-728,Sant Martí Sesgueioles,082286,2020,3
-729,Sant Martí Vell,171735,2020,5
-730,Sant Martí d'Albars,082251,2020,3
-731,Sant Martí de Centelles,082248,2020,5
-732,Sant Martí de Llémena,171729,2020,4
-733,Sant Martí de Riucorb,259025,2020,3
-734,Sant Martí de Tous,082264,2020,3
-735,Sant Mateu de Bages,082299,2020,4
-736,Sant Miquel de Campmajor,171740,2020,3
-737,Sant Miquel de Fluvià,171753,2020,4
-738,Sant Mori,171766,2020,4
-739,Sant Pau de Segúries,171772,2020,4
-740,Sant Pere Pescador,171788,2020,4
-741,Sant Pere Sallavinera,081897,2020,4
-742,Sant Pere de Ribes,082310,2020,6
-743,Sant Pere de Riudebitlles,082325,2020,4
-744,Sant Pere de Torelló,082331,2020,4
-745,Sant Pere de Vilamajor,082346,2020,4
-746,Sant Pol de Mar,082359,2020,6
-747,Sant Quintí de Mediona,082362,2020,3
-748,Sant Quirze Safaja,082397,2020,5
-749,Sant Quirze de Besora,082378,2020,4
-750,Sant Quirze del Vallès,082384,2020,7
-751,Sant Ramon,251945,2020,3
-752,Sant Sadurní d'Anoia,082401,2020,5
-753,Sant Sadurní d'Osormort,082418,2020,3
-754,Sant Salvador de Guardiola,080983,2020,5
-755,Sant Vicenç de Castellet,082628,2020,6
-756,Sant Vicenç de Montalt,082649,2020,5
-757,Sant Vicenç de Torelló,082652,2020,4
-758,Sant Vicenç dels Horts,082634,2020,7
-759,Santa Bàrbara,431384,2020,3
-760,Santa Cecília de Voltregà,082439,2020,5
-761,Santa Coloma de Cervelló,082444,2020,7
-762,Santa Coloma de Farners,171805,2020,4
-763,Santa Coloma de Gramenet,082457,2020,8
-764,Santa Coloma de Queralt,431397,2020,3
-765,Santa Cristina d'Aro,171812,2020,6
-766,Santa Eugènia de Berga,082460,2020,3
-767,Santa Eulàlia de Riuprimer,082476,2020,4
-768,Santa Eulàlia de Ronçana,082482,2020,5
-769,Santa Fe del Penedès,082495,2020,3
-770,Santa Llogaia d'Àlguema,171827,2020,4
-771,Santa Margarida de Montbui,082508,2020,4
-772,Santa Margarida i els Monjos,082515,2020,6
-773,Santa Maria d'Oló,082589,2020,3
-774,Santa Maria de Besora,082536,2020,3
-775,Santa Maria de Martorelles,082567,2020,4
-776,Santa Maria de Merlès,082554,2020,3
-777,Santa Maria de Miralles,082573,2020,4
-778,Santa Maria de Palautordera,082592,2020,6
-779,Santa Oliva,431401,2020,5
-780,Santa Pau,171848,2020,4
-781,Santa Perpètua de Mogoda,082606,2020,8
-782,Santa Susanna,082613,2020,6
-783,Santpedor,081923,2020,5
-784,Sarral,431423,2020,5
-785,Sarrià de Ter,171864,2020,5
-786,Sarroca de Bellera,252017,2020,4
-787,Sarroca de Lleida,252000,2020,5
-788,"Saus, Camallera i Llampaies",171870,2020,5
-789,Savallà del Comtat,431439,2020,3
-790,Senan,431460,2020,4
-791,Senterada,252022,2020,4
-792,Sentmenat,082671,2020,4
-793,Serinyà,171903,2020,4
-794,Serra de Daró,171910,2020,3
-795,Seròs,252043,2020,5
-796,Setcases,171925,2020,6
-797,Seva,082690,2020,5
-798,Sidamon,252056,2020,4
-799,Sils,171931,2020,7
-800,Sitges,082704,2020,7
-801,Siurana,170524,2020,4
-802,Sobremunt,082711,2020,3
-803,Solivella,431476,2020,4
-804,Solsona,252075,2020,5
-805,Sora,082726,2020,3
-806,Soriguera,252081,2020,5
-807,Sort,252094,2020,6
-808,Soses,252108,2020,4
-809,Subirats,082732,2020,5
-810,Sudanell,252115,2020,4
-811,Sunyer,252120,2020,2
-812,Susqueda,171946,2020,3
-813,Súria,082747,2020,4
-814,Tagamanent,082763,2020,5
-815,Talamanca,082779,2020,6
-816,Talarn,252154,2020,5
-817,Talavera,252167,2020,4
-818,Taradell,082785,2020,5
-819,Tarragona,431482,2020,12
-820,Tarroja de Segarra,252192,2020,3
-821,Tarrés,252189,2020,4
-822,Tavertet,082802,2020,3
-823,Tavèrnoles,082750,2020,5
-824,Teià,082819,2020,4
-825,Terrades,171962,2020,4
-826,Terrassa,082798,2020,10
-827,Tiana,082824,2020,4
-828,Tiurana,252228,2020,4
-829,Tivenys,431495,2020,6
-830,Tivissa,431508,2020,7
-831,Tona,082830,2020,4
-832,Tordera,082845,2020,5
-833,Torelló,082858,2020,3
-834,Tornabous,252252,2020,3
-835,Torre-serona,252332,2020,4
-836,Torrebesses,252265,2020,5
-837,Torredembarra,431536,2020,7
-838,Torrefarrera,252287,2020,5
-839,Torrefeta i Florejacs,259078,2020,4
-840,Torregrossa,252304,2020,3
-841,Torrelameu,252311,2020,3
-842,Torrelavit,082877,2020,4
-843,Torrelles de Foix,082883,2020,5
-844,Torrelles de Llobregat,082896,2020,4
-845,Torrent,171978,2020,4
-846,Torres de Segre,252326,2020,5
-847,Torroella de Fluvià,171984,2020,3
-848,Torroella de Montgrí,171997,2020,6
-849,Torroja del Priorat,431541,2020,4
-850,Tortellà,172001,2020,3
-851,Tortosa,431554,2020,9
-852,Torà,252234,2020,4
-853,Toses,172018,2020,6
-854,Tossa de Mar,172023,2020,6
-855,Tremp,252347,2020,6
-856,Tàrrega,252173,2020,4
-857,Térmens,252206,2020,3
-858,Tírvia,252213,2020,4
-859,Ullastrell,082900,2020,4
-860,Ullastret,172057,2020,3
-861,Ulldecona,431567,2020,6
-862,Ulldemolins,431573,2020,5
-863,Ullà,172044,2020,4
-864,Ultramort,172039,2020,3
-865,Urús,172060,2020,3
-866,Vacarisses,082917,2020,6
-867,Vall de Cardós,259010,2020,5
-868,Vall-llobrega,172095,2020,3
-869,Vallbona d'Anoia,082922,2020,4
-870,Vallbona de les Monges,252385,2020,4
-871,Vallcebre,082938,2020,3
-872,Vallclara,431589,2020,3
-873,Vallfogona de Balaguer,252402,2020,3
-874,Vallfogona de Ripollès,171707,2020,4
-875,Vallfogona de Riucorb,431592,2020,4
-876,Vallgorguina,082943,2020,6
-877,Vallirana,082956,2020,4
-878,Vallmoll,431606,2020,5
-879,Vallromanes,082969,2020,4
-880,Valls,431613,2020,8
-881,Vandellòs i l'Hospitalet de l'Infant,431628,2020,11
-882,Veciana,082975,2020,4
-883,Ventalló,172109,2020,5
-884,Verdú,252424,2020,3
-885,Verges,172116,2020,3
-886,Vespella de Gaià,431649,2020,5
-887,Vic,082981,2020,6
-888,Vidreres,172137,2020,5
-889,Vidrà,172121,2020,3
-890,Vielha e Mijaran,252430,2020,8
-891,Vila-rodona,431704,2020,6
-892,Vila-sacra,172305,2020,3
-893,Vila-sana,252521,2020,5
-894,Vila-seca,431711,2020,11
-895,Vilabella,431652,2020,3
-896,Vilabertran,172142,2020,4
-897,Vilablareix,172155,2020,6
-898,Vilada,082994,2020,4
-899,Viladamat,172174,2020,4
-900,Viladasens,172168,2020,5
-901,Viladecans,083015,2020,9
-902,Viladecavalls,083008,2020,5
-903,Vilademuls,172180,2020,5
-904,Viladrau,172207,2020,4
-905,Vilafant,172214,2020,4
-906,Vilafranca del Penedès,083054,2020,7
-907,Vilagrassa,252445,2020,4
-908,Vilajuïga,172235,2020,6
-909,Vilalba Sasserra,083067,2020,5
-910,Vilalba dels Arcs,431750,2020,5
-911,Vilaller,252458,2020,7
-912,Vilallonga de Ter,172240,2020,5
-913,Vilallonga del Camp,431665,2020,5
-914,Vilamacolum,172253,2020,3
-915,Vilamalla,172266,2020,4
-916,Vilamaniscle,172272,2020,3
-917,Vilamòs,252477,2020,5
-918,Vilanant,172288,2020,4
-919,Vilanova d'Escornalbou,431671,2020,5
-920,Vilanova de Bellpuig,252483,2020,2
-921,Vilanova de Meià,252509,2020,4
-922,Vilanova de Prades,431687,2020,3
-923,Vilanova de Sau,083036,2020,3
-924,Vilanova de Segrià,252516,2020,3
-925,Vilanova de l'Aguda,252496,2020,4
-926,Vilanova de la Barca,252542,2020,3
-927,Vilanova del Camí,083020,2020,5
-928,Vilanova del Vallès,089024,2020,7
-929,Vilanova i la Geltrú,083073,2020,6
-930,Vilaplana,431690,2020,4
-931,Vilassar de Dalt,082140,2020,4
-932,Vilassar de Mar,082191,2020,4
-933,Vilaverd,431726,2020,4
-934,Vilaür,172229,2020,4
-935,Vilobí d'Onyar,172333,2020,7
-936,Vilobí del Penedès,083041,2020,2
-937,Vilopriu,172327,2020,5
-938,Vimbodí i Poblet,431763,2020,5
-939,Vinaixa,252555,2020,4
-940,Vinebre,431779,2020,8
-941,Vinyols i els Arcs,431785,2020,8
-942,Viver i Serrateix,083089,2020,3
-943,Xerta,430521,2020,6
-944,Àger,250024,2020,5
-945,Òdena,081430,2020,6
-946,Òrrius,081537,2020,4
+139,Calonge,080364,2020,4
+140,Camarasa,250621,2020,5
+141,Camarles,439039,2020,6
+142,Cambrils,430385,2020,9
+143,Campdevànol,170366,2020,5
+144,Campelles,170372,2020,3
+145,Campins,080399,2020,4
+146,Campllong,170388,2020,5
+147,Camprodon,170391,2020,5
+148,Camós,170353,2020,4
+149,Canejan,250637,2020,5
+150,Canet d'Adri,170405,2020,4
+151,Canet de Mar,080403,2020,6
+152,Canovelles,080410,2020,7
+153,Cantallops,170412,2020,4
+154,Canyelles,080431,2020,5
+155,Capafonts,430398,2020,3
+156,Capellades,080446,2020,4
+157,Capmany,170427,2020,6
+158,Capolat,080459,2020,3
+159,Capçanes,430402,2020,6
+160,Cardedeu,080462,2020,6
+161,Cardona,080478,2020,4
+162,Carme,080484,2020,4
+163,Caseres,430419,2020,5
+164,Casserres,080497,2020,3
+165,Cassà de la Selva,170448,2020,4
+166,Castell de Mur,259046,2020,5
+167,Castell de l'Areny,080575,2020,3
+168,Castell-Platja d'Aro,170486,2020,6
+169,Castellar de la Ribera,250642,2020,4
+170,Castellar de n'Hug,080522,2020,5
+171,Castellar del Riu,080500,2020,3
+172,Castellar del Vallès,080517,2020,8
+173,Castellbell i el Vilar,080538,2020,6
+174,Castellbisbal,080543,2020,8
+175,Castellcir,080556,2020,5
+176,Castelldans,250674,2020,5
+177,Castelldefels,080569,2020,7
+178,Castellet i la Gornal,080581,2020,5
+179,Castellfollit de Riubregós,080608,2020,4
+180,Castellfollit de la Roca,170464,2020,3
+181,Castellfollit del Boix,080594,2020,3
+182,Castellgalí,080615,2020,6
+183,Castellnou de Bages,080620,2020,3
+184,Castellnou de Seana,250680,2020,3
+185,Castellolí,080636,2020,5
+186,Castellserà,250707,2020,3
+187,Castellterçol,080641,2020,4
+188,Castellvell del Camp,430424,2020,5
+189,Castellví de Rosanes,080667,2020,7
+190,Castellví de la Marca,080654,2020,5
+191,Castelló d'Empúries,170470,2020,6
+192,Castelló de Farfanya,250693,2020,4
+193,Cava,250714,2020,3
+194,Celrà,170499,2020,7
+195,Centelles,080673,2020,5
+196,Cercs,082687,2020,4
+197,Cerdanyola del Vallès,082665,2020,9
+198,Cervelló,080689,2020,4
+199,Cervera,250729,2020,5
+200,Cervià de Ter,170502,2020,5
+201,Cervià de les Garrigues,250735,2020,3
+202,Cistella,170519,2020,3
+203,Ciutadilla,250740,2020,4
+204,Clariana de Cardener,250753,2020,4
+205,Colera,170545,2020,7
+206,Coll de Nargó,250772,2020,4
+207,Collbató,080692,2020,6
+208,Colldejou,430458,2020,5
+209,Collsuspina,080706,2020,3
+210,Colomers,170558,2020,5
+211,Conca de Dalt,251615,2020,3
+212,Conesa,430461,2020,4
+213,Constantí,430477,2020,8
+214,Copons,080713,2020,5
+215,Corbera d'Ebre,430483,2020,5
+216,Corbera de Llobregat,080728,2020,7
+217,Corbins,250788,2020,4
+218,Cornellà de Llobregat,080734,2020,9
+219,Cornellà del Terri,170561,2020,5
+220,Cornudella de Montsant,430496,2020,5
+221,Corçà,170577,2020,5
+222,Creixell,430509,2020,8
+223,Crespià,170583,2020,3
+224,Cubelles,080749,2020,7
+225,Cubells,250791,2020,4
+226,Cunit,430516,2020,7
+227,Cànoves i Samalús,080425,2020,4
+228,Darnius,170600,2020,5
+229,Das,170617,2020,6
+230,Deltebre,439018,2020,7
+231,Dosrius,080752,2020,4
+232,Duesaigües,430537,2020,7
+233,Esparreguera,080765,2020,8
+234,Espinelves,170638,2020,3
+235,Esplugues de Llobregat,080771,2020,9
+236,Espolla,170643,2020,4
+237,Esponellà,170656,2020,4
+238,Espot,250827,2020,5
+239,Estamariu,250886,2020,4
+240,Estaràs,250851,2020,4
+241,Esterri d'Àneu,250864,2020,5
+242,Esterri de Cardós,250870,2020,4
+243,Falset,430555,2020,6
+244,Farrera,250899,2020,4
+245,Figaró-Montmany,081347,2020,5
+246,Figueres,170669,2020,6
+247,Figuerola del Camp,430593,2020,3
+248,Flaçà,170675,2020,5
+249,Flix,430607,2020,8
+250,Fogars de Montclús,080811,2020,4
+251,Fogars de la Selva,080826,2020,6
+252,Foixà,170681,2020,4
+253,Folgueroles,080832,2020,5
+254,Fondarella,250931,2020,4
+255,Fonollosa,080847,2020,4
+256,Font-rubí,080850,2020,4
+257,Fontanals de Cerdanya,170694,2020,5
+258,Fontanilles,170708,2020,3
+259,Fontcoberta,170715,2020,4
+260,Foradada,250946,2020,4
+261,Forallac,179026,2020,4
+262,Fornells de la Selva,170736,2020,6
+263,Fortià,170741,2020,3
+264,Forès,430614,2020,3
+265,Freginals,430629,2020,5
+266,Fulleda,250978,2020,3
+267,Fígols,080804,2020,4
+268,Fígols i Alinyà,259084,2020,4
+269,Gaià,080902,2020,5
+270,Gallifa,080879,2020,3
+271,Gandesa,430640,2020,5
+272,Garcia,430653,2020,7
+273,Garrigoles,170767,2020,4
+274,Garriguella,170773,2020,5
+275,Garrigàs,170754,2020,5
+276,Gavet de la Conca,250984,2020,3
+277,Gavà,080898,2020,7
+278,Gelida,080919,2020,6
+279,Ger,170789,2020,4
+280,Gimenells i el Pla de la Font,259123,2020,3
+281,Ginestar,430672,2020,6
+282,Girona,170792,2020,9
+283,Gironella,080924,2020,4
+284,Gisclareny,080930,2020,3
+285,Godall,430688,2020,4
+286,Golmés,250997,2020,5
+287,Gombrèn,170806,2020,3
+288,Granera,080958,2020,3
+289,Granollers,080961,2020,7
+290,Granyanella,251039,2020,4
+291,Granyena de Segarra,251044,2020,3
+292,Granyena de les Garrigues,251057,2020,4
+293,Gratallops,430691,2020,5
+294,Gualba,080977,2020,6
+295,Gualta,170813,2020,3
+296,Guardiola de Berguedà,080996,2020,5
+297,Guils de Cerdanya,170828,2020,4
+298,Guimerà,251095,2020,4
+299,Guissona,251109,2020,4
+300,Guixers,251116,2020,6
+301,Gurb,081000,2020,6
+302,Gósol,251001,2020,5
+303,Horta de Sant Joan,430712,2020,5
+304,Hostalric,170834,2020,6
+305,Igualada,081022,2020,7
+306,Isona i Conca Dellà,251155,2020,3
+307,Isòvol,170849,2020,5
+308,Ivars d'Urgell,251137,2020,3
+309,Ivars de Noguera,251121,2020,4
+310,Ivorra,251142,2020,3
+311,Jafre,170852,2020,4
+312,Jorba,081038,2020,5
+313,Josa i Tuixén,259101,2020,4
+314,Juià,170871,2020,5
+315,Juncosa,251180,2020,6
+316,Juneda,251193,2020,4
+317,Les,251214,2020,6
+318,Linyola,251229,2020,3
+319,Lladorre,251235,2020,5
+320,Lladurs,251240,2020,4
+321,Lladó,170887,2020,3
+322,Llagostera,170890,2020,4
+323,Llambilles,170904,2020,4
+324,Llanars,170911,2020,4
+325,Llançà,170926,2020,7
+326,Llardecans,251253,2020,6
+327,Llavorsí,251266,2020,6
+328,Lleida,251207,2020,11
+329,Llers,170932,2020,5
+330,Lles de Cerdanya,251272,2020,3
+331,Llimiana,251288,2020,4
+332,Llinars del Vallès,081069,2020,7
+333,Lliçà d'Amunt,081075,2020,7
+334,Lliçà de Vall,081081,2020,7
+335,Llobera,251291,2020,3
+336,Llorac,430733,2020,4
+337,Llorenç del Penedès,430748,2020,5
+338,Lloret de Mar,170950,2020,6
+339,Lluçà,081094,2020,3
+340,Llívia,170947,2020,5
+341,Madremanya,170979,2020,3
+342,Maials,251333,2020,6
+343,Maià de Montcal,170985,2020,4
+344,Maldà,251305,2020,4
+345,Malgrat de Mar,081108,2020,7
+346,Malla,081115,2020,4
+347,Manlleu,081120,2020,4
+348,Manresa,081136,2020,10
+349,Margalef,430751,2020,5
+350,Marganell,082423,2020,5
+351,Martorell,081141,2020,9
+352,Martorelles,081154,2020,6
+353,Marçà,430764,2020,6
+354,Mas de Barberans,430770,2020,4
+355,Masarac,171002,2020,4
+356,Masdenverge,430786,2020,5
+357,Masllorenç,430799,2020,4
+358,Maspujols,430810,2020,6
+359,Masquefa,081192,2020,6
+360,Massalcoreig,251312,2020,4
+361,Massanes,171019,2020,6
+362,Massoteres,251327,2020,4
+363,Matadepera,081206,2020,4
+364,Mataró,081213,2020,8
+365,Maçanet de Cabrenys,171024,2020,4
+366,Maçanet de la Selva,171030,2020,6
+367,Mediona,081228,2020,4
+368,Menàrguens,251348,2020,3
+369,Meranges,170998,2020,4
+370,Mieres,171058,2020,4
+371,Miralcamp,251351,2020,2
+372,Miravet,430846,2020,6
+373,Moià,081385,2020,5
+374,Molins de Rei,081234,2020,7
+375,Mollerussa,251370,2020,4
+376,Mollet de Peralada,171061,2020,4
+377,Mollet del Vallès,081249,2020,7
+378,Molló,171077,2020,5
+379,Monistrol de Calders,081287,2020,5
+380,Monistrol de Montserrat,081271,2020,6
+381,Mont-ral,430918,2020,3
+382,Mont-ras,171100,2020,5
+383,Mont-roig del Camp,430923,2020,9
+384,Montagut i Oix,171096,2020,4
+385,Montblanc,430862,2020,6
+386,Montbrió del Camp,430884,2020,5
+387,Montcada i Reixac,081252,2020,9
+388,Montclar,081304,2020,3
+389,Montellà i Martinet,251399,2020,5
+390,Montesquiu,081311,2020,4
+391,Montferrer i Castellbò,251403,2020,5
+392,Montferri,430897,2020,4
+393,Montgai,251386,2020,3
+394,Montgat,081265,2020,5
+395,Montmajor,081326,2020,4
+396,Montmaneu,081332,2020,4
+397,Montmeló,081350,2020,6
+398,Montoliu de Lleida,251425,2020,4
+399,Montoliu de Segarra,251410,2020,4
+400,Montornès de Segarra,251431,2020,4
+401,Montornès del Vallès,081363,2020,7
+402,Montseny,081379,2020,3
+403,Muntanyola,081290,2020,5
+404,Mura,081398,2020,4
+405,Móra d'Ebre,430939,2020,7
+406,Móra la Nova,430944,2020,6
+407,Nalec,251459,2020,4
+408,Naut Aran,250254,2020,6
+409,Navarcles,081402,2020,5
+410,Navata,171117,2020,4
+411,Navàs,081419,2020,4
+412,Navès,251462,2020,4
+413,Nulles,430982,2020,3
+414,Odèn,251484,2020,4
+415,Ogassa,171122,2020,2
+416,Olesa de Bonesvalls,081461,2020,4
+417,Olesa de Montserrat,081477,2020,8
+418,Oliana,251497,2020,4
+419,Oliola,251500,2020,4
+420,Olius,251517,2020,3
+421,Olivella,081483,2020,3
+422,Olost,081496,2020,3
+423,Olot,171143,2020,5
+424,Olvan,081445,2020,4
+425,Olèrdola,081458,2020,6
+426,Ordis,171156,2020,3
+427,Organyà,251556,2020,5
+428,Oristà,081516,2020,4
+429,Orpí,081521,2020,3
+430,Orís,081509,2020,4
+431,Os de Balaguer,251569,2020,4
+432,Osor,171169,2020,4
+433,Ossó de Sió,251575,2020,3
+434,Pacs del Penedès,081542,2020,3
+435,Palafolls,081555,2020,6
+436,Palafrugell,171175,2020,6
+437,Palamós,171181,2020,6
+438,Palau de Santa Eulàlia,171194,2020,5
+439,Palau-sator,171215,2020,3
+440,Palau-saverdera,171208,2020,5
+441,Palau-solità i Plegamans,081568,2020,7
+442,Pallejà,081574,2020,7
+443,Palol de Revardit,171236,2020,5
+444,Pals,171241,2020,6
+445,Pardines,171254,2020,3
+446,Parets del Vallès,081593,2020,6
+447,Parlavà,171267,2020,3
+448,Passanant i Belltall,431016,2020,4
+449,Pau,171289,2020,5
+450,Paüls,431021,2020,5
+451,Pedret i Marzà,171292,2020,5
+452,Penelles,251641,2020,3
+453,Perafita,081607,2020,3
+454,Perafort,431037,2020,8
+455,Peralada,171328,2020,5
+456,Peramola,251654,2020,4
+457,Piera,081614,2020,5
+458,Pineda de Mar,081635,2020,6
+459,Pinell de Solsonès,251667,2020,4
+460,Pinós,251673,2020,4
+461,Pira,431074,2020,3
+462,Planoles,171349,2020,4
+463,Poboleda,431129,2020,5
+464,Polinyà,081672,2020,7
+465,Pont de Molins,171352,2020,5
+466,Pontils,431418,2020,4
+467,Pontons,081688,2020,4
+468,Ponts,251728,2020,4
+469,Pontós,171365,2020,4
+470,Porqueres,171371,2020,4
+471,Porrera,431140,2020,5
+472,Portbou,171387,2020,8
+473,Pradell de la Teixeta,431153,2020,8
+474,Prades,431166,2020,3
+475,Prat de Comte,431172,2020,5
+476,Pratdip,431188,2020,6
+477,Prats de Lluçanès,081712,2020,4
+478,Prats i Sansor,251752,2020,5
+479,Preixana,251765,2020,3
+480,Preixens,251771,2020,3
+481,Premià de Dalt,082303,2020,4
+482,Premià de Mar,081727,2020,5
+483,Prullans,251790,2020,4
+484,Puig-reig,081751,2020,5
+485,Puigcerdà,171411,2020,6
+486,Puigdàlber,081748,2020,2
+487,Puiggròs,251804,2020,2
+488,Puigpelat,431191,2020,6
+489,Puigverd d'Agramunt,251811,2020,3
+490,Puigverd de Lleida,251826,2020,4
+491,Pujalt,081764,2020,3
+492,Quart,171426,2020,4
+493,Queralbs,170433,2020,5
+494,Querol,431205,2020,3
+495,Rabós,171432,2020,4
+496,Rajadell,081786,2020,4
+497,Rasquera,431212,2020,6
+498,Regencós,171447,2020,4
+499,Rellinars,081799,2020,4
+500,Renau,431227,2020,4
+501,Reus,431233,2020,10
+502,Rialp,251832,2020,5
+503,Riba-roja d'Ebre,431251,2020,8
+504,Ribera d'Ondara,259059,2020,4
+505,Ribera d'Urgellet,251850,2020,5
+506,Ribes de Freser,171450,2020,6
+507,Riells i Viabrea,171463,2020,6
+508,Riner,251863,2020,4
+509,Ripoll,171479,2020,5
+510,Ripollet,081803,2020,8
+511,Riu de Cerdanya,259139,2020,3
+512,Riudarenes,171485,2020,5
+513,Riudaura,171498,2020,3
+514,Riudecanyes,431270,2020,7
+515,Riudecols,431286,2020,6
+516,Riudellots de la Selva,171501,2020,5
+517,Riudoms,431299,2020,8
+518,Riumors,171518,2020,3
+519,Rocafort de Queralt,431303,2020,4
+520,Roda de Berà,431310,2020,9
+521,Roda de Ter,081831,2020,4
+522,Rodonyà,431325,2020,5
+523,Roquetes,431331,2020,6
+524,Roses,171523,2020,7
+525,Rosselló,251898,2020,4
+526,Rubió,081859,2020,3
+527,Rubí,081846,2020,8
+528,Rupit i Pruit,089019,2020,3
+529,Rupià,171539,2020,2
+530,Sabadell,081878,2020,9
+531,Sagàs,081884,2020,3
+532,Saldes,081901,2020,4
+533,Sales de Llierca,171544,2020,3
+534,Sallent,081918,2020,7
+535,Salomó,431359,2020,4
+536,Salou,439057,2020,11
+537,Salt,171557,2020,7
+538,Salàs de Pallars,251902,2020,4
+539,Sanaüja,251919,2020,4
+540,Sant Adrià de Besòs,081944,2020,9
+541,Sant Agustí de Lluçanès,081957,2020,3
+542,Sant Andreu Salou,171576,2020,5
+543,Sant Andreu de Llavaneres,081976,2020,6
+544,Sant Andreu de la Barca,081960,2020,8
+545,Sant Aniol de Finestres,171833,2020,4
+546,Sant Antoni de Vilamajor,081982,2020,5
+547,Sant Bartomeu del Grau,081995,2020,3
+548,Sant Boi de Llobregat,082009,2020,10
+549,Sant Boi de Lluçanès,082016,2020,3
+550,Sant Carles de la Ràpita,431362,2020,7
+551,Sant Cebrià de Vallalta,082037,2020,4
+552,Sant Celoni,082021,2020,6
+553,Sant Climent Sescebes,171582,2020,4
+554,Sant Climent de Llobregat,082042,2020,5
+555,Sant Cugat Sesgarrigues,082068,2020,3
+556,Sant Cugat del Vallès,082055,2020,8
+557,Sant Esteve Sesrovires,082080,2020,7
+558,Sant Esteve de Palautordera,082074,2020,5
+559,Sant Esteve de la Sarga,251961,2020,3
+560,Sant Feliu Sasserra,082129,2020,3
+561,Sant Feliu de Buixalleu,171595,2020,6
+562,Sant Feliu de Codines,082107,2020,4
+563,Sant Feliu de Guíxols,171609,2020,6
+564,Sant Feliu de Llobregat,082114,2020,7
+565,Sant Feliu de Pallerols,171616,2020,3
+566,Sant Ferriol,171621,2020,4
+567,Sant Fost de Campsentelles,082093,2020,7
+568,Sant Fruitós de Bages,082135,2020,6
+569,Sant Gregori,171637,2020,5
+570,Sant Guim de Freixenet,251924,2020,4
+571,Sant Guim de la Plana,251977,2020,2
+572,Sant Hilari Sacalm,171642,2020,3
+573,Sant Hipòlit de Voltregà,082153,2020,2
+574,Sant Iscle de Vallalta,081939,2020,4
+575,Sant Jaume d'Enveja,439023,2020,6
+576,Sant Jaume de Frontanyà,082166,2020,3
+577,Sant Jaume de Llierca,171655,2020,3
+578,Sant Jaume dels Domenys,431378,2020,6
+579,Sant Joan Despí,082172,2020,7
+580,Sant Joan de Mollet,171680,2020,4
+581,Sant Joan de Vilatorrada,082188,2020,5
+582,Sant Joan de les Abadesses,171674,2020,5
+583,Sant Joan les Fonts,171851,2020,4
+584,Sant Jordi Desvalls,171668,2020,5
+585,Sant Julià de Cerdanyola,089030,2020,4
+586,Sant Julià de Ramis,171693,2020,5
+587,Sant Julià de Vilatorta,082205,2020,4
+588,Sant Julià del Llor i Bonmatí,179032,2020,4
+589,Sant Just Desvern,082212,2020,6
+590,Sant Llorenç Savall,082233,2020,5
+591,Sant Llorenç d'Hortons,082227,2020,6
+592,Sant Llorenç de Morunys,251930,2020,4
+593,Sant Llorenç de la Muga,171714,2020,4
+594,Sant Martí Sarroca,082270,2020,5
+595,Sant Martí Sesgueioles,082286,2020,3
+596,Sant Martí Vell,171735,2020,5
+597,Sant Martí d'Albars,082251,2020,3
+598,Sant Martí de Centelles,082248,2020,5
+599,Sant Martí de Llémena,171729,2020,4
+600,Sant Martí de Riucorb,259025,2020,3
+601,Sant Martí de Tous,082264,2020,3
+602,Sant Mateu de Bages,082299,2020,4
+603,Sant Miquel de Campmajor,171740,2020,3
+604,Sant Miquel de Fluvià,171753,2020,4
+605,Sant Mori,171766,2020,4
+606,Sant Pau de Segúries,171772,2020,4
+607,Sant Pere Pescador,171788,2020,4
+608,Sant Pere Sallavinera,081897,2020,4
+609,Sant Pere de Ribes,082310,2020,6
+610,Sant Pere de Riudebitlles,082325,2020,4
+611,Sant Pere de Torelló,082331,2020,4
+612,Sant Pere de Vilamajor,082346,2020,4
+613,Sant Pol de Mar,082359,2020,6
+614,Sant Quintí de Mediona,082362,2020,3
+615,Sant Quirze Safaja,082397,2020,5
+616,Sant Quirze de Besora,082378,2020,4
+617,Sant Quirze del Vallès,082384,2020,7
+618,Sant Ramon,251945,2020,3
+619,Sant Sadurní d'Anoia,082401,2020,5
+620,Sant Sadurní d'Osormort,082418,2020,3
+621,Sant Salvador de Guardiola,080983,2020,5
+622,Sant Vicenç de Castellet,082628,2020,6
+623,Sant Vicenç de Montalt,082649,2020,5
+624,Sant Vicenç de Torelló,082652,2020,4
+625,Sant Vicenç dels Horts,082634,2020,7
+626,Santa Bàrbara,431384,2020,3
+627,Santa Cecília de Voltregà,082439,2020,5
+628,Santa Coloma de Cervelló,082444,2020,7
+629,Santa Coloma de Farners,171805,2020,4
+630,Santa Coloma de Gramenet,082457,2020,8
+631,Santa Coloma de Queralt,431397,2020,3
+632,Santa Cristina d'Aro,171812,2020,6
+633,Santa Eugènia de Berga,082460,2020,3
+634,Santa Eulàlia de Riuprimer,082476,2020,4
+635,Santa Eulàlia de Ronçana,082482,2020,5
+636,Santa Fe del Penedès,082495,2020,3
+637,Santa Llogaia d'Àlguema,171827,2020,4
+638,Santa Margarida de Montbui,082508,2020,4
+639,Santa Margarida i els Monjos,082515,2020,6
+640,Santa Maria d'Oló,082589,2020,3
+641,Santa Maria de Besora,082536,2020,3
+642,Santa Maria de Martorelles,082567,2020,4
+643,Santa Maria de Merlès,082554,2020,3
+644,Santa Maria de Miralles,082573,2020,4
+645,Santa Maria de Palautordera,082592,2020,6
+646,Santa Oliva,431401,2020,5
+647,Santa Pau,171848,2020,4
+648,Santa Perpètua de Mogoda,082606,2020,8
+649,Santa Susanna,082613,2020,6
+650,Santpedor,081923,2020,5
+651,Sarral,431423,2020,5
+652,Sarrià de Ter,171864,2020,5
+653,Sarroca de Bellera,252017,2020,4
+654,Sarroca de Lleida,252000,2020,5
+655,"Saus, Camallera i Llampaies",171870,2020,5
+656,Savallà del Comtat,431439,2020,3
+657,Senan,431460,2020,4
+658,Senterada,252022,2020,4
+659,Sentmenat,082671,2020,4
+660,Serinyà,171903,2020,4
+661,Serra de Daró,171910,2020,3
+662,Seròs,252043,2020,5
+663,Setcases,171925,2020,6
+664,Seva,082690,2020,5
+665,Sidamon,252056,2020,4
+666,Sils,171931,2020,7
+667,Sitges,082704,2020,7
+668,Siurana,170524,2020,4
+669,Sobremunt,082711,2020,3
+670,Solivella,431476,2020,4
+671,Solsona,252075,2020,5
+672,Sora,082726,2020,3
+673,Soriguera,252081,2020,5
+674,Sort,252094,2020,6
+675,Soses,252108,2020,4
+676,Subirats,082732,2020,5
+677,Sudanell,252115,2020,4
+678,Sunyer,252120,2020,2
+679,Susqueda,171946,2020,3
+680,Súria,082747,2020,4
+681,Tagamanent,082763,2020,5
+682,Talamanca,082779,2020,6
+683,Talarn,252154,2020,5
+684,Talavera,252167,2020,4
+685,Taradell,082785,2020,5
+686,Tarragona,431482,2020,12
+687,Tarroja de Segarra,252192,2020,3
+688,Tarrés,252189,2020,4
+689,Tavertet,082802,2020,3
+690,Tavèrnoles,082750,2020,5
+691,Teià,082819,2020,4
+692,Terrades,171962,2020,4
+693,Terrassa,082798,2020,10
+694,Tiana,082824,2020,4
+695,Tiurana,252228,2020,4
+696,Tivenys,431495,2020,6
+697,Tivissa,431508,2020,7
+698,Tona,082830,2020,4
+699,Tordera,082845,2020,5
+700,Torelló,082858,2020,3
+701,Tornabous,252252,2020,3
+702,Torre-serona,252332,2020,4
+703,Torrebesses,252265,2020,5
+704,Torredembarra,431536,2020,7
+705,Torrefarrera,252287,2020,5
+706,Torrefeta i Florejacs,259078,2020,4
+707,Torregrossa,252304,2020,3
+708,Torrelameu,252311,2020,3
+709,Torrelavit,082877,2020,4
+710,Torrelles de Foix,082883,2020,5
+711,Torrelles de Llobregat,082896,2020,4
+712,Torrent,171978,2020,4
+713,Torres de Segre,252326,2020,5
+714,Torroella de Fluvià,171984,2020,3
+715,Torroella de Montgrí,171997,2020,6
+716,Torroja del Priorat,431541,2020,4
+717,Tortellà,172001,2020,3
+718,Tortosa,431554,2020,9
+719,Torà,252234,2020,4
+720,Toses,172018,2020,6
+721,Tossa de Mar,172023,2020,6
+722,Tremp,252347,2020,6
+723,Tàrrega,252173,2020,4
+724,Térmens,252206,2020,3
+725,Tírvia,252213,2020,4
+726,Ullastrell,082900,2020,4
+727,Ullastret,172057,2020,3
+728,Ulldecona,431567,2020,6
+729,Ulldemolins,431573,2020,5
+730,Ullà,172044,2020,4
+731,Ultramort,172039,2020,3
+732,Urús,172060,2020,3
+733,Vacarisses,082917,2020,6
+734,Vall de Cardós,259010,2020,5
+735,Vall-llobrega,172095,2020,3
+736,Vallbona d'Anoia,082922,2020,4
+737,Vallbona de les Monges,252385,2020,4
+738,Vallcebre,082938,2020,3
+739,Vallclara,431589,2020,3
+740,Vallfogona de Balaguer,252402,2020,3
+741,Vallfogona de Ripollès,171707,2020,4
+742,Vallfogona de Riucorb,431592,2020,4
+743,Vallgorguina,082943,2020,6
+744,Vallirana,082956,2020,4
+745,Vallmoll,431606,2020,5
+746,Vallromanes,082969,2020,4
+747,Valls,431613,2020,8
+748,Vandellòs i l'Hospitalet de l'Infant,431628,2020,11
+749,Veciana,082975,2020,4
+750,Ventalló,172109,2020,5
+751,Verdú,252424,2020,3
+752,Verges,172116,2020,3
+753,Vespella de Gaià,431649,2020,5
+754,Vic,082981,2020,6
+755,Vidreres,172137,2020,5
+756,Vidrà,172121,2020,3
+757,Vielha e Mijaran,252430,2020,8
+758,Vila-rodona,431704,2020,6
+759,Vila-sacra,172305,2020,3
+760,Vila-sana,252521,2020,5
+761,Vila-seca,431711,2020,11
+762,Vilabella,431652,2020,3
+763,Vilabertran,172142,2020,4
+764,Vilablareix,172155,2020,6
+765,Vilada,082994,2020,4
+766,Viladamat,172174,2020,4
+767,Viladasens,172168,2020,5
+768,Viladecans,083015,2020,9
+769,Viladecavalls,083008,2020,5
+770,Vilademuls,172180,2020,5
+771,Viladrau,172207,2020,4
+772,Vilafant,172214,2020,4
+773,Vilafranca del Penedès,083054,2020,7
+774,Vilagrassa,252445,2020,4
+775,Vilajuïga,172235,2020,6
+776,Vilalba Sasserra,083067,2020,5
+777,Vilalba dels Arcs,431750,2020,5
+778,Vilaller,252458,2020,7
+779,Vilallonga de Ter,172240,2020,5
+780,Vilallonga del Camp,431665,2020,5
+781,Vilamacolum,172253,2020,3
+782,Vilamalla,172266,2020,4
+783,Vilamaniscle,172272,2020,3
+784,Vilamòs,252477,2020,5
+785,Vilanant,172288,2020,4
+786,Vilanova d'Escornalbou,431671,2020,5
+787,Vilanova de Bellpuig,252483,2020,2
+788,Vilanova de Meià,252509,2020,4
+789,Vilanova de Prades,431687,2020,3
+790,Vilanova de Sau,083036,2020,3
+791,Vilanova de Segrià,252516,2020,3
+792,Vilanova de l'Aguda,252496,2020,4
+793,Vilanova de la Barca,252542,2020,3
+794,Vilanova del Camí,083020,2020,5
+795,Vilanova del Vallès,089024,2020,7
+796,Vilanova i la Geltrú,083073,2020,6
+797,Vilaplana,431690,2020,4
+798,Vilassar de Dalt,082140,2020,4
+799,Vilassar de Mar,082191,2020,4
+800,Vilaverd,431726,2020,4
+801,Vilaür,172229,2020,4
+802,Vilobí d'Onyar,172333,2020,7
+803,Vilobí del Penedès,083041,2020,2
+804,Vilopriu,172327,2020,5
+805,Vimbodí i Poblet,431763,2020,5
+806,Vinaixa,252555,2020,4
+807,Vinebre,431779,2020,8
+808,Vinyols i els Arcs,431785,2020,8
+809,Viver i Serrateix,083089,2020,3
+810,Xerta,430521,2020,6
+811,Àger,250024,2020,5
+812,Òdena,081430,2020,6
+813,Òrrius,081537,2020,4

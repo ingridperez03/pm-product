@@ -45,6 +45,7 @@ def initDem():
 
     data = data[data["Codi"].notna()]
     data["Codi"] = data["Codi"].astype(str).str.zfill(6)
+    data["Any"] = data["Any"].astype(int)
 
     indicador = Indicador(data, range(2011, 2021), 'municipi', 'habitatges solicitats')
     return indicador
@@ -141,25 +142,25 @@ def initResidencial():
 
     dimensio = Dimensio()
 
-    # Antiguitat - No hi ha anys
-    #any_construccio = initAC() 
-    #dimensio.afegirIndicador('Edificis per any construccio', any_construccio)
+    # Antiguitat 
+    any_construccio = initAC() 
+    dimensio.afegirIndicador('Edificis per any construccio', any_construccio)
 
-    # Demanda 
+    # Demanda
     demanda = initDem()
     dimensio.afegirIndicador('Demanda Social', demanda)
 
-    # Habitants per habitatge - Comarcal 
-    #habitants = initPH()
-    #dimensio.afegirIndicador('Habitants per Habitatge', habitants)
+    # Habitants per habitatge 
+    habitants = initPH()
+    dimensio.afegirIndicador('Habitants per Habitatge', habitants)
 
-    # Tipus Habitatges - Comarcal
-    #tipus = initTH()
-    #dimensio.afegirIndicador('Tipus Habitatges', tipus)
+    # Tipus Habitatges 
+    tipus = initTH()
+    dimensio.afegirIndicador('Tipus Habitatges', tipus)
 
-    # Regim de Tinença - Comarcal
-    #tinença = initRT()
-    #dimensio.afegirIndicador('Regim de Tinença', tinença)
+    # Regim de Tinença
+    tinença = initRT()
+    dimensio.afegirIndicador('Regim de Tinença', tinença)
     
     return dimensio
 
@@ -168,13 +169,18 @@ def exportarResidencial(dimensio):
     dades = pd.DataFrame()
     i = 0
     for indicador in dimensio.dades.keys():
-        #print(indicador)
         dadesInd = dimensio.dades[indicador].dades
-        print(dadesInd.columns)
-        if i == 0:
-            dades = dadesInd.copy(deep=True)
-        else:
-            dades = pd.merge(dades, dadesInd, on=["Literal", "Any", "Codi"], how='outer')
-        i += 1
 
-    dades.to_csv(os.path.join('dades', 'resultat', "residencial.csv"))
+        if indicador == "Edificis per any construccio":
+            dadesInd.to_csv(os.path.join('dades', 'resultat', "residencial_antiguitat.csv"))
+
+        elif indicador == "Habitants per Habitatge":
+            dadesInd.to_csv(os.path.join('dades', 'resultat', "residencial_comarcal.csv"))
+            
+        else: 
+            if i == 0:
+                dades = dadesInd.copy(deep=True)
+            else:
+                dades = pd.merge(dades, dadesInd, on=["Literal", "Any", "Codi"], how='outer')
+            i += 1
+            dades.to_csv(os.path.join('dades', 'resultat', "residencial.csv"))

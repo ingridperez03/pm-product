@@ -5,6 +5,7 @@ from indicador import Indicador
 
 # Path localització dades urbanistiques
 data_path = os.path.join('dades', 'urbanistica')
+municipis = pd.read_csv(os.path.join('dades', 'noms_municipis.csv'))
 
 '''
     Netejar dades referents als serveis (Se)
@@ -17,7 +18,9 @@ def initSe():
         nomArxiu = "dades_mapa_" + str(any) + ".csv"
         dataAny = pd.read_csv(os.path.join(path, nomArxiu))
         dataAny = dataAny[['Any', 'NomMun', 'Codi_ine_6_txt', '12_A2_SUC']]
-        dataAny.rename(columns={'NomMun':'Literal', 'Codi_ine_6_txt':'Codi', '12_A2_SUC':'Serveis'}, inplace=True)
+        dataAny = pd.merge(dataAny, municipis, on="NomMun")
+        dataAny.drop(columns={"NomMun", "Codi_ine_6_txt"} , inplace=True)
+        dataAny.rename(columns={'Municipi':'Literal', '12_A2_SUC':'Serveis'}, inplace=True)
         data = data.append(dataAny, ignore_index = True)
 
     data = data[data["Codi"].notna()]
@@ -37,8 +40,11 @@ def initSo():
     for any in range(2012, 2021):
         nomArxiu = "dades_mapa_" + str(any) + ".csv"
         dataAny = pd.read_csv(os.path.join(path, nomArxiu))
+        #print(dataAny)
         dataAny = dataAny[['Any', 'NomMun', 'Codi_ine_6_txt', '15_Qual_SUC_SISTEMES']]
-        dataAny.rename(columns={'NomMun':'Literal', 'Codi_ine_6_txt':'Codi', '15_Qual_SUC_SISTEMES':'Solar'}, inplace=True)
+        dataAny = pd.merge(dataAny, municipis, on="NomMun")
+        dataAny.drop(columns={"NomMun", "Codi_ine_6_txt"}, inplace=True)
+        dataAny.rename(columns={'Municipi':'Literal', '15_Qual_SUC_SISTEMES':'Solar'}, inplace=True)
         data = data.append(dataAny, ignore_index = True)
 
     data = data[data["Codi"].notna()]
@@ -59,7 +65,9 @@ def initZV():
         nomArxiu = "dades_mapa_" + str(any) + ".csv"
         dataAny = pd.read_csv(os.path.join(path, nomArxiu))
         dataAny = dataAny[['Any', 'NomMun', 'Codi_ine_6_txt', '15_SV_SUC']]
-        dataAny.rename(columns={'NomMun':'Literal', 'Codi_ine_6_txt':'Codi', '15_SV_SUC':'Zones verdes'}, inplace=True)
+        dataAny = pd.merge(dataAny, municipis, on="NomMun")
+        dataAny.drop(columns={"NomMun", "Codi_ine_6_txt"}, inplace=True)
+        dataAny.rename(columns={'Municipi':'Literal', '15_SV_SUC':'Zones verdes'}, inplace=True)
         data = data.append(dataAny, ignore_index = True)
 
     data = data[data["Codi"].notna()]
@@ -80,7 +88,9 @@ def initE():
         nomArxiu = "dades_mapa_" + str(any) + ".csv"
         dataAny = pd.read_csv(os.path.join(path, nomArxiu))
         dataAny = dataAny[['Any', 'NomMun', 'Codi_ine_6_txt', '20_Equip_habt']]
-        dataAny.rename(columns={'NomMun':'Literal', 'Codi_ine_6_txt':'Codi', '20_Equip_habt':'Equipament'}, inplace=True)
+        dataAny = pd.merge(dataAny, municipis, on="NomMun")
+        dataAny.drop(columns={"NomMun", "Codi_ine_6_txt"}, inplace=True)
+        dataAny.rename(columns={'Municipi':'Literal', '20_Equip_habt':'Equipament'}, inplace=True)
         data = data.append(dataAny, ignore_index = True)
  
     data = data[data["Codi"].notna()]
@@ -101,7 +111,9 @@ def initCon():
         nomArxiu = "dades_mapa_" + str(any) + ".csv"
         dataAny = pd.read_csv(os.path.join(path, nomArxiu))
         dataAny = dataAny[['Any', 'NomMun', 'Codi_ine_6_txt', '15_SF_SUC', '15_SX1_SUC', '15_SX2_SUC']]
-        dataAny.rename(columns={'NomMun':'Literal', 'Codi_ine_6_txt':'Codi', '15_SF_SUC':'Ferroviari', '15_SX1_SUC':'Camins Principals', '15_SX2_SUC':'Camins Secundaris'}, inplace=True)
+        dataAny = pd.merge(dataAny, municipis, on="NomMun")
+        dataAny.drop(columns={"NomMun", "Codi_ine_6_txt"}, inplace=True)
+        dataAny.rename(columns={'Municipi':'Literal', '15_SF_SUC':'Ferroviari', '15_SX1_SUC':'Camins Principals', '15_SX2_SUC':'Camins Secundaris'}, inplace=True)
         data = data.append(dataAny, ignore_index = True)
 
     data["Connectivitat"] = data[["Ferroviari", "Camins Principals", "Camins Secundaris"]].sum(axis=1)
@@ -145,7 +157,10 @@ def initR():
     nomArxiu = "riscos.csv"
     dataAny = pd.read_csv(os.path.join(path, nomArxiu))
     dataAny = dataAny[['municipiNom', 'ine6', 'nivell']]
-    dataAny = dataAny.rename(columns={'municipiNom':'Literal', 'ine6':'Codi', 'nivell':'Nivell'})
+    dataAny = dataAny.rename(columns={'municipiNom':'NomMun'})
+    dataAny = pd.merge(dataAny, municipis, on="NomMun")
+    dataAny.drop(columns={"NomMun", "ine6"}, inplace=True)
+    dataAny = dataAny.rename(columns={'Municipi':'Literal', 'nivell':'Nivell'})
     dataAny["Any"] = 2020
     data = data.append(dataAny, ignore_index = True)
 
@@ -162,23 +177,23 @@ def initR():
 def initUrbanistica():
     dimensio = Dimensio()
 
-    # Serveis
+    # Serveis - Canviar municipis noms
     serveis = initSe()
     dimensio.afegirIndicador("Serveis", serveis)
 
-    # Solar
+    # Solar - Canviar municipis noms
     solar = initSo()
     dimensio.afegirIndicador("Solar", solar)
 
-    # Zones verdes
+    # Zones verdes - Canviar municipis noms
     zones_verdes = initZV()
     dimensio.afegirIndicador("Zones verdes", zones_verdes)
 
-    # Equipaments
+    # Equipaments - Canviar municipis noms
     equipament = initE()
     dimensio.afegirIndicador("Equipament", equipament)
 
-    # Connectivitat
+    # Connectivitat - Canviar municipis noms
     connectivitat = initCon()
     dimensio.afegirIndicador("Connectivitat", connectivitat)
 
@@ -186,7 +201,7 @@ def initUrbanistica():
     comerç = initCom()
     dimensio.afegirIndicador("Comerç", comerç)
 
-    # Riscos
+    # Riscos - Canviar municipis noms
     riscos = initR()
     dimensio.afegirIndicador("Riscos", riscos)
 

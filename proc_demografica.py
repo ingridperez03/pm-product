@@ -71,6 +71,26 @@ def initIE():
     indicador = Indicador(data, range(2000, 2021), "municipi", "index")
     return indicador
 
+'''
+    Neteja dades referents als naixements per dona (NPD) / fertilitat (F)
+'''
+def initF():
+    data = pd.DataFrame()
+    for any in [1991, 2011]:
+        nomArxiu = "NPD_" + str(any) + ".csv"
+        dataAny = pd.read_csv(os.path.join(data_path, 'fertilitat', nomArxiu), encoding='latin-1', index_col=None)
+        
+        # Preprocessing necessari 
+        dataAny["Any"] = any
+
+        # Editar file columna 0 te un espai davant 
+        # Remove unnecessari columns
+        dataAny.drop([' 0', '1', '2', '3', '4 i més', 'Total Dones', 'Total Fills'], axis = 1, inplace=True)
+        dataAny.rename(columns={" Nombre fills mitjà per dona": "Nombre fills mitjà per dona"}, inplace=True)
+        
+        data = data.append(dataAny)
+    indicador = Indicador(data, [1991, 2011], "municipi", "unitats")
+    return indicador
 
 '''
     Netejar dades referents a la migracions (M)
@@ -112,6 +132,10 @@ def initDemografica():
     creixement = initCP()
     dimensio.afegirIndicador("Creixement Poblacio", creixement)
 
+    # Fertilitat 
+    fertilitat = initF()
+    dimensio.afegirIndicador("Fertilitat", fertilitat)
+
     # Index Envelliment
     envelliment = initIE()
     dimensio.afegirIndicador("Index Envelliment", envelliment)
@@ -127,10 +151,15 @@ def exportarDemografica(dimensio):
     i = 0
     for indicador in dimensio.dades.keys():
         dadesInd = dimensio.dades[indicador].dades
-        if i == 0:
-            dades = dadesInd.copy(deep=True)
-        else:
-            dades = pd.merge(dades, dadesInd, on=["Literal", "Any", "Codi"], how='outer')
-        i += 1
 
-    dades.to_csv(os.path.join('dades', 'resultat', "demografica.csv"))
+        if indicador == "Fertilitat":
+            dadesInd.to_csv(os.path.join('dades', 'resultat', "demografica_fertilitat.csv"))
+
+        else:
+            if i == 0:
+                dades = dadesInd.copy(deep=True)
+            else:
+                dades = pd.merge(dades, dadesInd, on=["Literal", "Any", "Codi"], how='outer')
+            i += 1
+
+            dades.to_csv(os.path.join('dades', 'resultat', "demografica.csv"))
