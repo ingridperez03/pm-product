@@ -89,6 +89,13 @@ def initF():
         dataAny.rename(columns={" Nombre fills mitjà per dona": "Nombre fills mitjà per dona"}, inplace=True)
         
         data = data.append(dataAny)
+    # Convert NPD from String to Float
+    col = data.columns[1]
+    data[col] = data[col].apply(
+        lambda x: x.replace(",", ".")
+    )
+    data[col] = data[col].astype("float")
+
     indicador = Indicador(data, [1991, 2011], "municipi", "unitats")
     return indicador
 
