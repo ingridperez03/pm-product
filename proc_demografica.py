@@ -76,7 +76,7 @@ def initIE():
 '''
 def initF():
     data = pd.DataFrame()
-    for any in [1991, 2011]:
+    for any in [2011]:
         nomArxiu = "NPD_" + str(any) + ".csv"
         dataAny = pd.read_csv(os.path.join(data_path, 'fertilitat', nomArxiu), encoding='latin-1', index_col=None)
         
@@ -89,6 +89,7 @@ def initF():
         dataAny.rename(columns={" Nombre fills mitjà per dona": "Nombre fills mitjà per dona"}, inplace=True)
         
         data = data.append(dataAny)
+
     # Convert NPD from String to Float
     col = data.columns[1]
     data[col] = data[col].apply(
@@ -96,7 +97,7 @@ def initF():
     )
     data[col] = data[col].astype("float")
 
-    indicador = Indicador(data, [1991, 2011], "municipi", "unitats")
+    indicador = Indicador(data, [2011], "municipi", "unitats")
     return indicador
 
 '''
