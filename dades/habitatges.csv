@@ -1,0 +1,168 @@
+,Municipi,Any,Hab Lloguer
+0,Abrera,2010,60
+1,Alcover,2006,8
+2,Alella,2001,8
+3,Alella,2009,61
+4,Alguaire,2008,14
+5,Altafulla,2007,18
+6,Altafulla,2008,24
+7,Anglès,2004,15
+9,Arenys de Mar,2006,68
+10,Avinyó,2005,12
+14,Badalona,2000,28
+16,Balaguer,2010,22
+17,Banyoles,2005,21
+18,Banyoles,2011,30
+19,Barberà del Vallès,2010,81
+25,Barcelona,2000,61
+26,Barcelona,2001,71
+27,Barcelona,2002,25
+28,Barcelona,2003,28
+29,Barcelona,2006,32
+30,Barcelona,2007,80
+31,Barcelona,2008,73
+32,Barcelona,2009,158
+33,Barcelona,2010,125
+34,Barcelona,2011,50
+35,Batea,2002,4
+36,Begues,2007,18
+37,Begur,2010,12
+38,Bellpuig,2005,15
+39,Berga,2008,39
+40,"Bisbal d'Empordà, la",2005,27
+42,Blanes,2009,44
+43,Cadaqués,2003,10
+44,Calaf,2008,40
+46,Callús,2009,43
+47,Callús,2011,24
+48,Cambrils,2005,16
+49,Cambrils,2007,20
+50,Campdevànol,2007,15
+51,Cardedeu,2011,22
+52,Cardona,2005,21
+53,Castell-Platja d'Aro,2004,22
+54,Castellar del Vallès,2003,40
+55,Castellar del Vallès,2004,38
+56,Castellfollit de la Roca,2006,24
+57,Centelles,2004,12
+58,Cerdanyola del Vallès,2009,136
+59,Cervera,2009,24
+60,Cornellà de Llobregat,2003,24
+61,Cornellà de Llobregat,2004,76
+62,Cunit,2004,16
+63,Figueres,2007,48
+64,Figueres,2008,87
+65,Figueres,2009,32
+66,"Franqueses del Vallès, les",2008,48
+67,"Franqueses del Vallès, les",2010,83
+69,Gavà,2002,46
+70,Gavà,2009,64
+71,Gelida,2007,20
+72,Gelida,2011,43
+73,"Granada, la",2005,12
+75,Granollers,2004,15
+76,Granollers,2008,118
+77,Horta de Sant Joan,2009,9
+80,"Hospitalet de Llobregat, l'",2004,24
+81,"Hospitalet de Llobregat, l'",2008,116
+82,"Hospitalet de Llobregat, l'",2009,112
+83,"Hospitalet de Llobregat, l'",2010,77
+84,"Hospitalet de Llobregat, l'",2012,128
+85,"Hospitalet de Llobregat, l'",2017,63
+86,Igualada,2005,56
+87,Igualada,2006,30
+89,Lleida,2001,27
+90,Lleida,2002,32
+91,Lleida,2004,23
+92,Lleida,2008,114
+94,Manlleu,2005,30
+96,Manresa,2003,32
+97,Manresa,2005,120
+99,"Masnou, el",2006,18
+100,"Masnou, el",2008,72
+101,"Masnou, el",2009,20
+102,Mataró,2009,94
+103,Molins de Rei,2009,36
+104,Molins de Rei,2011,39
+105,Mollerussa,2011,28
+107,Monistrol de Montserrat,2005,27
+108,Montblanc,2007,24
+111,Montcada i Reixac,2009,42
+112,Montcada i Reixac,2010,92
+113,Móra d'Ebre,2005,14
+114,Navarcles,2005,14
+117,Olot,2003,18
+118,Palafrugell,2007,40
+119,Palafrugell,2008,52
+120,Piera,2006,22
+122,"Prat de Llobregat, el",2003,30
+123,"Prat de Llobregat, el",2007,62
+124,Premià de Dalt,2011,20
+125,Premià de Mar,2007,23
+126,"Preses, les",2010,37
+128,Puigcerdà,2008,22
+129,Reus,2002,6
+130,Reus,2005,12
+131,Ripoll,2004,7
+132,Ripollet,2004,21
+134,Rubí,2010,66
+136,Sabadell,2004,82
+137,Sabadell,2005,69
+138,Sallent,2010,57
+139,Salt,2003,18
+141,Sant Andreu de la Barca,2003,32
+143,Sant Boi de Llobregat,2005,9
+144,Sant Feliu de Guíxols,2009,18
+146,Sant Gregori,2007,18
+147,Sant Hilari Sacalm,2007,20
+148,Sant Joan de Vilatorrada,2009,14
+149,Sant Joan de les Abadesses,2003,6
+150,Sant Joan les Fonts,2008,27
+151,Sant Julià de Vilatorta,2003,16
+152,Sant Just Desvern,2003,45
+153,Sant Llorenç Savall,2009,21
+154,Sant Pere de Ribes,2004,47
+155,Sant Pere de Torelló,2010,23
+156,Sant Pol de Mar,2012,33
+157,Sant Quirze de Besora,2006,14
+158,Sant Quirze del Vallès,2004,30
+159,Sant Sadurní d'Anoia,2004,8
+160,Sant Sadurní d'Anoia,2005,90
+161,Sant Vicenç de Castellet,2004,18
+162,Santa Coloma de Farners,2011,27
+163,Santa Cristina d'Aro,2009,18
+164,Santa Margarida i els Monjos,2008,16
+165,Santa Margarida i els Monjos,2009,40
+166,Santa Perpètua de Mogoda,2009,120
+167,Santpedor,2009,15
+168,"Seu d'Urgell, la",2003,6
+169,"Seu d'Urgell, la",2004,13
+170,Sort,2009,11
+171,Taradell,2005,21
+172,Teià,2004,15
+173,Teià,2009,16
+174,Teià,2010,27
+175,Terrassa,2006,38
+176,Tordera,2008,89
+177,Torelló,2009,60
+178,Torelló,2010,24
+179,"Torre de Cabdella, la",2010,18
+180,Torrelles de Llobregat,2005,11
+181,Torrelles de Llobregat,2006,9
+182,Tortosa,2006,17
+183,Tremp,2004,18
+185,Tàrrega,2004,5
+186,"Vendrell, el",2006,33
+188,Vic,2002,72
+189,Vic,2003,12
+190,Vic,2004,18
+191,Vic,2007,68
+192,Vic,2009,63
+194,Vielha e Mijaran,2004,20
+195,Vielha e Mijaran,2010,14
+196,Vila-seca,2006,30
+197,Vilafranca del Penedès,2002,40
+198,Vilafranca del Penedès,2006,8
+199,Vilafranca del Penedès,2007,77
+202,Vilanova i la Geltrú,2003,35
+203,Vilanova i la Geltrú,2008,98
