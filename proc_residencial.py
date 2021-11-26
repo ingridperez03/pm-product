@@ -52,7 +52,7 @@ def initDem():
 
 
 '''
-    Netejar dades referents als habitants que viuen en un habitatge (PH)
+    Netejar dades referents al nombre de persones que viuen en un habitatge (PH)
 '''
 def initPH():
     path = os.path.join(data_path, 'persones_habitatge')
@@ -62,20 +62,14 @@ def initPH():
         nom_arxiu = 'PH_' + str(any) + '.csv'
         dataAny = pd.read_csv(os.path.join(path,nom_arxiu))
         dataAny['Any'] = any
-        
-        if any == 2001:
-            dataAny[">6"] += dataAny["6"]
-            dataAny.drop(columns="6", inplace=True)
-        
-        dataAny["Codi"] = range(1, dataAny.shape[0] + 1)
-        dataAny["Codi"] = dataAny["Codi"].astype(str).str.zfill(2)
+
+        dataAny["Codi"] = dataAny["Codi"].astype(str).str.zfill(6)
         
         data = data.append(dataAny)
 
-    data.rename(columns={">6": ">=6"}, inplace=True)
-    data.drop(columns="Total", inplace=True)
+    data.drop(columns="Total llars", inplace=True)
 
-    indicador = Indicador(data, [2001, 2011], 'comarca', 'persones per habitatge')
+    indicador = Indicador(data, [2001, 2011], 'municipi', 'persones per habitatge')
     return indicador
 
 
@@ -134,7 +128,7 @@ def initRT():
     data = data[data["Codi"].notna()]
     data["Codi"] = data["Codi"].astype(int).astype(str).str.zfill(6)
 
-    indicador = Indicador(data, [2001, 2011], 'municipi', 'nombre habitatges')
+    indicador = Indicador(data, [2001, 2011], 'municipi', 'règim tinença')
     return indicador
 
 
@@ -173,9 +167,6 @@ def exportarResidencial(dimensio):
 
         if indicador == "Edificis per any construccio":
             dadesInd.to_csv(os.path.join('dades', 'resultat', "residencial_antiguitat.csv"))
-
-        elif indicador == "Habitants per Habitatge":
-            dadesInd.to_csv(os.path.join('dades', 'resultat', "residencial_comarcal.csv"))
             
         else: 
             if i == 0:
